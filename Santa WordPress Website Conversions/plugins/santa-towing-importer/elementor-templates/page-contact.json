@@ -1,0 +1,233 @@
+{
+  "title": "Santa Towing — Contact Us & 24/7 Dispatch Desk",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "ct10001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "ct10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "ct10003",
+              "elType": "widget",
+              "widgetType": "stwc-page-hero",
+              "settings": {
+                "bg_image": { "url": "__ST_MEDIA_URL__image-1-towing-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-1-towing-vehicle.jpg__" },
+                "bg_color": "#015557",
+                "overlay_color": "rgba(1, 85, 87, 0.88)",
+                "hero_padding": { "unit": "px", "top": "80", "right": "16", "bottom": "80", "left": "16", "isLinked": false },
+                "badge_icon": "none",
+                "badge_style": "accent",
+                "badge": "We Are Always Available",
+                "title": "Contact Santa Towing",
+                "subtitle": "Need an emergency tow truck, workshop booking, rental car, or corporate fleet quote? Reach our dispatch and support team 24/7.",
+                "layout_align": "center",
+                "breadcrumbs": [
+                  { "_id": "ctbc001", "label": "Home", "link": { "url": "__ST_HOME_URL__/" } },
+                  { "_id": "ctbc002", "label": "Contact Us", "link": { "url": "" } }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ct20001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "ct20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "ct20003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "service-cards",
+                "show_header": "no",
+                "columns": "4",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "56", "right": "0", "bottom": "32", "left": "0", "isLinked": false },
+                "items": [
+                  {
+                    "_id": "ctcd01",
+                    "subtitle": "24/7 Emergency Hotline",
+                    "title": "024 475 3849",
+                    "description": "Immediate roadside dispatch & roadside rescue.",
+                    "link": { "url": "tel:0244753849" },
+                    "icon_name": "none"
+                  },
+                  {
+                    "_id": "ctcd02",
+                    "subtitle": "WhatsApp Live Chat",
+                    "title": "+233 24 475 3849",
+                    "description": "Share your GPS pin, car photos, or request quotes.",
+                    "link": { "url": "https://wa.me/233244753849", "is_external": true },
+                    "icon_name": "none"
+                  },
+                  {
+                    "_id": "ctcd03",
+                    "subtitle": "Email Support",
+                    "title": "info@santatowing.com",
+                    "description": "Corporate contracts, quotes & billing inquiries.",
+                    "link": { "url": "mailto:info@santatowing.com" },
+                    "icon_name": "none"
+                  },
+                  {
+                    "_id": "ctcd04",
+                    "subtitle": "Headquarters & Workshop",
+                    "title": "Accra, Ghana",
+                    "description": "Towing hubs across Tema, Kumasi & all 16 regions.",
+                    "icon_name": "none"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ct30001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "ct30002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "ct30003",
+              "elType": "widget",
+              "widgetType": "stwc-enquiry-forms",
+              "settings": {
+                "form_mode": "contact",
+                "form_title": "Send Us a Direct Message",
+                "side_image": { "url": "__ST_MEDIA_URL__welcome-towing-image.jpg__", "id": "__ST_MEDIA_ID__welcome-towing-image.jpg__" },
+                "section_bg_color": "#f8fafc"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ct40001",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "structure": "20",
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": { "unit": "px", "top": "64", "right": "16", "bottom": "64", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ct40002",
+          "elType": "column",
+          "settings": {
+            "_column_size": 42,
+            "_inline_size": 42,
+            "_css_classes": "st-hours-card-col",
+            "padding": { "unit": "px", "top": "32", "right": "32", "bottom": "32", "left": "32", "isLinked": true }
+          },
+          "elements": [
+            {
+              "id": "ct40003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Operating Hours",
+                "header_size": "h3",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "ct40004",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul class=\"st-hours-list\"><li><span>Emergency Towing Dispatch</span><strong style=\"color:#d80000;\">24 Hours / 7 Days</strong></li><li><span>Mon - Fri (Workshop &amp; Sales)</span><strong>8:00 AM - 6:00 PM</strong></li><li><span>Saturday</span><strong>8:00 AM - 4:00 PM</strong></li><li><span>Sunday (Workshop)</span><strong>Emergency Callout</strong></li></ul>"
+              }
+            },
+            {
+              "id": "ct40005",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Emergency Tow →",
+                "link": { "url": "__ST_HOME_URL__/towing/" },
+                "background_color": "#d80000",
+                "button_background_hover_color": "#b90000",
+                "button_text_color": "#ffffff",
+                "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                "text_padding": { "unit": "px", "top": "12", "right": "24", "bottom": "12", "left": "24", "isLinked": false }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ct40006",
+          "elType": "column",
+          "settings": { "_column_size": 58, "_inline_size": 58 },
+          "elements": [
+            {
+              "id": "ct40007",
+              "elType": "widget",
+              "widgetType": "stwc-faq-accordion",
+              "settings": {
+                "faq_source": "custom",
+                "compact_mode": "yes",
+                "show_header": "yes",
+                "badge": "",
+                "heading": "Quick Answers Before You Reach Out",
+                "show_topic_tabs": "no",
+                "section_bg_color": "transparent",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "custom_faqs": [
+                  {
+                    "_id": "ctfq01",
+                    "category": "Support",
+                    "q": "How fast is your emergency response?",
+                    "a": "Urban dispatch typically arrives within 30 to 45 minutes depending on distance and traffic."
+                  },
+                  {
+                    "_id": "ctfq02",
+                    "category": "Support",
+                    "q": "Can I book repairs or rentals via WhatsApp?",
+                    "a": "Yes. Send a message on +233 24 475 3849 or submit the form above for an instant WhatsApp booking handoff."
+                  },
+                  {
+                    "_id": "ctfq03",
+                    "category": "Support",
+                    "q": "Do you cover areas outside Accra?",
+                    "a": "Yes, we cover Tema, Kumasi, Takoradi, Tamale, Ho, Cape Coast, and all 16 regions of Ghana."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

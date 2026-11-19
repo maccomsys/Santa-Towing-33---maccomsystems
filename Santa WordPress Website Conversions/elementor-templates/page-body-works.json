@@ -1,0 +1,226 @@
+{
+  "title": "Santa Towing — Auto Body Works & Oven-Baked Spraying",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "bw10001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "bw10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "bw10003",
+              "elType": "widget",
+              "widgetType": "stwc-page-hero",
+              "settings": {
+                "bg_image": { "url": "__ST_MEDIA_URL__image-6-luxury-mercedes-benz.jpg__", "id": "__ST_MEDIA_ID__image-6-luxury-mercedes-benz.jpg__" },
+                "bg_color": "#131514",
+                "overlay_color": "rgba(1, 85, 87, 0.84)",
+                "hero_padding": { "unit": "px", "top": "88", "right": "16", "bottom": "88", "left": "16", "isLinked": false },
+                "badge_icon": "none",
+                "badge_style": "glass",
+                "badge": "Dust-Free Oven Paint Booth",
+                "title": "Collision Restoration & Factory-Finish Spraying",
+                "subtitle": "Precision dent removal, computerized chassis alignment, and showroom-grade baked automotive spray painting backed by insurance claims support.",
+                "layout_align": "left",
+                "breadcrumbs": [
+                  { "_id": "bwbc001", "label": "Home", "link": { "url": "__ST_HOME_URL__/" } },
+                  { "_id": "bwbc002", "label": "Auto Body Works & Spraying", "link": { "url": "" } }
+                ],
+                "ctas": [
+                  { "_id": "bwcta01", "label": "Request Body Work Estimate", "link": { "url": "#body-works-quote" }, "style": "accent" },
+                  { "_id": "bwcta02", "label": "Call Body Shop: 0244753849", "link": { "url": "tel:0244753849" }, "style": "white" },
+                  { "_id": "bwcta03", "label": "Send Photos via WhatsApp", "link": { "url": "https://wa.me/233244753849", "is_external": true }, "style": "glass" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bw20001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "bw20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "bw20003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "service-cards",
+                "show_header": "yes",
+                "badge": "Body & Paint Craftsmanship",
+                "heading": "Complete Collision & Refinishing Solutions",
+                "subheading": "From minor bumper scuffs to major accident frame restoration, we return every vehicle to manufacturer tolerances.",
+                "columns": "3",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "72", "right": "0", "bottom": "24", "left": "0", "isLinked": false },
+                "items": [
+                  { "_id": "bwsrv01", "title": "Collision & Accident Repair", "description": "Structural frame pulling, panel replacement, airbag & bumper reinforcement restoration following traffic collisions.", "icon_name": "none" },
+                  { "_id": "bwsrv02", "title": "Panel Beating & Dent Removal", "description": "Paintless dent repair (PDR) for shallow creases and precision metal shaping without heavy body filler.", "icon_name": "none" },
+                  { "_id": "bwsrv03", "title": "Oven-Baked Spray Painting", "description": "Spectrophotometer color-matching combined with pressurized dust-free booth curing for factory gloss.", "icon_name": "none" },
+                  { "_id": "bwsrv04", "title": "Scratch Repair & Polishing", "description": "Multi-stage rotary machine cutting, swirl removal, headlight restoration, and protective clear coat waxing.", "icon_name": "none" },
+                  { "_id": "bwsrv05", "title": "Chassis Straightening", "description": "Precision structural measurement jigs ensuring accurate wheel alignment and uniform door/hood gaps.", "icon_name": "none" },
+                  { "_id": "bwsrv06", "title": "Insurance Claim Repairs", "description": "Itemized pro forma repair estimates and photographic documentation accepted by major insurers in Ghana.", "icon_name": "none" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bw25001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "bw25002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "bw25003",
+              "elType": "widget",
+              "widgetType": "stwc-spotlight-split",
+              "settings": {
+                "layout_mode": "before-after-tabs",
+                "badge": "Workshop Results",
+                "heading": "Before & After Bodywork Showcase",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "16", "right": "0", "bottom": "72", "left": "0", "isLinked": false },
+                "tab_sets": [
+                  {
+                    "_id": "bwtab01",
+                    "tab_label": "Collision Restoration",
+                    "before_image": { "url": "__ST_MEDIA_URL__image-14-suspension-parts-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-14-suspension-parts-maintenance.jpg__" },
+                    "before_caption": "Front-end impact damage requiring panel alignment, support bracket straightening, and primer prep.",
+                    "after_image": { "url": "__ST_MEDIA_URL__image-3-sedan-toyota-corolla.jpg__", "id": "__ST_MEDIA_ID__image-3-sedan-toyota-corolla.jpg__" },
+                    "after_caption": "Restored chassis alignment, OEM paint color code match, and high-gloss 2K clear coat finish."
+                  },
+                  {
+                    "_id": "bwtab02",
+                    "tab_label": "Full Oven Respray",
+                    "before_image": { "url": "__ST_MEDIA_URL__image-5-economy-nissan-almera-2021.jpg__", "id": "__ST_MEDIA_ID__image-5-economy-nissan-almera-2021.jpg__" },
+                    "before_caption": "Sun-oxidized clear coat and stone chips across hood, roof, and quarter panels.",
+                    "after_image": { "url": "__ST_MEDIA_URL__image-2-suv-kia-sportage-2024.png__", "id": "__ST_MEDIA_ID__image-2-suv-kia-sportage-2024.png__" },
+                    "after_caption": "Full dust-free oven booth respray with machine-polished ceramic UV sealant."
+                  },
+                  {
+                    "_id": "bwtab03",
+                    "tab_label": "Bumper & Rim Refinish",
+                    "before_image": { "url": "__ST_MEDIA_URL__image-11-brake-parts-disk-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-11-brake-parts-disk-maintenance.jpg__" },
+                    "before_caption": "Deep bumper scrapes, fender creases, and scuffed trim after urban parking impact.",
+                    "after_image": { "url": "__ST_MEDIA_URL__image-6-luxury-mercedes-benz.jpg__", "id": "__ST_MEDIA_ID__image-6-luxury-mercedes-benz.jpg__" },
+                    "after_caption": "Zero-ripple plastic welding, seamless color blend, and showroom rim polishing."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bw30001",
+      "elType": "section",
+      "settings": {
+        "_element_id": "body-works-quote",
+        "layout": "full_width",
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "bw30002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "bw30004",
+              "elType": "widget",
+              "widgetType": "stwc-enquiry-forms",
+              "settings": {
+                "form_mode": "contact",
+                "form_title": "Request a Body Work or Spray Painting Quote",
+                "side_image": { "url": "__ST_MEDIA_URL__image-6-luxury-mercedes-benz.jpg__", "id": "__ST_MEDIA_ID__image-6-luxury-mercedes-benz.jpg__" },
+                "section_bg_color": "#f8fafc"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bw40001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "bw40002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "bw40003",
+              "elType": "widget",
+              "widgetType": "stwc-faq-accordion",
+              "settings": {
+                "faq_source": "custom",
+                "show_header": "yes",
+                "badge": "Body Shop Questions",
+                "heading": "Auto Body Works & Spraying FAQs",
+                "show_topic_tabs": "no",
+                "section_bg_color": "#ffffff",
+                "section_padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false },
+                "custom_faqs": [
+                  {
+                    "_id": "bwfq01",
+                    "category": "Body Works",
+                    "q": "Can you match my car's exact factory paint color?",
+                    "a": "Yes. We use your vehicle's factory paint code combined with digital spectrophotometer scanning to mix an exact shade match, accounting even for subtle sun fade."
+                  },
+                  {
+                    "_id": "bwfq02",
+                    "category": "Body Works",
+                    "q": "How long does a full-body respray or collision repair take?",
+                    "a": "Single panel scuff/dent repairs take 2 to 3 days. Full showroom resprays or multi-panel collision jobs typically require 7 to 14 working days including oven curing and final machine polishing."
+                  },
+                  {
+                    "_id": "bwfq03",
+                    "category": "Body Works",
+                    "q": "Do you work with insurance companies for accident repairs?",
+                    "a": "Yes. Bring your comprehensive insurance claim inspection or let our service advisors generate an itemized pro forma repair estimate for your insurer's approval."
+                  },
+                  {
+                    "_id": "bwfq04",
+                    "category": "Body Works",
+                    "q": "Do you provide a warranty on paintwork?",
+                    "a": "Yes. All oven-baked spray finishes carry a workmanship warranty against peeling, blistering, or premature gloss fading under normal driving conditions."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

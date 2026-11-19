@@ -1,0 +1,243 @@
+{
+  "title": "Santa Towing — Auto Repairs & Computerized Diagnostics",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "rp10001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "rp10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "rp10003",
+              "elType": "widget",
+              "widgetType": "stwc-page-hero",
+              "settings": {
+                "bg_image": { "url": "__ST_MEDIA_URL__image-10-engine-oil-fluids-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-10-engine-oil-fluids-maintenance.jpg__" },
+                "bg_color": "#015557",
+                "overlay_color": "rgba(1, 85, 87, 0.86)",
+                "hero_padding": { "unit": "px", "top": "88", "right": "16", "bottom": "88", "left": "16", "isLinked": false },
+                "badge_icon": "none",
+                "badge_style": "glass",
+                "badge": "Certified Workshop Technicians",
+                "title": "Precision Auto Repairs & Advanced Diagnostics",
+                "subtitle": "Factory-level mechanical engineering, computerized fault scanning, and warranty-backed repairs to keep your personal car or commercial fleet operating at peak reliability.",
+                "layout_align": "left",
+                "breadcrumbs": [
+                  { "_id": "rpbc001", "label": "Home", "link": { "url": "__ST_HOME_URL__/" } },
+                  { "_id": "rpbc002", "label": "Auto Repairs", "link": { "url": "" } }
+                ],
+                "ctas": [
+                  { "_id": "rpcta01", "label": "Book Workshop Appointment", "link": { "url": "#book-repair" }, "style": "accent" },
+                  { "_id": "rpcta02", "label": "Call Workshop: 0244753849", "link": { "url": "tel:0244753849" }, "style": "white" },
+                  { "_id": "rpcta03", "label": "WhatsApp Advisor", "link": { "url": "https://wa.me/233244753849", "is_external": true }, "style": "glass" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rp20001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "rp20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "rp20003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "service-cards",
+                "show_header": "yes",
+                "badge": "Mechanical & Electrical Care",
+                "heading": "Comprehensive Workshop Repair Services",
+                "subheading": "Our master mechanics service Japanese, European, American, and Korean vehicles using genuine OEM parts and calibrated diagnostic tooling.",
+                "columns": "3",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "72", "right": "0", "bottom": "32", "left": "0", "isLinked": false },
+                "items": [
+                  { "_id": "rpsrv01", "title": "Engine Overhauls & Timing", "description": "Complete cylinder head work, timing belts & chains, gasket replacements, cooling systems, and high-mileage engine rebuilds.", "icon_name": "none" },
+                  { "_id": "rpsrv02", "title": "Transmission & Clutch", "description": "Automatic gearbox servicing, ATF fluid exchanges, torque converter diagnostics, and manual clutch plate kits.", "icon_name": "none" },
+                  { "_id": "rpsrv03", "title": "Brakes, Suspension & Steering", "description": "Ceramic pad/disc replacement, shock absorbers, control arms, ball joints, rack-and-pinion repairs, and alignment checks.", "icon_name": "none" },
+                  { "_id": "rpsrv04", "title": "Auto Electrical & ECU Modules", "description": "Alternators, starters, wiring harness fault tracing, sensor replacements, and battery charging system diagnostics.", "icon_name": "none" },
+                  { "_id": "rpsrv05", "title": "Air Conditioning & Cooling", "description": "A/C compressor replacements, condenser testing, leak detection, evaporator cleaning, and genuine refrigerant regassing.", "icon_name": "none" },
+                  { "_id": "rpsrv06", "title": "Pre-Purchase Inspections", "description": "Comprehensive 150-point mechanical, structural, and ECU scan reports before buying a foreign-used or Ghana-used car.", "icon_name": "none" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rp25001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "rp25002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "rp25003",
+              "elType": "widget",
+              "widgetType": "stwc-spotlight-split",
+              "settings": {
+                "layout_mode": "checklist-feature",
+                "theme_tone": "primary-card",
+                "badge": "Zero Guesswork Fault Tracing",
+                "heading": "State-of-the-Art Computerized Diagnostics",
+                "description": "Modern vehicles rely on dozens of electronic sensors. Instead of trial-and-error part swapping, we connect dealer-grade OBD-II scanners directly to your Engine, Transmission, ABS, and Airbag modules.",
+                "feature_image": { "url": "__ST_MEDIA_URL__image-13-filters-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-13-filters-maintenance.jpg__" },
+                "feature_image_alt": "Auto Repair Filters & Maintenance",
+                "overlay_type": "none",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#ffffff",
+                "section_padding": { "unit": "px", "top": "16", "right": "0", "bottom": "72", "left": "0", "isLinked": false },
+                "points": [
+                  { "_id": "rppt01", "step_num": "", "title": "Live engine misfire, fuel trim & sensor telemetry reading" },
+                  { "_id": "rppt02", "step_num": "", "title": "ABS brake module & SRS airbag code resets" },
+                  { "_id": "rppt03", "step_num": "", "title": "Written printed/digital diagnostic fault report included" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rp30001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "rp30002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "rp30003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "pricing-packages",
+                "show_header": "yes",
+                "heading": "Preventative Maintenance Packages",
+                "subheading": "Keep your manufacturer warranty intact and avoid expensive highway breakdowns.",
+                "columns": "3",
+                "columns_tablet": "3",
+                "columns_mobile": "1",
+                "section_bg_color": "#f8fafc",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "72", "right": "0", "bottom": "72", "left": "0", "isLinked": false },
+                "items": [
+                  {
+                    "_id": "rppk01",
+                    "title": "Express Minor Service",
+                    "subtitle": "Every 5,000 - 7,500 km",
+                    "features_list": "Full synthetic/semi-synthetic engine oil change\nGenuine oil filter replacement\nFluid top-up (coolant, brake, washer)\nTire pressure & brake pad thickness check",
+                    "link_label": "Book Service →",
+                    "link": { "url": "#book-repair" },
+                    "is_featured": "no"
+                  },
+                  {
+                    "_id": "rppk02",
+                    "title": "Major Comprehensive Service",
+                    "subtitle": "Every 15,000 - 20,000 km",
+                    "features_list": "Engine oil, oil filter, air & cabin filters\nComputerized OBD-II diagnostic scan\nSpark plugs, suspension & battery load test\nFuel injector cleaning & throttle inspection",
+                    "link_label": "Book Major Service →",
+                    "link": { "url": "#book-repair" },
+                    "is_featured": "yes"
+                  },
+                  {
+                    "_id": "rppk03",
+                    "title": "Fleet & Pre-Trip Safety Audit",
+                    "subtitle": "Up-Country Travel & Corporate",
+                    "features_list": "150-point mechanical & underbody inspection\nCooling system pressure & radiator test\nDrive belt, alternator & tire tread audit\nPriority breakdown towing backup plan",
+                    "link_label": "Explore Fleet Care →",
+                    "link": { "url": "__ST_HOME_URL__/fleet/" },
+                    "is_featured": "no"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rp40001",
+      "elType": "section",
+      "settings": {
+        "_element_id": "book-repair",
+        "layout": "full_width",
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "rp40002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "rp40004",
+              "elType": "widget",
+              "widgetType": "stwc-enquiry-forms",
+              "settings": {
+                "form_mode": "contact",
+                "form_title": "Schedule a Workshop Repair or Diagnostic Scan",
+                "side_image": { "url": "__ST_MEDIA_URL__image-9-car-battery-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-9-car-battery-maintenance.jpg__" },
+                "section_bg_color": "#ffffff"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rp50001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "rp50002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "rp50003",
+              "elType": "widget",
+              "widgetType": "stwc-faq-accordion",
+              "settings": {
+                "badge": "Workshop Policy & Warranty",
+                "heading": "Auto Repairs & Diagnostics FAQs",
+                "category_filter": "Repairs",
+                "show_topic_tabs": "no",
+                "max_items": 5,
+                "section_bg_color": "#f8fafc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

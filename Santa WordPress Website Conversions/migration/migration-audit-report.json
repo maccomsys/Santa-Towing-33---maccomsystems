@@ -1,0 +1,66 @@
+{
+  "audit_timestamp": "static-pre-wordpress-execution",
+  "php_files_verified": 14,
+  "ajax_routes_verified": 26,
+  "ajax_verify_calls": 26,
+  "business_manager_zip": {
+    "path": "Santa WordPress Website Conversions/packages/santa-towing-business-manager.zip",
+    "bytes": 6070420,
+    "files": 40,
+    "testzip_ok": true
+  },
+  "media": {
+    "source_images": 42,
+    "conversion_assets_images": 42,
+    "theme_images": 42,
+    "business_manager_bundled_images": 25,
+    "manifest_entries": 42,
+    "missing_in_conversion": [],
+    "missing_in_theme": [],
+    "sha256_mismatches": [],
+    "missing_alt_texts": []
+  },
+  "content_and_defaults": {
+    "site_content_flat_keys_source": 258,
+    "site_content_flat_keys_migrated": 258,
+    "missing_site_content_keys": [],
+    "site_images_registry_slots": 30,
+    "towing_adverts": 32,
+    "ghana_regions": 16,
+    "ghana_total_areas": 232,
+    "billing_seed_customers": 3,
+    "billing_seed_invoices": 3,
+    "billing_seed_receipts": 2,
+    "billing_seed_logs": 3,
+    "studio_seed_images": 4,
+    "billing_broken_relationships": []
+  },
+  "cpts_and_pages": {
+    "cpt_counts": {
+      "st_car": 12,
+      "st_rental": 6,
+      "st_part": 6,
+      "post": 6,
+      "st_faq": 28,
+      "st_gallery": 8,
+      "st_career": 4
+    },
+    "cpt_total": 70,
+    "cpt_duplicate_slugs": [],
+    "cpt_missing_media_refs": [],
+    "wp_pages_count": 26,
+    "wp_pages_duplicate_slugs": [],
+    "missing_elementor_templates": [],
+    "elementor_templates_count": 15,
+    "elementor_templates_missing_media": [],
+    "service_areas_count": 261,
+    "service_areas_duplicate_slugs": [],
+    "service_areas_broken_prev_next": []
+  },
+  "live_execution_status": {
+    "wordpress_mysql_import_executed": false,
+    "reason": "Container runs static workspace only (no PHP/MySQL/WordPress server runtime). Importers are packaged and ready to run on target cPanel/WP host.",
+    "browser_localstorage_indexeddb_migrated": false,
+    "reason_browser": "No live user browser session with localStorage/IndexedDB exists on disk; safe export snippet & Business Manager importer provided for admin execution."
+  }
+}

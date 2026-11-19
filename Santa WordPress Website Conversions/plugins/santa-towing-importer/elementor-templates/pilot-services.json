@@ -1,0 +1,405 @@
+{
+  "title": "Santa Towing — Pilot Services Page",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "sr10001",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#015557",
+        "background_image": { "url": "__ST_MEDIA_URL__image-8-heavy-duty-recovery-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-8-heavy-duty-recovery-vehicle.jpg__" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(1, 85, 87, 0.80)",
+        "padding": { "unit": "px", "top": "96", "right": "16", "bottom": "96", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "sr10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr10003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Complete Automotive Solutions <span style=\"color:#d80000;\">Under One Roof</span>",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "sr10004",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:rgba(255,255,255,0.8);max-width:48rem;margin:0 auto 2rem;\">From roadside emergencies to car sales, repairs, and rentals - we've got every stage of your journey covered.</p>"
+              }
+            },
+            {
+              "id": "sr10005",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "layout": "boxed", "gap": "no" },
+              "elements": [
+                {
+                  "id": "sr10006",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_css_classes": "st-el-btn-row st-el-btn-center"
+                  },
+                  "elements": [
+                    {
+                      "id": "sr10007",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Call: 0244753849",
+                        "link": { "url": "tel:0244753849" },
+                        "background_color": "#d80000",
+                        "button_background_hover_color": "#b90000",
+                        "button_text_color": "#ffffff",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false }
+                      }
+                    },
+                    {
+                      "id": "sr10008",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "WhatsApp",
+                        "link": { "url": "https://wa.me/233244753849", "is_external": true },
+                        "background_color": "#015557",
+                        "button_background_hover_color": "#192e2e",
+                        "button_text_color": "#ffffff",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "rgba(255,255,255,0.25)",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr20001",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": { "unit": "px", "top": "64", "right": "16", "bottom": "24", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "sr20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr20003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "We offer a comprehensive suite of automotive services designed to provide you with peace of mind. Whether you're stranded on the highway or looking for your next dream car, our certified experts deliver reliable, one-stop convenience for all your car needs.",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#131514"
+              }
+            },
+            {
+              "id": "sr20004",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "align": "center",
+                "color": "#015557",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 96 },
+                "_css_classes": "st-section-underline"
+              }
+            },
+            {
+              "id": "sr20005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:0.875rem;color:rgba(19,21,20,0.65);margin-top:2rem;\"><a href=\"__ST_HOME_URL__/\">Home</a> / <strong style=\"color:#131514;\">Our Services</strong></p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr30001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sr30002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr30003",
+              "elType": "widget",
+              "widgetType": "stwc-services-grid",
+              "settings": {
+                "badge": "Core Services",
+                "heading": "Every Stage of Your Journey Covered",
+                "subheading": "Select any service below to explore full details or dispatch our team.",
+                "columns": "3",
+                "services": [
+                  { "_id": "cs00001", "title": "Emergency Towing", "description": "Rapid response towing available 24/7. We safely transport your car to any destination or our secure facility.", "image": { "url": "__ST_MEDIA_URL__image-16-accessories.jpg__", "id": "__ST_MEDIA_ID__image-16-accessories.jpg__" }, "icon_name": "truck", "link": { "url": "__ST_HOME_URL__/towing/" } },
+                  { "_id": "cs00002", "title": "Haulage & Heavy Transport", "description": "Professional haulage of heavy construction machinery, forklifts, generators, shipping containers, and oversized freight across Ghana.", "image": { "url": "__ST_MEDIA_URL__haulage-semi-truck-800.jpg__", "id": "__ST_MEDIA_ID__haulage-semi-truck-800.jpg__" }, "icon_name": "navigation", "link": { "url": "__ST_HOME_URL__/haulage/" } },
+                  { "_id": "cs00003", "title": "Car Recovery", "description": "Expert off-road and accident recovery using specialized equipment to handle any complex situation.", "image": { "url": "__ST_MEDIA_URL__image-1-towing-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-1-towing-vehicle.jpg__" }, "icon_name": "shield-check", "link": { "url": "__ST_HOME_URL__/towing/" } },
+                  { "_id": "cs00004", "title": "Car Rental", "description": "Premium and affordable rental cars for daily, weekly, or monthly use, tailored to your needs.", "image": { "url": "__ST_MEDIA_URL__image-2-suv-kia-sportage-2024.png__", "id": "__ST_MEDIA_ID__image-2-suv-kia-sportage-2024.png__" }, "icon_name": "car", "link": { "url": "__ST_HOME_URL__/rental/" } },
+                  { "_id": "cs00005", "title": "Car Sales", "description": "Quality inspected new and pre-owned cars. Find your next car with our trusted sales team.", "image": { "url": "__ST_MEDIA_URL__image-3-sedan-toyota-corolla.jpg__", "id": "__ST_MEDIA_ID__image-3-sedan-toyota-corolla.jpg__" }, "icon_name": "car", "link": { "url": "__ST_HOME_URL__/sales/" } },
+                  { "_id": "cs00006", "title": "Auto Repairs", "description": "Comprehensive mechanical repairs, computer diagnostics, and regular maintenance by certified mechanics.", "image": { "url": "__ST_MEDIA_URL__image-4-van-hyundai-h1-2022.jpg__", "id": "__ST_MEDIA_ID__image-4-van-hyundai-h1-2022.jpg__" }, "icon_name": "wrench", "link": { "url": "__ST_HOME_URL__/repairs/" } },
+                  { "_id": "cs00007", "title": "Auto Body Works & Spraying", "description": "Precision dent removal, collision restoration, and factory-finish oven spray painting.", "image": { "url": "__ST_MEDIA_URL__image-6-luxury-mercedes-benz.jpg__", "id": "__ST_MEDIA_ID__image-6-luxury-mercedes-benz.jpg__" }, "icon_name": "wrench", "link": { "url": "__ST_HOME_URL__/body-works/" } },
+                  { "_id": "cs00008", "title": "Genuine Auto Parts", "description": "Genuine OEM replacement parts and quality automotive accessories.", "image": { "url": "__ST_MEDIA_URL__image-16-accessories.jpg__", "id": "__ST_MEDIA_ID__image-16-accessories.jpg__" }, "icon_name": "settings", "link": { "url": "__ST_HOME_URL__/parts/" } },
+                  { "_id": "cs00009", "title": "Fleet Services", "description": "Dedicated commercial fleet maintenance, tracking, and priority repair solutions for businesses.", "image": { "url": "__ST_MEDIA_URL__image-7-pickup-toyota-hilux-2023.jpg__", "id": "__ST_MEDIA_ID__image-7-pickup-toyota-hilux-2023.jpg__" }, "icon_name": "settings", "link": { "url": "__ST_HOME_URL__/fleet/" } }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr40001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sr40002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr40003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "icon-center-white",
+                "show_header": "yes",
+                "heading": "Why Our Services Stand Out",
+                "subheading": "Excellence and reliability in every interaction.",
+                "columns": "3",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#015557",
+                "heading_color": "#ffffff",
+                "subheading_color": "rgba(255,255,255,0.8)",
+                "items": [
+                  { "_id": "so00001", "title": "24/7 Availability", "icon_name": "clock" },
+                  { "_id": "so00002", "title": "Certified Technicians", "icon_name": "shield-check" },
+                  { "_id": "so00003", "title": "Transparent Pricing", "icon_name": "tag" },
+                  { "_id": "so00004", "title": "Genuine Parts", "icon_name": "settings" },
+                  { "_id": "so00005", "title": "Nationwide Coverage", "icon_name": "map-pin" },
+                  { "_id": "so00006", "title": "Fast Turnaround", "icon_name": "zap" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr50001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sr50002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr50003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "process-steps",
+                "step_style": "centered-square",
+                "show_header": "yes",
+                "heading": "Our Service Process",
+                "subheading": "A simple, transparent approach to getting you back on track.",
+                "columns": "5",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "items": [
+                  { "_id": "sp00001", "step_number": "1", "title": "Contact Us" },
+                  { "_id": "sp00002", "step_number": "2", "title": "Assessment" },
+                  { "_id": "sp00003", "step_number": "3", "title": "Service Delivery" },
+                  { "_id": "sp00004", "step_number": "4", "title": "Quality Check" },
+                  { "_id": "sp00005", "step_number": "5", "title": "Follow-Up" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr60001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sr60002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr60003",
+              "elType": "widget",
+              "widgetType": "stwc-spotlight-split",
+              "settings": {
+                "layout_mode": "primary-banner-split",
+                "heading": "Rapid Emergency Towing",
+                "description": "Stranded on the side of the road? Our emergency towing fleet is on standby 24/7. Fast response times and professional handling guaranteed.",
+                "cta_label": "Request a Tow Now",
+                "cta_link": { "url": "__ST_HOME_URL__/towing/" },
+                "feature_image": { "url": "__ST_MEDIA_URL__image-9-car-battery-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-9-car-battery-maintenance.jpg__" },
+                "feature_image_alt": "Emergency Towing",
+                "heading_color": "#ffffff",
+                "section_bg_color": "#ffffff"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr70001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sr70002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr70003",
+              "elType": "widget",
+              "widgetType": "stwc-faq-accordion",
+              "settings": {
+                "badge": "FAQs",
+                "heading": "Frequently Asked Questions",
+                "category_filter": "All",
+                "show_topic_tabs": "no",
+                "max_items": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr80001",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#015557",
+        "padding": { "unit": "px", "top": "64", "right": "16", "bottom": "64", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "sr80002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr80003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Not Sure Which Service You Need?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "sr80004",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:rgba(255,255,255,0.9);max-width:42rem;margin:0 auto 1.5rem;font-size:1.125rem;\">Our expert team is ready to guide you. Contact us today and we'll help you find the right solution for your car.</p>"
+              }
+            },
+            {
+              "id": "sr80005",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "layout": "boxed", "gap": "no" },
+              "elements": [
+                {
+                  "id": "sr80006",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_css_classes": "st-el-btn-row st-el-btn-center"
+                  },
+                  "elements": [
+                    {
+                      "id": "sr80007",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Contact Us",
+                        "link": { "url": "__ST_HOME_URL__/contact/" },
+                        "background_color": "#d80000",
+                        "button_background_hover_color": "#000000",
+                        "button_text_color": "#ffffff",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false }
+                      }
+                    },
+                    {
+                      "id": "sr80008",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Call: 0244753849",
+                        "link": { "url": "tel:0244753849" },
+                        "background_color": "#ffffff",
+                        "button_background_hover_color": "#f1f5f9",
+                        "button_text_color": "#131514",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

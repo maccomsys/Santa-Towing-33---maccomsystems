@@ -1,0 +1,509 @@
+{
+  "title": "Santa Towing — Pilot Home Page",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-canvas.php"
+  },
+  "content": [
+    {
+      "id": "hm10001",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "hm10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm10003",
+              "elType": "widget",
+              "widgetType": "stwc-hero-slider",
+              "settings": {
+                "autoplay": "yes",
+                "autoplay_interval": 6000,
+                "show_call_btn": "no",
+                "slides": [
+                  {
+                    "_id": "sl00001",
+                    "badge": "24/7 Emergency Towing Ghana",
+                    "title": "24/7 Emergency Towing Services",
+                    "subtitle": "Fast response, safe car transport, affordability, and reliability. Call us anytime, anywhere.",
+                    "image": { "url": "__ST_MEDIA_URL__image-8-heavy-duty-recovery-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-8-heavy-duty-recovery-vehicle.jpg__" },
+                    "cta_label": "Call Now: 0244753849",
+                    "cta_link": { "url": "tel:0244753849" }
+                  },
+                  {
+                    "_id": "sl00002",
+                    "badge": "Roadside Recovery",
+                    "title": "Accident Recovery & Roadside Assistance",
+                    "subtitle": "Professional winch-outs, flat tire changes, jump starts, and safe off-road recovery.",
+                    "image": { "url": "__ST_MEDIA_URL__image-9-car-battery-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-9-car-battery-maintenance.jpg__" },
+                    "cta_label": "Request Assistance",
+                    "cta_link": { "url": "tel:0244753849" }
+                  },
+                  {
+                    "_id": "sl00003",
+                    "badge": "Damage-Free Transport",
+                    "title": "Flatbed Towing & Car Transport",
+                    "subtitle": "Secure and damage-free transport for luxury cars, SUVs, and specialized cars.",
+                    "image": { "url": "__ST_MEDIA_URL__image-10-engine-oil-fluids-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-10-engine-oil-fluids-maintenance.jpg__" },
+                    "cta_label": "Call for Transport",
+                    "cta_link": { "url": "__ST_HOME_URL__/contact/" }
+                  },
+                  {
+                    "_id": "sl00004",
+                    "badge": "Executive & Business Rentals",
+                    "title": "Premium Car Rentals",
+                    "subtitle": "Choose from our wide range of well-maintained cars for business or leisure.",
+                    "image": { "url": "__ST_MEDIA_URL__image-11-brake-parts-disk-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-11-brake-parts-disk-maintenance.jpg__" },
+                    "cta_label": "Browse Cars",
+                    "cta_link": { "url": "__ST_HOME_URL__/rental/" }
+                  },
+                  {
+                    "_id": "sl00005",
+                    "badge": "Certified Workshop",
+                    "title": "Professional Auto Repairs",
+                    "subtitle": "Expert diagnostics and repairs by certified mechanics you can trust.",
+                    "image": { "url": "__ST_MEDIA_URL__image-12-tyre-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-12-tyre-maintenance.jpg__" },
+                    "cta_label": "Call for Repair",
+                    "cta_link": { "url": "tel:0244753849" }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm20001",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "hm20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm20003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "quick-actions-overlap",
+                "show_header": "no",
+                "columns": "5",
+                "columns_tablet": "3",
+                "columns_mobile": "1",
+                "section_bg_color": "transparent",
+                "section_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false },
+                "items": [
+                  {
+                    "_id": "qa00001",
+                    "title": "Request Towing",
+                    "description": "24/7 emergency response",
+                    "icon_name": "truck",
+                    "link_label": "Explore →",
+                    "link": { "url": "__ST_HOME_URL__/towing/" }
+                  },
+                  {
+                    "_id": "qa00002",
+                    "title": "Rent a Car",
+                    "description": "Flexible daily & weekly rates",
+                    "icon_name": "car",
+                    "link_label": "Explore →",
+                    "link": { "url": "__ST_HOME_URL__/rental/" }
+                  },
+                  {
+                    "_id": "qa00003",
+                    "title": "Buy a Car",
+                    "description": "New & premium used cars",
+                    "icon_name": "shield",
+                    "link_label": "Explore →",
+                    "link": { "url": "__ST_HOME_URL__/sales/" }
+                  },
+                  {
+                    "_id": "qa00004",
+                    "title": "Call for Repairs",
+                    "description": "Certified expert mechanics",
+                    "icon_name": "wrench",
+                    "link_label": "Explore →",
+                    "link": { "url": "__ST_HOME_URL__/repairs/" }
+                  },
+                  {
+                    "_id": "qa00005",
+                    "title": "Shop Auto Parts",
+                    "description": "Genuine replacement parts",
+                    "icon_name": "settings",
+                    "link_label": "Explore →",
+                    "link": { "url": "__ST_HOME_URL__/parts/" }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm30001",
+      "elType": "section",
+      "settings": {
+        "_element_id": "about",
+        "layout": "boxed",
+        "content_position": "middle",
+        "gap": "extended",
+        "padding": { "unit": "px", "top": "48", "right": "16", "bottom": "72", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "hm30002",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_css_classes": "st-el-relative-col"
+          },
+          "elements": [
+            {
+              "id": "hm30003",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "__ST_MEDIA_URL__welcome-towing-image.jpg__", "id": "__ST_MEDIA_ID__welcome-towing-image.jpg__" },
+                "image_size": "full",
+                "_css_classes": "st-el-img-4x3"
+              }
+            },
+            {
+              "id": "hm30008",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-phone-alt", "library": "fa-solid" },
+                "view": "stacked",
+                "shape": "circle",
+                "position": "left",
+                "title_text": "24/7 Emergency Towing — Rapid Dispatch Team",
+                "description_text": "Nationwide roadside assistance with guaranteed fast arrival.",
+                "primary_color": "#d80000",
+                "secondary_color": "#ffffff",
+                "title_color": "#ffffff",
+                "description_color": "rgba(255,255,255,0.85)",
+                "icon_size": { "unit": "px", "size": 18 },
+                "icon_padding": { "unit": "px", "size": 12 },
+                "title_size": "div",
+                "_background_background": "classic",
+                "_background_color": "#015557",
+                "_padding": { "unit": "px", "top": "18", "right": "20", "bottom": "18", "left": "20", "isLinked": false },
+                "_css_classes": "st-floating-hotline-card"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hm30004",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "hm30005",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Leading Towing & Premium Automotive Care",
+                "header_size": "h2",
+                "title_color": "#131514"
+              }
+            },
+            {
+              "id": "hm30006",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>With over 15 years of industry excellence, Santa Towing &amp; Garage Services is your premier partner for 24/7 emergency towing, heavy car recovery, certified mechanical repairs, and premium car rentals.</p>"
+              }
+            },
+            {
+              "id": "hm30009",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "layout": "full_width", "gap": "no" },
+              "elements": [
+                {
+                  "id": "hm30010",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_css_classes": "st-el-btn-row"
+                  },
+                  "elements": [
+                    {
+                      "id": "hm30007a",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Discover Our Services →",
+                        "link": { "url": "__ST_HOME_URL__/services/" },
+                        "background_color": "#015557",
+                        "button_background_hover_color": "#192e2e",
+                        "button_text_color": "#ffffff",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "14", "right": "28", "bottom": "14", "left": "28", "isLinked": false }
+                      }
+                    },
+                    {
+                      "id": "hm30007b",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Call Hotline: 0244753849",
+                        "link": { "url": "tel:0244753849" },
+                        "background_color": "#d80000",
+                        "button_background_hover_color": "#b90000",
+                        "button_text_color": "#ffffff",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "14", "right": "28", "bottom": "14", "left": "28", "isLinked": false }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm40001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hm40002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm40003",
+              "elType": "widget",
+              "widgetType": "stwc-services-grid",
+              "settings": {
+                "badge": "Our Automotive Services",
+                "heading": "Complete Towing & Automotive Solutions",
+                "subheading": "From emergency towing to scheduled maintenance, our specialized team delivers reliable, high-standard automotive support across Ghana.",
+                "columns": "3",
+                "services": [
+                  { "_id": "sv00001", "title": "Emergency Towing", "description": "Fast response towing anywhere, anytime.", "image": { "url": "__ST_MEDIA_URL__image-1-towing-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-1-towing-vehicle.jpg__" }, "icon_name": "truck", "link": { "url": "__ST_HOME_URL__/towing/" } },
+                  { "_id": "sv00002", "title": "Car Recovery", "description": "Safe off-road and accident recovery.", "image": { "url": "__ST_MEDIA_URL__image-1-towing-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-1-towing-vehicle.jpg__" }, "icon_name": "shield-check", "link": { "url": "__ST_HOME_URL__/towing/" } },
+                  { "_id": "sv00003", "title": "Car Rental", "description": "Wide range of cars for rent.", "image": { "url": "__ST_MEDIA_URL__image-13-filters-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-13-filters-maintenance.jpg__" }, "icon_name": "car", "link": { "url": "__ST_HOME_URL__/rental/" } },
+                  { "_id": "sv00004", "title": "Car Sales", "description": "Quality new and used cars.", "image": { "url": "__ST_MEDIA_URL__image-14-suspension-parts-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-14-suspension-parts-maintenance.jpg__" }, "icon_name": "car", "link": { "url": "__ST_HOME_URL__/sales/" } },
+                  { "_id": "sv00005", "title": "Auto Repairs", "description": "Comprehensive mechanical repairs. Buy Batteries available.", "image": { "url": "__ST_MEDIA_URL__image-15-car-lighting-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-15-car-lighting-maintenance.jpg__" }, "icon_name": "wrench", "link": { "url": "__ST_HOME_URL__/repairs/" } },
+                  { "_id": "sv00006", "title": "Preventive Maintenance", "description": "Keep your car running smoothly, including advanced Car Diagnostics.", "image": { "url": "__ST_MEDIA_URL__image-10-engine-oil-fluids-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-10-engine-oil-fluids-maintenance.jpg__" }, "icon_name": "settings", "link": { "url": "__ST_HOME_URL__/services/" } },
+                  { "_id": "sv00007", "title": "Spray Painting", "description": "Premium automotive painting.", "image": { "url": "__ST_MEDIA_URL__image-6-luxury-mercedes-benz.jpg__", "id": "__ST_MEDIA_ID__image-6-luxury-mercedes-benz.jpg__" }, "icon_name": "shield-check", "link": { "url": "__ST_HOME_URL__/body-works/" } },
+                  { "_id": "sv00008", "title": "Genuine Auto Parts", "description": "High-quality OEM parts.", "image": { "url": "__ST_MEDIA_URL__image-16-accessories.jpg__", "id": "__ST_MEDIA_ID__image-16-accessories.jpg__" }, "icon_name": "settings", "link": { "url": "__ST_HOME_URL__/parts/" } },
+                  { "_id": "sv00009", "title": "Fleet Services", "description": "Commercial car and fleet management.", "image": { "url": "__ST_MEDIA_URL__image-4-van-hyundai-h1-2022.jpg__", "id": "__ST_MEDIA_ID__image-4-van-hyundai-h1-2022.jpg__" }, "icon_name": "truck", "link": { "url": "__ST_HOME_URL__/fleet/" } }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm50001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hm50002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm50003",
+              "elType": "widget",
+              "widgetType": "stwc-haulage-showcase",
+              "settings": {
+                "badge": "Heavy Haulage & Tema Harbour Logistics",
+                "heading": "Reliable Haulage & Heavy Transport Services",
+                "description": "Beyond standard towing, Santa Towing provides heavy-duty haulage for cars, construction machinery, shipping containers, industrial generators, and oversized cargo across all 16 regions of Ghana.",
+                "feature_image": { "url": "__ST_MEDIA_URL__haulage-container-port-1920.jpg__", "id": "__ST_MEDIA_ID__haulage-container-port-1920.jpg__" },
+                "cta_label": "View All Haulage Services",
+                "cta_link": { "url": "__ST_HOME_URL__/haulage/" }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm60001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hm60002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm60003",
+              "elType": "widget",
+              "widgetType": "stwc-cars-catalog",
+              "settings": {
+                "badge": "Inspected Dealership Inventory",
+                "heading": "Featured Cars for Sale",
+                "subheading": "Explore our vetted inventory of premium brand-new and certified pre-owned cars with complete mechanical inspection reports.",
+                "posts_per_page": 8,
+                "show_filters": "yes",
+                "fallback_image": { "url": "__ST_MEDIA_URL__image-3-sedan-toyota-corolla.jpg__", "id": "__ST_MEDIA_ID__image-3-sedan-toyota-corolla.jpg__" },
+                "columns": "4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm70001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hm70002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm70003",
+              "elType": "widget",
+              "widgetType": "stwc-rental-fleet",
+              "settings": {
+                "badge": "Self-Drive & Chauffeur Driven",
+                "heading": "Premium Car Rental Fleet",
+                "posts_per_page": 6,
+                "show_filters": "yes",
+                "fallback_image": { "url": "__ST_MEDIA_URL__image-2-suv-kia-sportage-2024.png__", "id": "__ST_MEDIA_ID__image-2-suv-kia-sportage-2024.png__" },
+                "columns": "3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm80001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hm80002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm80003",
+              "elType": "widget",
+              "widgetType": "stwc-parts-showcase",
+              "settings": {
+                "badge": "100% OEM & Certified Aftermarket",
+                "heading": "Genuine Auto Parts & Accessories",
+                "posts_per_page": 8,
+                "show_filters": "yes",
+                "fallback_image": { "url": "__ST_MEDIA_URL__image-9-car-battery-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-9-car-battery-maintenance.jpg__" },
+                "columns": "4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm90001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hm90002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hm90003",
+              "elType": "widget",
+              "widgetType": "stwc-why-choose-us",
+              "settings": {
+                "badge": "Why Drivers Across Ghana Trust Us",
+                "heading": "Why Choose Santa Towing & Garage?",
+                "description": "We don't just fix cars; we build lasting relationships based on trust, swift emergency response, quality workmanship, and transparent pricing.",
+                "side_image": { "url": "__ST_MEDIA_URL__welcome-towing-image.jpg__", "id": "__ST_MEDIA_ID__welcome-towing-image.jpg__" }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hma0001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hma0002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hma0003",
+              "elType": "widget",
+              "widgetType": "stwc-blog-grid",
+              "settings": {
+                "badge": "Maintenance Insights & Roadside Tips",
+                "heading": "Latest News & Maintenance Insights",
+                "posts_per_page": 3,
+                "fallback_image": { "url": "__ST_MEDIA_URL__image-10-engine-oil-fluids-maintenance.jpg__", "id": "__ST_MEDIA_ID__image-10-engine-oil-fluids-maintenance.jpg__" },
+                "columns": "3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hmb0001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "hmb0002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "hmb0003",
+              "elType": "widget",
+              "widgetType": "stwc-faq-accordion",
+              "settings": {
+                "badge": "Common Questions",
+                "heading": "Frequently Asked Questions",
+                "category_filter": "All",
+                "show_topic_tabs": "no",
+                "max_items": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1247 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-18T05:45:00Z",
+  "site_images_registry": [
+    {
+      "id": "global-logo",
+      "name": "Primary Company Logo",
+      "storageKey": "global.logo.url",
+      "altStorageKey": "global.logo.alt",
+      "page": "Global",
+      "section": "Header & Navigation",
+      "filename": "santa-logo.png",
+      "defaultAlt": "Santa Towing & Garage Services Ltd. Official Logo",
+      "usedIn": "Used in: Top navigation bar, mobile menu drawer, and public page header",
+      "aspectRatio": "auto",
+      "recommendedSize": "320x90px transparent PNG"
+    },
+    {
+      "id": "global-favicon",
+      "name": "Browser Favicon / App Icon",
+      "storageKey": "global.images.logo",
+      "altStorageKey": "global.images.logoAlt",
+      "page": "Global",
+      "section": "Browser Tab & Bookmarks",
+      "filename": "santa-logo.png",
+      "defaultAlt": "Santa Towing Favicon Icon",
+      "usedIn": "Used in: Browser address bar, tab title icon, and home-screen shortcut",
+      "aspectRatio": "1:1",
+      "recommendedSize": "192x192px square icon"
+    },
+    {
+      "id": "home-hero-1",
+      "name": "Hero Carousel Slide 1: Heavy Recovery",
+      "storageKey": "home.hero.slides.0.image",
+      "altStorageKey": "home.hero.slides.0.imageAlt",
+      "page": "Home",
+      "section": "Hero Header Banner",
+      "filename": "image-8-heavy-duty-recovery-vehicle.jpg",
+      "defaultAlt": "Santa Towing heavy duty recovery tow truck performing emergency highway assistance",
+      "usedIn": "Used in: Homepage primary carousel - Slide 1 (Emergency Towing)",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x1080px (16:9 high resolution)"
+    },
+    {
+      "id": "home-hero-2",
+      "name": "Hero Carousel Slide 2: Battery & Roadside Care",
+      "storageKey": "home.hero.slides.1.image",
+      "altStorageKey": "home.hero.slides.1.imageAlt",
+      "page": "Home",
+      "section": "Hero Header Banner",
+      "filename": "image-9-car-battery-maintenance.jpg",
+      "defaultAlt": "Certified automotive technician inspecting car battery and electrical connections",
+      "usedIn": "Used in: Homepage carousel - Slide 2 (Accident Recovery & Roadside Assistance)",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x1080px (16:9 high resolution)"
+    },
+    {
+      "id": "home-hero-3",
+      "name": "Hero Carousel Slide 3: Engine Oil & Fluid Care",
+      "storageKey": "home.hero.slides.2.image",
+      "altStorageKey": "home.hero.slides.2.imageAlt",
+      "page": "Home",
+      "section": "Hero Header Banner",
+      "filename": "image-10-engine-oil-fluids-maintenance.jpg",
+      "defaultAlt": "Mechanic pouring premium engine lubricant fluid during routine servicing",
+      "usedIn": "Used in: Homepage carousel - Slide 3 (Flatbed Towing & Safe Car Transport)",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x1080px (16:9 high resolution)"
+    },
+    {
+      "id": "home-hero-4",
+      "name": "Hero Carousel Slide 4: Brake System Maintenance",
+      "storageKey": "home.hero.slides.3.image",
+      "altStorageKey": "home.hero.slides.3.imageAlt",
+      "page": "Home",
+      "section": "Hero Header Banner",
+      "filename": "image-11-brake-parts-disk-maintenance.jpg",
+      "defaultAlt": "High-performance brake rotor and caliper replacement in certified workshop",
+      "usedIn": "Used in: Homepage carousel - Slide 4 (Premium Car Rentals)",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x1080px (16:9 high resolution)"
+    },
+    {
+      "id": "home-hero-5",
+      "name": "Hero Carousel Slide 5: Tyre & Wheel Alignment",
+      "storageKey": "home.hero.slides.4.image",
+      "altStorageKey": "home.hero.slides.4.imageAlt",
+      "page": "Home",
+      "section": "Hero Header Banner",
+      "filename": "image-12-tyre-maintenance.jpg",
+      "defaultAlt": "Automotive specialist checking tread depth and tyre pressure on modern wheel",
+      "usedIn": "Used in: Homepage carousel - Slide 5 (Professional Auto Repairs)",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x1080px (16:9 high resolution)"
+    },
+    {
+      "id": "home-about-welcome",
+      "name": "Welcome & About Us Workshop Photo",
+      "storageKey": "global.images.welcomeTowing",
+      "altStorageKey": "images.alt.welcomeTowing",
+      "page": "Home",
+      "section": "About Santa Towing Section",
+      "filename": "welcome-towing-image.jpg",
+      "defaultAlt": "Santa Towing state-of-the-art repair workshop and dispatch facility in Accra",
+      "usedIn": "Used in: Homepage About Us section alongside 24/7 emergency badge",
+      "aspectRatio": "4:3",
+      "recommendedSize": "800x600px (4:3 ratio)"
+    },
+    {
+      "id": "home-mobile-app",
+      "name": "Mobile Roadside Dispatch App Screen",
+      "storageKey": "global.images.mobileScreen",
+      "altStorageKey": "images.alt.mobileScreen",
+      "page": "Home",
+      "section": "Mobile App Promo Section",
+      "filename": "santa-app-mobile-screen.png",
+      "defaultAlt": "Santa Towing mobile app screenshot showing live GPS driver tracking",
+      "usedIn": "Used in: Homepage instant dispatch mobile app promo banner",
+      "aspectRatio": "auto",
+      "recommendedSize": "400x700px vertical mobile render"
+    },
+    {
+      "id": "towing-primary-truck",
+      "name": "Flatbed Tow Truck in Action",
+      "storageKey": "global.images.towingVehicle",
+      "altStorageKey": "images.alt.towingVehicle",
+      "page": "Towing",
+      "section": "Towing Services Showcase",
+      "filename": "image-1-towing-vehicle.jpg",
+      "defaultAlt": "Modern hydraulic flatbed recovery vehicle with emergency lights on highway",
+      "usedIn": "Used in: Towing service overview, Emergency Towing page, and service directory cards",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1200x800px"
+    },
+    {
+      "id": "towing-heavy-duty",
+      "name": "Heavy Duty Articulated Hauler & Crane",
+      "storageKey": "global.images.heavyRecovery",
+      "altStorageKey": "images.alt.heavyRecovery",
+      "page": "Towing",
+      "section": "Commercial Truck & Bus Recovery",
+      "filename": "image-8-heavy-duty-recovery-vehicle.jpg",
+      "defaultAlt": "Commercial heavy duty winching crane recovering stranded bus",
+      "usedIn": "Used in: Heavy duty recovery cards, Gallery, and industrial emergency towing",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1200x800px"
+    },
+    {
+      "id": "haulage-heavy-construction",
+      "name": "Heavy Construction & Machinery Haulage",
+      "storageKey": "global.images.constructionHaulage",
+      "altStorageKey": "images.alt.constructionHaulage",
+      "page": "Haulage",
+      "section": "Industrial Haulage Banner",
+      "filename": "construction_haulage_1790967998627.jpg",
+      "defaultAlt": "Heavy lowbed transporter carrying industrial yellow machinery equipment across Ghana",
+      "usedIn": "Used in: Haulage service page, heavy equipment logistics showcase, and homepage teaser",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1600x900px"
+    },
+    {
+      "id": "rental-suv-kia",
+      "name": "Rental Fleet: 2024 Kia Sportage SUV",
+      "storageKey": "global.images.suvKiaSportage",
+      "altStorageKey": "images.alt.suvKiaSportage",
+      "page": "Rental",
+      "section": "SUV & All-Wheel Drive Fleet",
+      "filename": "image-2-suv-kia-sportage-2024.png",
+      "defaultAlt": "Brand new 2024 Kia Sportage SUV available for daily and executive corporate hire",
+      "usedIn": "Used in: Car Rental catalog, Contact page hero banner, and SUV rental card",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "rental-sedan-corolla",
+      "name": "Rental Fleet: Toyota Corolla Sedan",
+      "storageKey": "global.images.sedanCorolla",
+      "altStorageKey": "images.alt.sedanCorolla",
+      "page": "Rental",
+      "section": "Executive Sedan Fleet",
+      "filename": "image-3-sedan-toyota-corolla.jpg",
+      "defaultAlt": "Clean automatic Toyota Corolla sedan for business trips and personal car rental",
+      "usedIn": "Used in: Car Rental sedan category and Car Sales inventory list",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "rental-van-hyundai",
+      "name": "Rental Fleet: Hyundai H1 Passenger Van",
+      "storageKey": "global.images.vanHyundai",
+      "altStorageKey": "images.alt.vanHyundai",
+      "page": "Rental",
+      "section": "Group & Passenger Vans",
+      "filename": "image-4-van-hyundai-h1-2022.jpg",
+      "defaultAlt": "12-passenger Hyundai H1 commercial van for corporate transport and family travel",
+      "usedIn": "Used in: Car Rental commercial vans and Corporate Fleet services",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "rental-economy-almera",
+      "name": "Rental Fleet: Nissan Almera Economy",
+      "storageKey": "global.images.economyNissan",
+      "altStorageKey": "images.alt.economyNissan",
+      "page": "Rental",
+      "section": "Budget & Economy Fleet",
+      "filename": "image-5-economy-nissan-almera-2021.jpg",
+      "defaultAlt": "Fuel-efficient Nissan Almera economy rental car with cold air-conditioning",
+      "usedIn": "Used in: Car Rental budget category",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "rental-luxury-mercedes",
+      "name": "Rental Fleet: Mercedes-Benz Luxury Sedan",
+      "storageKey": "global.images.luxuryMercedes",
+      "altStorageKey": "images.alt.luxuryMercedes",
+      "page": "Rental",
+      "section": "VIP & Luxury Fleet",
+      "filename": "image-6-luxury-mercedes-benz.jpg",
+      "defaultAlt": "Mercedes-Benz luxury vehicle with chauffeur for weddings, diplomats, and VIP events",
+      "usedIn": "Used in: Car Rental VIP section, Body Works spray painting showcase",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "rental-pickup-hilux",
+      "name": "Rental Fleet: Toyota Hilux 4x4 Pickup",
+      "storageKey": "global.images.pickupHilux",
+      "altStorageKey": "images.alt.pickupHilux",
+      "page": "Rental",
+      "section": "Rugged 4x4 & Mining Pickups",
+      "filename": "image-7-pickup-toyota-hilux-2023.jpg",
+      "defaultAlt": "Rugged 2023 Toyota Hilux double cabin 4WD pickup truck for rough terrain travel",
+      "usedIn": "Used in: Car Rental pickups, Corporate Fleet Management hero banner",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "repairs-battery-care",
+      "name": "Repairs: Battery Diagnostics & Replacement",
+      "storageKey": "global.images.batteryMaintenance",
+      "altStorageKey": "images.alt.batteryMaintenance",
+      "page": "Repairs",
+      "section": "Electrical Diagnostics",
+      "filename": "image-9-car-battery-maintenance.jpg",
+      "defaultAlt": "Heavy duty car battery load testing and replacement in workshop",
+      "usedIn": "Used in: Auto Repairs electrical section, Parts battery section, and Blog post 3",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "repairs-engine-fluids",
+      "name": "Repairs: Engine Oil & Fluid Flushes",
+      "storageKey": "global.images.engineFluids",
+      "altStorageKey": "images.alt.engineFluids",
+      "page": "Repairs",
+      "section": "Preventive Engine Servicing",
+      "filename": "image-10-engine-oil-fluids-maintenance.jpg",
+      "defaultAlt": "Automotive technician changing engine oil and inspecting transmission fluid",
+      "usedIn": "Used in: Auto Repairs preventive care, Gallery before-and-after maintenance, Blog post 2",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "repairs-brake-servicing",
+      "name": "Repairs: Brake Discs & Caliper Overhaul",
+      "storageKey": "global.images.brakeParts",
+      "altStorageKey": "images.alt.brakeParts",
+      "page": "Repairs",
+      "section": "Braking System Safety",
+      "filename": "image-11-brake-parts-disk-maintenance.jpg",
+      "defaultAlt": "New ventilated brake discs and hydraulic brake pads mounted on wheel hub",
+      "usedIn": "Used in: Auto Repairs braking services and Auto Parts brake discs inventory",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "repairs-tyres-wheels",
+      "name": "Repairs: Tyres & Computerized Alignment",
+      "storageKey": "global.images.tyreMaintenance",
+      "altStorageKey": "images.alt.tyreMaintenance",
+      "page": "Repairs",
+      "section": "Wheel & Tyre Care",
+      "filename": "image-12-tyre-maintenance.jpg",
+      "defaultAlt": "Automated computerized tyre balancing and wheel alignment machine",
+      "usedIn": "Used in: Auto Repairs tyre section and wheel maintenance guides",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "parts-filters",
+      "name": "Parts: Oil, Air & Cabin Filters",
+      "storageKey": "global.images.filtersMaintenance",
+      "altStorageKey": "images.alt.filtersMaintenance",
+      "page": "Parts",
+      "section": "Replacement Filters",
+      "filename": "image-13-filters-maintenance.jpg",
+      "defaultAlt": "Genuine automotive oil, fuel, and air filter replacements",
+      "usedIn": "Used in: Genuine Auto Parts catalog, Careers page hero banner",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "parts-suspension",
+      "name": "Parts: Shock Absorbers & Suspension",
+      "storageKey": "global.images.suspensionParts",
+      "altStorageKey": "images.alt.suspensionParts",
+      "page": "Parts",
+      "section": "Chassis & Suspension Components",
+      "filename": "image-14-suspension-parts-maintenance.jpg",
+      "defaultAlt": "Heavy duty coil springs and gas-pressurized shock absorbers",
+      "usedIn": "Used in: Auto Parts suspension inventory and Body Works chassis alignment",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "parts-lighting",
+      "name": "Parts: Headlights, Bulbs & Electrical",
+      "storageKey": "global.images.carLighting",
+      "altStorageKey": "images.alt.carLighting",
+      "page": "Parts",
+      "section": "Automotive Lighting & Lamps",
+      "filename": "image-15-car-lighting-maintenance.jpg",
+      "defaultAlt": "LED headlight assembly and electrical bulbs replacement stock",
+      "usedIn": "Used in: Auto Parts lighting category, Blog page hero banner",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "parts-accessories",
+      "name": "Parts: Accessories & Emergency Road Kits",
+      "storageKey": "global.images.autoAccessories",
+      "altStorageKey": "images.alt.autoAccessories",
+      "page": "Parts",
+      "section": "Vehicle Accessories",
+      "filename": "image-16-accessories.jpg",
+      "defaultAlt": "Safety warning triangles, jump leads, tire inflators and car emergency accessories",
+      "usedIn": "Used in: Auto Parts accessories section and roadside safety kits",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1000x600px"
+    },
+    {
+      "id": "blog-hero-banner",
+      "name": "Blog: Main Header Background",
+      "storageKey": "blog.heroImage",
+      "altStorageKey": "blog.heroImageAlt",
+      "page": "Blog",
+      "section": "Blog Header Banner",
+      "filename": "image-15-car-lighting-maintenance.jpg",
+      "defaultAlt": "Automotive maintenance guides and road safety insights header banner",
+      "usedIn": "Used in: Blog page hero background and article header",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x800px"
+    },
+    {
+      "id": "contact-hero-banner",
+      "name": "Contact: Main Header Banner",
+      "storageKey": "contact.heroImage",
+      "altStorageKey": "contact.heroImageAlt",
+      "page": "Contact",
+      "section": "Contact Page Header",
+      "filename": "image-2-suv-kia-sportage-2024.png",
+      "defaultAlt": "Santa Towing customer support and 24/7 dispatch center",
+      "usedIn": "Used in: Contact Us page hero banner",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x800px"
+    },
+    {
+      "id": "careers-hero-banner",
+      "name": "Careers: Recruitment Banner",
+      "storageKey": "careers.heroImage",
+      "altStorageKey": "careers.heroImageAlt",
+      "page": "Careers",
+      "section": "Careers Page Header",
+      "filename": "image-13-filters-maintenance.jpg",
+      "defaultAlt": "Join Santa Towing automotive and roadside recovery professional team",
+      "usedIn": "Used in: Careers & Job openings page banner",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x800px"
+    },
+    {
+      "id": "gallery-hero-banner",
+      "name": "Gallery: Work Showcase Hero",
+      "storageKey": "gallery.heroImage",
+      "altStorageKey": "gallery.heroImageAlt",
+      "page": "Gallery",
+      "section": "Gallery Hero Banner",
+      "filename": "image-8-heavy-duty-recovery-vehicle.jpg",
+      "defaultAlt": "Photo gallery of completed roadside recoveries and automotive repair works",
+      "usedIn": "Used in: Work Gallery page hero showcase",
+      "aspectRatio": "16:9",
+      "recommendedSize": "1920x800px"
+    }
+  ],
+  "towing_adverts": [
+    {
+      "id": 1,
+      "title": "Car Towing at Tema",
+      "district": "Tema",
+      "description": "Need a tow truck in Tema? Towing Ghana provides 24/7 towing assistance for car breakdowns, accidents, and roadside emergencies, helping motorists get back on the road quickly and safely.\n\nOur service covers Tema Motorway, Tema Communities, industrial areas, and surrounding roads. Once you contact us, our team will assess your situation and connect you with an available tow truck.\n\nWhether your car has broken down or needs to be transported, you can rely on Towing Ghana for professional and dependable towing support in Tema.\n\nFor emergency towing or car recovery, contact us by phone or WhatsApp. Fast assistance is only a call away."
+    },
+    {
+      "id": 2,
+      "title": "Car Towing at Ashaiman",
+      "district": "Ashaiman",
+      "description": "A car breakdown can happen at any time. If you are stranded in Ashaiman, Towing Ghana provides 24/7 professional towing services to help you get the assistance you need.\n\nWe serve Ashaiman's main roads, residential communities, commercial areas, and nearby routes. Simply provide your location and explain the situation, and our team will arrange for an available tow truck to assist you.\n\nWhether your car has broken down, been involved in an accident, or needs transportation, you can count on Towing Ghana for safe and reliable towing services.\n\nWhen you need emergency towing or car recovery in Ashaiman, Towing Ghana is ready to help you get moving again."
+    },
+    {
+      "id": 3,
+      "title": "Car Towing Services in Spintex",
+      "district": "Spintex",
+      "description": "Stranded in Spintex? Towing Ghana provides reliable 24/7 towing assistance for breakdowns, accidents, and roadside emergencies. Our team can arrange a tow truck to your location and help transport your car safely.\n\nWhether you are on the main Spintex Road or within nearby communities, professional towing support is only a call away."
+    },
+    {
+      "id": 4,
+      "title": "Car Towing Services in Adenta",
+      "district": "Adenta",
+      "description": "Need towing assistance in Adenta? Towing Ghana offers 24/7 car towing and recovery services for motorists facing unexpected breakdowns or accidents.\n\nContact our team with your location and car details, and we will arrange suitable towing assistance. Get reliable help whenever you need it in Adenta and surrounding areas."
+    },
+    {
+      "id": 5,
+      "title": "Car Towing Services in Achimota",
+      "district": "Achimota",
+      "description": "Car trouble in Achimota can happen without warning. Towing Ghana is available 24/7 to provide dependable towing support for broken-down, damaged, or accident-involved cars.\n\nFrom Achimota and nearby roads to surrounding communities, we help motorists arrange safe and convenient car transportation."
+    },
+    {
+      "id": 6,
+      "title": "Car Towing Services in Pokuase",
+      "district": "Pokuase",
+      "description": "If your car breaks down in Pokuase, Towing Ghana is ready to assist. Our 24/7 towing service helps motorists handle breakdowns, accidents, and car transportation needs.\n\nSimply contact us and share your location. We will help arrange an available tow truck to get your car safely to its destination."
+    },
+    {
+      "id": 7,
+      "title": "Car Towing Services in Airport Residential",
+      "district": "Airport Residential",
+      "description": "For dependable towing in Airport Residential, Towing Ghana provides professional 24/7 car recovery and towing services. We assist with breakdowns, accidents, and cars requiring transportation.\n\nWhether you are on the road or within the Airport Residential area, contact us for prompt and reliable towing assistance."
+    },
+    {
+      "id": 8,
+      "title": "Car Towing Services from Accra to Kumasi",
+      "district": "Accra to Kumasi",
+      "description": "Need to move a car from Accra to Kumasi? Towing Ghana provides reliable long-distance towing and car transportation for broken-down, damaged, or non-operational cars.\n\nContact us to arrange suitable towing support for your journey. We help ensure your car reaches Kumasi safely and securely."
+    },
+    {
+      "id": 9,
+      "title": "Car Towing Services from Kumasi to Accra",
+      "district": "Kumasi to Accra",
+      "description": "Towing Ghana offers dependable car transportation from Kumasi to Accra. Whether your car has broken down, been damaged, or simply needs transportation, our team can arrange professional towing assistance.\n\nGet in touch with us to discuss your car's location and transportation needs."
+    },
+    {
+      "id": 10,
+      "title": "Car Towing Services from Accra to Cape Coast",
+      "district": "Accra to Cape Coast",
+      "description": "Moving a car from Accra to Cape Coast? Towing Ghana provides professional long-distance towing for cars that need safe transportation between the two cities.\n\nFrom breakdown recovery to car relocation, our team can arrange dependable towing support for your journey."
+    },
+    {
+      "id": 11,
+      "title": "Car Towing Services from Cape Coast to Accra",
+      "district": "Cape Coast to Accra",
+      "description": "If your car needs to be transported from Cape Coast to Accra, Towing Ghana can help. We provide reliable towing solutions for broken-down, damaged, or non-operational cars.\n\nContact us with your car location and destination, and we will help arrange suitable transportation."
+    },
+    {
+      "id": 12,
+      "title": "Car Towing Services from Accra to Takoradi",
+      "district": "Accra to Takoradi",
+      "description": "Need long-distance towing from Accra to Takoradi? Towing Ghana provides dependable car transportation for breakdowns, accident recovery, and other towing needs.\n\nOur team can arrange suitable towing assistance to help move your car safely to Takoradi."
+    },
+    {
+      "id": 13,
+      "title": "Car Towing Services from Takoradi to Accra",
+      "district": "Takoradi to Accra",
+      "description": "Towing Ghana assists motorists who need car transportation from Takoradi to Accra. Whether your car is damaged, broken down, or simply needs relocation, we can help arrange professional towing.\n\nContact us to organize safe and reliable car transportation."
+    },
+    {
+      "id": 14,
+      "title": "Car Towing Services from Accra to Koforidua",
+      "district": "Accra to Koforidua",
+      "description": "For car transportation from Accra to Koforidua, Towing Ghana offers dependable long-distance towing assistance. We help move cars affected by breakdowns, accidents, or other transportation needs.\n\nGet in touch with our team to arrange a suitable towing solution for your car."
+    },
+    {
+      "id": 15,
+      "title": "Car Towing Services from Koforidua to Accra",
+      "district": "Koforidua to Accra",
+      "description": "Need your car transported from Koforidua to Accra? Towing Ghana provides professional towing support for damaged, broken-down, and non-operational cars.\n\nShare your pickup location and destination with our team, and we will help arrange reliable car transportation."
+    },
+    {
+      "id": 16,
+      "title": "Car Towing Services from Accra to Ho",
+      "district": "Accra to Ho",
+      "description": "Towing Ghana provides reliable car towing from Accra to Ho for motorists requiring long-distance transportation. Whether your car has broken down or needs to be relocated, our team can assist.\n\nContact us to arrange safe and convenient towing for your car."
+    },
+    {
+      "id": 17,
+      "title": "Car Towing Services from Ho to Accra",
+      "district": "Ho to Accra",
+      "description": "If your car needs to travel from Ho to Accra, Towing Ghana can arrange professional towing assistance. We handle car transportation for breakdowns, accidents, and relocation needs.\n\nContact our team with your car details to get started."
+    },
+    {
+      "id": 18,
+      "title": "Car Towing Services in Ningo-Prampram",
+      "district": "Ningo-Prampram",
+      "description": "Towing Ghana provides 24/7 car towing services in Ningo-Prampram for motorists facing breakdowns, accidents, or roadside emergencies.\n\nWhether you need immediate recovery or car transportation, our team can help arrange reliable towing assistance in the area."
+    },
+    {
+      "id": 19,
+      "title": "Car Towing Services in Korle Klottey",
+      "district": "Korle Klottey",
+      "description": "For towing assistance in Korle Klottey, Towing Ghana is available around the clock. We help motorists dealing with car breakdowns, accidents, and transportation needs.\n\nContact us with your location, and we will help arrange professional towing support."
+    },
+    {
+      "id": 20,
+      "title": "Car Towing Services in Ayawaso",
+      "district": "Ayawaso",
+      "description": "Car trouble in Ayawaso? Towing Ghana offers reliable 24/7 towing and car recovery services to help motorists handle unexpected roadside problems.\n\nFrom breakdown recovery to car transportation, you can contact our team whenever towing assistance is required."
+    },
+    {
+      "id": 21,
+      "title": "Car Towing Services in Weija-Gbawe",
+      "district": "Weija-Gbawe",
+      "description": "If you experience a car breakdown in Weija-Gbawe, Towing Ghana is ready to provide professional towing assistance. Our 24/7 service supports motorists dealing with accidents, breakdowns, and car transportation.\n\nReach out to arrange a tow truck for your car whenever you need help."
+    },
+    {
+      "id": 22,
+      "title": "Car Towing Services in Nsawam",
+      "district": "Nsawam",
+      "description": "Need towing help in Nsawam? Towing Ghana provides dependable car recovery and towing services for breakdowns, accidents, and transportation needs.\n\nContact us with your location and car details, and we will help arrange suitable towing assistance."
+    },
+    {
+      "id": 23,
+      "title": "Car Towing Services in Suhum",
+      "district": "Suhum",
+      "description": "Towing Ghana is available to assist motorists in Suhum with reliable car towing and recovery. Our service supports drivers facing breakdowns, accidents, or the need to transport a car.\n\nGet in touch whenever you require professional towing assistance."
+    },
+    {
+      "id": 24,
+      "title": "Car Towing Services in Madina",
+      "district": "Madina",
+      "description": "Stranded in Madina? Towing Ghana provides 24/7 towing assistance for car breakdowns, accidents, and other roadside emergencies.\n\nContact our team, provide your location, and we will help arrange a tow truck to transport your car safely."
+    },
+    {
+      "id": 25,
+      "title": "Car Towing Services in Dodowa",
+      "district": "Dodowa",
+      "description": "For motorists in Dodowa, Towing Ghana offers dependable towing and car recovery services. Whether you are dealing with a breakdown, accident, or car transportation need, our team is ready to assist.\n\nContact us whenever you need professional towing support."
+    },
+    {
+      "id": 26,
+      "title": "Car Towing Services in Amasaman",
+      "district": "Amasaman",
+      "description": "Car trouble in Amasaman? Towing Ghana provides reliable 24/7 towing services for motorists requiring emergency recovery or car transportation.\n\nTell us your location and situation, and we will help arrange an available tow truck to assist you."
+    },
+    {
+      "id": 27,
+      "title": "Car Towing Services at Circle",
+      "district": "Circle",
+      "description": "If your car breaks down around Circle, Towing Ghana is ready to help. We provide 24/7 towing and car recovery services for breakdowns, accidents, and transportation needs.\n\nContact us for professional assistance and help getting your car to a safe destination."
+    },
+    {
+      "id": 28,
+      "title": "Car Towing Services in Nima",
+      "district": "Nima",
+      "description": "Towing Ghana offers reliable 24/7 towing services in Nima for motorists facing unexpected car problems. We assist with breakdown recovery, accident towing, and car transportation.\n\nReach out with your location, and our team will help arrange the towing support you need."
+    },
+    {
+      "id": 29,
+      "title": "Car Towing Services in Teshi",
+      "district": "Teshi",
+      "description": "Need a tow truck in Teshi? Towing Ghana provides professional car towing and recovery services around the clock.\n\nWhether your car has broken down or needs transportation, contact us for dependable towing assistance in Teshi and nearby areas."
+    },
+    {
+      "id": 30,
+      "title": "Car Towing Services in Labadi",
+      "district": "Labadi",
+      "description": "For motorists in Labadi, Towing Ghana offers dependable towing assistance whenever car trouble occurs. Our 24/7 service covers breakdowns, accidents, and car transportation.\n\nContact our team to arrange safe and professional towing support."
+    },
+    {
+      "id": 31,
+      "title": "Car Towing Services in Lakeside",
+      "district": "Lakeside",
+      "description": "A car breakdown in Lakeside does not have to leave you stranded. Towing Ghana provides reliable 24/7 towing and recovery services for motorists who need immediate assistance.\n\nShare your location with our team, and we will help arrange suitable towing support."
+    },
+    {
+      "id": 32,
+      "title": "Car Towing Services in Burma Camp",
+      "district": "Burma Camp",
+      "description": "Need car towing around Burma Camp? Towing Ghana provides professional 24/7 towing and recovery services for breakdowns, accidents, and car transportation.\n\nContact us when you need dependable assistance, and we will help arrange a tow truck for your car."
+    }
+  ],
+  "ghana_regions": [
+    {
+      "region": "Greater Accra Region",
+      "areas": [
+        "Accra",
+        "Achimota",
+        "Adenta",
+        "Airport Residential",
+        "Amasaman",
+        "Ashaiman",
+        "Ayawaso",
+        "Burma Camp",
+        "Circle",
+        "Dansoman",
+        "Dawhenya",
+        "Dodowa",
+        "Dzorwulu",
+        "East Legon",
+        "Kaneshie",
+        "Kasoa",
+        "Korle Klottey",
+        "Kpone",
+        "Kwashieman",
+        "La",
+        "Labadi",
+        "Lakeside",
+        "Madina",
+        "Nima",
+        "Ningo-Prampram",
+        "Nungua",
+        "Osu",
+        "Pokuase",
+        "Prampram",
+        "Spintex",
+        "Tema",
+        "Tesano",
+        "Teshie",
+        "Weija-Gbawe",
+        "Abeka",
+        "Ablekuma",
+        "Anyaa",
+        "Baatsona",
+        "Bortianor",
+        "Cantonments",
+        "Dome",
+        "Gbawe",
+        "Haatso",
+        "Kokrobite",
+        "Mallam",
+        "North Kaneshie",
+        "Ridge",
+        "Roman Ridge",
+        "Sakumono",
+        "Santa Maria",
+        "Sowutuom",
+        "Taifa",
+        "West Legon"
+      ]
+    },
+    {
+      "region": "Ashanti Region",
+      "areas": [
+        "Kumasi",
+        "Abuakwa",
+        "Agona",
+        "Asante Akim",
+        "Atonsu",
+        "Bekwai",
+        "Ejisu",
+        "Fomena",
+        "Juaben",
+        "Konongo",
+        "Mampong",
+        "Nkawie",
+        "Obuasi",
+        "Offinso",
+        "Tepa",
+        "Asokwa",
+        "Ayigya",
+        "Bantama",
+        "Kejetia",
+        "KNUST",
+        "Kwadaso",
+        "Manhyia",
+        "Nhyeaso",
+        "Oforikrom",
+        "Suame",
+        "Subin",
+        "Tafo"
+      ]
+    },
+    {
+      "region": "Eastern Region",
+      "areas": [
+        "Koforidua",
+        "Aburi",
+        "Akropong",
+        "Akwatia",
+        "Akyem Oda",
+        "Asamankese",
+        "Begoro",
+        "Donkorkrom",
+        "Nkawkaw",
+        "Nsawam",
+        "Odumase-Krobo",
+        "Somanya",
+        "Suhum",
+        "Adeiso",
+        "Akuapem",
+        "Krobo",
+        "Kwahu",
+        "Mpraeso",
+        "New Juaben"
+      ]
+    },
+    {
+      "region": "Western Region",
+      "areas": [
+        "Sekondi",
+        "Takoradi",
+        "Agona Nkwanta",
+        "Asankragwa",
+        "Axim",
+        "Bawdie",
+        "Bogoso",
+        "Daboase",
+        "Elubo",
+        "Half Assini",
+        "Mpohor",
+        "Prestea",
+        "Samreboi",
+        "Shama",
+        "Tarkwa",
+        "Wassa Akropong",
+        "Effia",
+        "Essikado",
+        "Kojokrom",
+        "Kwesimintsim"
+      ]
+    },
+    {
+      "region": "Central Region",
+      "areas": [
+        "Cape Coast",
+        "Apam",
+        "Assin Fosu",
+        "Dunkwa-on-Offin",
+        "Elmina",
+        "Mankessim",
+        "Winneba",
+        "Agona Swedru",
+        "Breman Asikuma",
+        "Budumburam",
+        "Gomoa",
+        "Komenda",
+        "Saltpond",
+        "Twifo Praso"
+      ]
+    },
+    {
+      "region": "Western North Region",
+      "areas": [
+        "Sefwi Wiawso",
+        "Akontombra",
+        "Bibiani",
+        "Bodi",
+        "Dadieso",
+        "Enchi",
+        "Juaboso",
+        "Sefwi Bekwai",
+        "Debiso",
+        "Essam"
+      ]
+    },
+    {
+      "region": "Volta Region",
+      "areas": [
+        "Ho",
+        "Aflao",
+        "Hohoe",
+        "Keta",
+        "Sogakope",
+        "Adidome",
+        "Agotime Ziope",
+        "Akatsi",
+        "Anloga",
+        "Dzodze",
+        "Juapong",
+        "Kpando"
+      ]
+    },
+    {
+      "region": "Oti Region",
+      "areas": [
+        "Dambai",
+        "Jasikan",
+        "Kadjebi",
+        "Kete Krachi",
+        "Nkwanta",
+        "Nkwanta South",
+        "Krachi East",
+        "Krachi West",
+        "Nkonya"
+      ]
+    },
+    {
+      "region": "Northern Region",
+      "areas": [
+        "Tamale",
+        "Gushegu",
+        "Karaga",
+        "Savelugu",
+        "Tolon",
+        "Yendi",
+        "Bimbilla",
+        "Kpandai",
+        "Kumbungu",
+        "Sagnarigu"
+      ]
+    },
+    {
+      "region": "North East Region",
+      "areas": [
+        "Nalerigu",
+        "Gambaga",
+        "Walewale",
+        "Bunkpurugu",
+        "Chereponi",
+        "Yunyoo"
+      ]
+    },
+    {
+      "region": "Savannah Region",
+      "areas": [
+        "Damongo",
+        "Bole",
+        "Buipe",
+        "Daboya",
+        "Salaga",
+        "Kalba",
+        "Sawla",
+        "Tuna"
+      ]
+    },
+    {
+      "region": "Upper East Region",
+      "areas": [
+        "Bolgatanga",
+        "Bawku",
+        "Fumbisi",
+        "Navrongo",
+        "Paga",
+        "Sandema",
+        "Zebilla",
+        "Bongo",
+        "Garu",
+        "Tempane"
+      ]
+    },
+    {
+      "region": "Upper West Region",
+      "areas": [
+        "Wa",
+        "Hamile",
+        "Jirapa",
+        "Lawra",
+        "Nandom",
+        "Tumu",
+        "Daffiama",
+        "Issa",
+        "Lambussie",
+        "Nadwoli"
+      ]
+    },
+    {
+      "region": "Bono Region",
+      "areas": [
+        "Sunyani",
+        "Berekum",
+        "Dormaa Ahenkro",
+        "Wenchi",
+        "Drobo",
+        "Sampa",
+        "Sunyani West",
+        "Wamfie"
+      ]
+    },
+    {
+      "region": "Bono East Region",
+      "areas": [
+        "Techiman",
+        "Atebubu",
+        "Kintampo",
+        "Kwame Danso",
+        "Nkoranza",
+        "Prang",
+        "Yeji",
+        "Kajaji",
+        "Tuobodom"
+      ]
+    },
+    {
+      "region": "Ahafo Region",
+      "areas": [
+        "Goaso",
+        "Bechem",
+        "Duayaw Nkwanta",
+        "Hwidiem",
+        "Kenyasi",
+        "Mim",
+        "Kukuom"
+      ]
+    }
+  ],
+  "mock_highlights": {
+    "stats": [
+      {
+        "label": "Years of Experience",
+        "value": 15,
+        "suffix": "+"
+      },
+      {
+        "label": "Cars Repaired",
+        "value": 25000,
+        "suffix": "+"
+      },
+      {
+        "label": "Happy Customers",
+        "value": 10000,
+        "suffix": "+"
+      },
+      {
+        "label": "Emergency Calls Completed",
+        "value": 5000,
+        "suffix": "+"
+      }
+    ],
+    "parts_categories": [
+      "Car Batteries",
+      "Engine Oil",
+      "Brake Pads",
+      "Tires",
+      "Filters",
+      "Suspension Parts",
+      "Lighting",
+      "Accessories"
+    ]
+  },
+  "doc_settings": {
+    "companyName": "Santa Towing & Garage Services Ltd.",
+    "tagline": "24/7 Rapid Emergency Towing, Inter-City Haulage & Auto Garage",
+    "address": "Spintex Road, Near Coca-Cola Roundabout, P.O. Box SK 450, Accra, Ghana",
+    "phone": "0244753849",
+    "phoneSecondary": "0501234567",
+    "email": "dispatch@santatowing.com",
+    "website": "www.santatowing.com",
+    "taxRegistrationNumber": "TIN: P0028475910",
+    "logoFilename": "santa-logo.png",
+    "primaryColor": "#015557",
+    "currency": "GH\u20b5",
+    "defaultValidityDays": 14,
+    "defaultTaxRate": 15,
+    "defaultPaymentInstructions": "1. MTN Mobile Money (Merchant ID): 0244753849 (Santa Towing & Garage Services)\n2. Ecobank Ghana: Account No: 1441002384920, Spintex Branch\n3. Cash payments accepted with verified stamped receipt.",
+    "defaultTerms": "1. This Pro Forma Invoice is valid for 14 calendar days from the date of issue.\n2. Roadside dispatch commences upon confirmed payment or purchase order acceptance.\n3. Fuel surcharges or statutory toll fees outside Greater Accra are included where itemized.\n4. Santa Towing warrants vehicle handling with comprehensive recovery insurance.",
+    "defaultNotes": "Thank you for trusting Santa Towing & Garage Services. For urgent dispatch updates, contact our 24/7 hotline at 0244753849.",
+    "footerText": "Santa Towing & Garage Services Ltd. \u2022 Licensed Automobile Towing & Recovery Fleet \u2022 Accra, Ghana"
+  },
+  "customers": [
+    {
+      "uid": "cust-1",
+      "name": "Kwame Mensah",
+      "company": "Golden Transport Logistics Ltd",
+      "phone": "0244123456",
+      "email": "kwame@goldentransport.com.gh",
+      "address": "Plot 44, Heavy Industrial Area, Tema, Ghana",
+      "notes": "Regular logistics fleet partner. Prefers MoMo payments.",
+      "createdAt": "2026-10-15T08:30:00.000Z",
+      "updatedAt": "2026-10-15T08:30:00.000Z"
+    },
+    {
+      "uid": "cust-2",
+      "name": "Akosua Boakye",
+      "company": "Apex Consult Ltd",
+      "phone": "0208987654",
+      "email": "akosua.b@apexconsult.com",
+      "address": "Airport Residential Area, Accra, Ghana",
+      "notes": "Toyota Prado recovery customer.",
+      "createdAt": "2026-10-18T11:15:00.000Z",
+      "updatedAt": "2026-10-18T11:15:00.000Z"
+    },
+    {
+      "uid": "cust-3",
+      "name": "Emmanuel Osei",
+      "company": "Prime Haulage & Mining Supplies",
+      "phone": "0553456789",
+      "email": "e.osei@primemining.gh",
+      "address": "Tarkwa Highway Depot, Western Region, Ghana",
+      "notes": "Excavator and flatbed low-bed equipment transport.",
+      "createdAt": "2026-10-20T14:40:00.000Z",
+      "updatedAt": "2026-10-20T14:40:00.000Z"
+    }
+  ],
+  "invoices": [
+    {
+      "uid": "inv-1",
+      "docNumber": "PFI-202610-0001",
+      "issueDate": "2026-10-22",
+      "validUntil": "2026-11-05",
+      "customerId": "cust-1",
+      "customerName": "Kwame Mensah",
+      "customerCompany": "Golden Transport Logistics Ltd",
+      "customerPhone": "0244123456",
+      "customerEmail": "kwame@goldentransport.com.gh",
+      "customerAddress": "Plot 44, Heavy Industrial Area, Tema, Ghana",
+      "items": [
+        {
+          "id": "item-1",
+          "description": "Heavy Duty 30-Ton Low-Bed Haulage (Tema Port to Spintex Depot)",
+          "quantity": 1,
+          "unitPrice": 4500,
+          "total": 4500
+        },
+        {
+          "id": "item-2",
+          "description": "Accident Scene Winching & Crane Lifting Assistance",
+          "quantity": 1,
+          "unitPrice": 1200,
+          "total": 1200
+        }
+      ],
+      "subtotal": 5700,
+      "discountType": "percentage",
+      "discountValue": 5,
+      "discountAmount": 285,
+      "taxRate": 15,
+      "taxAmount": 812.25,
+      "grandTotal": 6227.25,
+      "amountPaid": 6227.25,
+      "balanceDue": 0,
+      "notes": "Equipment secured and transported with hydraulic locking rig.",
+      "status": "Accepted",
+      "createdAt": "2026-10-22T09:00:00.000Z",
+      "updatedAt": "2026-10-23T15:30:00.000Z"
+    },
+    {
+      "uid": "inv-2",
+      "docNumber": "PFI-202610-0002",
+      "issueDate": "2026-10-24",
+      "validUntil": "2026-11-07",
+      "customerId": "cust-2",
+      "customerName": "Akosua Boakye",
+      "customerCompany": "Apex Consult Ltd",
+      "customerPhone": "0208987654",
+      "customerEmail": "akosua.b@apexconsult.com",
+      "customerAddress": "Airport Residential Area, Accra, Ghana",
+      "items": [
+        {
+          "id": "item-3",
+          "description": "Flatbed Emergency Towing (Airport Residential to Spintex Garage)",
+          "quantity": 1,
+          "unitPrice": 850,
+          "total": 850
+        },
+        {
+          "id": "item-4",
+          "description": "Complete Vehicle Diagnostic Scan & Alternator Inspection",
+          "quantity": 1,
+          "unitPrice": 350,
+          "total": 350
+        }
+      ],
+      "subtotal": 1200,
+      "discountType": "fixed",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "taxRate": 15,
+      "taxAmount": 180,
+      "grandTotal": 1380,
+      "amountPaid": 700,
+      "balanceDue": 680,
+      "notes": "Partial payment received. Balance due upon garage repair completion.",
+      "status": "Issued",
+      "createdAt": "2026-10-24T10:15:00.000Z",
+      "updatedAt": "2026-10-25T12:00:00.000Z"
+    },
+    {
+      "uid": "inv-3",
+      "docNumber": "PFI-202610-0003",
+      "issueDate": "2026-10-26",
+      "validUntil": "2026-11-09",
+      "customerId": "cust-3",
+      "customerName": "Emmanuel Osei",
+      "customerCompany": "Prime Haulage & Mining Supplies",
+      "customerPhone": "0553456789",
+      "customerEmail": "e.osei@primemining.gh",
+      "customerAddress": "Tarkwa Highway Depot, Western Region, Ghana",
+      "items": [
+        {
+          "id": "item-5",
+          "description": "Inter-City Long Distance Towing & Haulage (Accra to Kumasi Suame)",
+          "quantity": 1,
+          "unitPrice": 6800,
+          "total": 6800
+        },
+        {
+          "id": "item-6",
+          "description": "Highway Security Escort & Toll Permitting",
+          "quantity": 1,
+          "unitPrice": 950,
+          "total": 950
+        }
+      ],
+      "subtotal": 7750,
+      "discountType": "percentage",
+      "discountValue": 10,
+      "discountAmount": 775,
+      "taxRate": 15,
+      "taxAmount": 1046.25,
+      "grandTotal": 8021.25,
+      "amountPaid": 0,
+      "balanceDue": 8021.25,
+      "notes": "Draft awaiting final equipment serial confirmation from client.",
+      "status": "Draft",
+      "createdAt": "2026-10-26T16:00:00.000Z",
+      "updatedAt": "2026-10-26T16:00:00.000Z"
+    }
+  ],
+  "receipts": [
+    {
+      "uid": "rec-1",
+      "receiptNumber": "REC-202610-0001",
+      "receiptDate": "2026-10-23",
+      "customerId": "cust-1",
+      "customerName": "Kwame Mensah",
+      "customerPhone": "0244123456",
+      "customerEmail": "kwame@goldentransport.com.gh",
+      "customerAddress": "Plot 44, Heavy Industrial Area, Tema, Ghana",
+      "invoiceId": "inv-1",
+      "invoiceNumber": "PFI-202610-0001",
+      "amountReceived": 6227.25,
+      "paymentMethod": "Bank Transfer",
+      "paymentReference": "ECO-TX-994827104",
+      "invoiceTotal": 6227.25,
+      "remainingBalance": 0,
+      "notes": "Full payment cleared via Ecobank corporate transfer.",
+      "status": "Issued",
+      "createdAt": "2026-10-23T15:30:00.000Z",
+      "updatedAt": "2026-10-23T15:30:00.000Z"
+    },
+    {
+      "uid": "rec-2",
+      "receiptNumber": "REC-202610-0002",
+      "receiptDate": "2026-10-25",
+      "customerId": "cust-2",
+      "customerName": "Akosua Boakye",
+      "customerPhone": "0208987654",
+      "customerEmail": "akosua.b@apexconsult.com",
+      "customerAddress": "Airport Residential Area, Accra, Ghana",
+      "invoiceId": "inv-2",
+      "invoiceNumber": "PFI-202610-0002",
+      "amountReceived": 700,
+      "paymentMethod": "Mobile Money (MoMo)",
+      "paymentReference": "MM-ID-8839201948",
+      "invoiceTotal": 1380,
+      "remainingBalance": 680,
+      "notes": "Initial 50% deposit received via MTN Mobile Money.",
+      "status": "Issued",
+      "createdAt": "2026-10-25T12:00:00.000Z",
+      "updatedAt": "2026-10-25T12:00:00.000Z"
+    }
+  ],
+  "activity_logs": [
+    {
+      "uid": "log-1",
+      "timestamp": "2026-10-26T16:00:00.000Z",
+      "action": "create",
+      "entityType": "invoice",
+      "entityId": "inv-3",
+      "entityTitle": "PFI-202610-0003",
+      "user": "Operations Manager",
+      "details": "Created draft pro forma invoice for Emmanuel Osei (GH\u20b5 8,021.25)"
+    },
+    {
+      "uid": "log-2",
+      "timestamp": "2026-10-25T12:00:00.000Z",
+      "action": "create",
+      "entityType": "receipt",
+      "entityId": "rec-2",
+      "entityTitle": "REC-202610-0002",
+      "user": "Accounts Officer",
+      "details": "Recorded MoMo deposit of GH\u20b5 700.00 for PFI-202610-0002"
+    },
+    {
+      "uid": "log-3",
+      "timestamp": "2026-10-23T15:30:00.000Z",
+      "action": "create",
+      "entityType": "receipt",
+      "entityId": "rec-1",
+      "entityTitle": "REC-202610-0001",
+      "user": "Accounts Officer",
+      "details": "Received full settlement of GH\u20b5 6,227.25 for PFI-202610-0001"
+    }
+  ],
+  "studio_images": [
+    {
+      "uid": "seed-img-1",
+      "name": "Santa Heavy Duty Towing Truck",
+      "filename": "image-1-towing-vehicle.jpg",
+      "width": 1200,
+      "height": 800,
+      "format": "image/jpeg",
+      "size": 245000,
+      "category": "Fleet",
+      "isEdited": false,
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "updatedAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "uid": "seed-img-2",
+      "name": "Excavator Heavy Equipment Haulage",
+      "filename": "image-8-heavy-duty-recovery-vehicle.jpg",
+      "width": 1200,
+      "height": 800,
+      "format": "image/jpeg",
+      "size": 312000,
+      "category": "Haulage",
+      "isEdited": false,
+      "createdAt": "2026-10-21T11:30:00.000Z",
+      "updatedAt": "2026-10-21T11:30:00.000Z"
+    },
+    {
+      "uid": "seed-img-3",
+      "name": "Accident Scene Hydraulic Recovery",
+      "filename": "image-2-suv-kia-sportage-2024.png",
+      "width": 1200,
+      "height": 800,
+      "format": "image/png",
+      "size": 280000,
+      "category": "Towing",
+      "isEdited": false,
+      "createdAt": "2026-10-22T08:15:00.000Z",
+      "updatedAt": "2026-10-22T08:15:00.000Z"
+    },
+    {
+      "uid": "seed-img-4",
+      "name": "Santa Official Company Wordmark Logo",
+      "filename": "santa-logo.png",
+      "width": 600,
+      "height": 200,
+      "format": "image/png",
+      "size": 48000,
+      "category": "Documents",
+      "isEdited": false,
+      "createdAt": "2026-10-23T14:00:00.000Z",
+      "updatedAt": "2026-10-23T14:00:00.000Z"
+    }
+  ]
+}

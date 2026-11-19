@@ -1,0 +1,154 @@
+{
+  "title": "Santa Towing — Service Areas Across All 16 Regions of Ghana",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "sa10001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sa10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sa10003",
+              "elType": "widget",
+              "widgetType": "stwc-page-hero",
+              "settings": {
+                "bg_image": { "url": "__ST_MEDIA_URL__image-8-heavy-duty-recovery-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-8-heavy-duty-recovery-vehicle.jpg__" },
+                "bg_color": "#015557",
+                "overlay_color": "rgba(1, 85, 87, 0.88)",
+                "hero_padding": { "unit": "px", "top": "88", "right": "16", "bottom": "88", "left": "16", "isLinked": false },
+                "badge_icon": "none",
+                "badge_style": "accent",
+                "badge": "All 16 Regions • 261 Dedicated Routes",
+                "title": "Towing & Recovery Service Areas Across Ghana",
+                "subtitle": "Rapid-response emergency flatbed towing and heavy car recovery stationed across Greater Accra districts and nationwide inter-city highway corridors.",
+                "layout_align": "left",
+                "breadcrumbs": [
+                  { "_id": "sabc001", "label": "Home", "link": { "url": "__ST_HOME_URL__/" } },
+                  { "_id": "sabc002", "label": "Towing", "link": { "url": "__ST_HOME_URL__/towing/" } },
+                  { "_id": "sabc003", "label": "Service Areas", "link": { "url": "" } }
+                ],
+                "ctas": [
+                  { "_id": "sacta01", "label": "Call Dispatch: 024 475 3849", "link": { "url": "tel:0244753849" }, "style": "accent" },
+                  { "_id": "sacta02", "label": "WhatsApp Location Pin", "link": { "url": "https://wa.me/233244753849", "is_external": true }, "style": "white" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sa20001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sa20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sa20003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "link-pills",
+                "show_header": "yes",
+                "badge": "Greater Accra Rapid Hubs",
+                "heading": "Featured Local Districts & Major Highways",
+                "subheading": "Click any area below to view dedicated 24/7 dispatch details, coverage notes, and instant pickup actions.",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "64", "right": "0", "bottom": "24", "left": "0", "isLinked": false },
+                "items": [
+                  { "_id": "sapl01", "title": "Accra", "link": { "url": "__ST_HOME_URL__/service-areas/accra/" }, "button_style": "primary", "is_featured": "yes" },
+                  { "_id": "sapl02", "title": "Tema", "link": { "url": "__ST_HOME_URL__/service-areas/tema/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl03", "title": "Spintex", "link": { "url": "__ST_HOME_URL__/service-areas/spintex/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl04", "title": "East Legon", "link": { "url": "__ST_HOME_URL__/service-areas/east-legon/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl05", "title": "Adenta", "link": { "url": "__ST_HOME_URL__/service-areas/adenta/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl06", "title": "Achimota", "link": { "url": "__ST_HOME_URL__/service-areas/achimota/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl07", "title": "Airport Residential", "link": { "url": "__ST_HOME_URL__/service-areas/airport-residential/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl08", "title": "Ashaiman", "link": { "url": "__ST_HOME_URL__/service-areas/ashaiman/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl09", "title": "Kasoa", "link": { "url": "__ST_HOME_URL__/service-areas/kasoa/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl10", "title": "Madina", "link": { "url": "__ST_HOME_URL__/service-areas/madina/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl11", "title": "Osu", "link": { "url": "__ST_HOME_URL__/service-areas/osu/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl12", "title": "Circle", "link": { "url": "__ST_HOME_URL__/service-areas/circle/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl13", "title": "Dansoman", "link": { "url": "__ST_HOME_URL__/service-areas/dansoman/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl14", "title": "Weija-Gbawe", "link": { "url": "__ST_HOME_URL__/service-areas/weija-gbawe/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl15", "title": "Pokuase", "link": { "url": "__ST_HOME_URL__/service-areas/pokuase/" }, "button_style": "default", "is_featured": "no" },
+                  { "_id": "sapl16", "title": "Accra to Kumasi", "link": { "url": "__ST_HOME_URL__/service-areas/accra-to-kumasi/" }, "button_style": "accent", "is_featured": "no" },
+                  { "_id": "sapl17", "title": "Accra to Takoradi", "link": { "url": "__ST_HOME_URL__/service-areas/accra-to-takoradi/" }, "button_style": "accent", "is_featured": "no" },
+                  { "_id": "sapl18", "title": "Accra to Cape Coast", "link": { "url": "__ST_HOME_URL__/service-areas/accra-to-cape-coast/" }, "button_style": "accent", "is_featured": "no" },
+                  { "_id": "sapl19", "title": "Accra to Ho", "link": { "url": "__ST_HOME_URL__/service-areas/accra-to-ho/" }, "button_style": "accent", "is_featured": "no" },
+                  { "_id": "sapl20", "title": "Accra to Tamale", "link": { "url": "__ST_HOME_URL__/service-areas/accra-to-tamale/" }, "button_style": "accent", "is_featured": "no" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sa30001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sa30002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sa30003",
+              "elType": "widget",
+              "widgetType": "stwc-service-area-route",
+              "settings": {
+                "display_mode": "directory",
+                "badge": "Searchable Coverage Map",
+                "heading": "All 16 Ghana Regions & 232 Towns Covered",
+                "description": "Search any city, municipality, or regional town below to connect directly to local emergency dispatch or explore available corridor routes.",
+                "show_search": "yes",
+                "show_quick_links": "yes",
+                "section_bg_color": "#ffffff"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sa40001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sa40002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sa40003",
+              "elType": "widget",
+              "widgetType": "stwc-towing-request-form",
+              "settings": {
+                "show_hero_split": "no",
+                "form_title": "Request Immediate Roadside Dispatch",
+                "form_subtitle": "Select your Ghana region and town for instant WhatsApp dispatch handoff.",
+                "section_bg_color": "#f8fafc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

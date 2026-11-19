@@ -1,0 +1,2185 @@
+{
+  "schema_version": "1.0.0",
+  "stage": "phase-b",
+  "counts": {
+    "st_car": 12,
+    "st_rental": 6,
+    "st_part": 6,
+    "post": 6,
+    "st_faq": 28,
+    "st_gallery": 8,
+    "st_career": 4,
+    "media_assets": 42,
+    "menus": 4
+  },
+  "media_assets": [
+    "avatar-dispatch-director-256.jpg",
+    "avatar-fleet-manager-256.jpg",
+    "avatar-operations-lead-256.jpg",
+    "avatar-safety-specialist-256.jpg",
+    "avatar-support-officer-256.jpg",
+    "construction_haulage_1790967998627.jpg",
+    "haulage-bulk-freight-800.jpg",
+    "haulage-commercial-fleet-800.jpg",
+    "haulage-container-port-1920.jpg",
+    "haulage-container-port-600.jpg",
+    "haulage-container-port-800.jpg",
+    "haulage-heavy-logistics-600.jpg",
+    "haulage-heavy-logistics-800.jpg",
+    "haulage-highway-freight-1200.jpg",
+    "haulage-highway-freight-1920.jpg",
+    "haulage-highway-freight-800.jpg",
+    "haulage-industrial-machinery-800.jpg",
+    "haulage-semi-truck-1920.jpg",
+    "haulage-semi-truck-600.jpg",
+    "haulage-semi-truck-800.jpg",
+    "haulage-shipping-containers-600.jpg",
+    "haulage-shipping-containers-800.jpg",
+    "haulage-warehouse-cargo-800.jpg",
+    "image-1-towing-vehicle.jpg",
+    "image-10-engine-oil-fluids-maintenance.jpg",
+    "image-11-brake-parts-disk-maintenance.jpg",
+    "image-12-tyre-maintenance.jpg",
+    "image-13-filters-maintenance.jpg",
+    "image-14-suspension-parts-maintenance.jpg",
+    "image-15-car-lighting-maintenance.jpg",
+    "image-16-accessories.jpg",
+    "image-2-suv-kia-sportage-2024.png",
+    "image-3-sedan-toyota-corolla.jpg",
+    "image-4-van-hyundai-h1-2022.jpg",
+    "image-5-economy-nissan-almera-2021.jpg",
+    "image-6-luxury-mercedes-benz.jpg",
+    "image-7-pickup-toyota-hilux-2023.jpg",
+    "image-8-heavy-duty-recovery-vehicle.jpg",
+    "image-9-car-battery-maintenance.jpg",
+    "santa-app-mobile-screen.png",
+    "santa-logo.png",
+    "welcome-towing-image.jpg"
+  ],
+  "site_content": {
+    "theme": {
+      "primary": "#015557",
+      "secondary": "#192e2e",
+      "accent": "#d80000",
+      "dark": "#131514",
+      "white": "#ffffff",
+      "black": "#000000"
+    },
+    "global": {
+      "brand": {
+        "name": "Santa Towing & Garage Services Ltd.",
+        "shortName": "Santa Towing",
+        "tagline": "24/7 Emergency Towing, Haulage & Automotive Services in Ghana"
+      },
+      "logo": {
+        "url": "__ST_MEDIA_URL__santa-logo.png__",
+        "alt": "Santa Towing & Garage Services Ltd. Logo"
+      },
+      "links": {
+        "phone": "0244753849",
+        "phoneDisplay": "0244753849",
+        "phoneFormatted": "024 475 3849",
+        "phoneTel": "tel:0244753849",
+        "whatsapp": "https://wa.me/233244753849",
+        "whatsappNumber": "0244753849",
+        "whatsappDisplay": "WhatsApp: 0244753849",
+        "email": "info@santatowing.com",
+        "address": "123 Spintex Road, Accra, Ghana",
+        "hours": "24/7 Towing Service",
+        "coverage": "Nationwide Coverage"
+      },
+      "social": {
+        "facebook": "https://facebook.com/santatowing",
+        "twitter": "https://twitter.com/santatowing",
+        "instagram": "https://instagram.com/santatowing",
+        "linkedin": "https://linkedin.com/company/santatowing"
+      },
+      "images": {
+        "logo": "__ST_MEDIA_URL__santa-logo.png__",
+        "towingVehicle": "__ST_MEDIA_URL__image-1-towing-vehicle.jpg__",
+        "suvKiaSportage": "__ST_MEDIA_URL__image-2-suv-kia-sportage-2024.png__",
+        "sedanCorolla": "__ST_MEDIA_URL__image-3-sedan-toyota-corolla.jpg__",
+        "vanHyundai": "__ST_MEDIA_URL__image-4-van-hyundai-h1-2022.jpg__",
+        "economyNissan": "__ST_MEDIA_URL__image-5-economy-nissan-almera-2021.jpg__",
+        "luxuryMercedes": "__ST_MEDIA_URL__image-6-luxury-mercedes-benz.jpg__",
+        "pickupHilux": "__ST_MEDIA_URL__image-7-pickup-toyota-hilux-2023.jpg__",
+        "heavyRecovery": "__ST_MEDIA_URL__image-8-heavy-duty-recovery-vehicle.jpg__",
+        "batteryMaintenance": "__ST_MEDIA_URL__image-9-car-battery-maintenance.jpg__",
+        "engineFluids": "__ST_MEDIA_URL__image-10-engine-oil-fluids-maintenance.jpg__",
+        "brakeParts": "__ST_MEDIA_URL__image-11-brake-parts-disk-maintenance.jpg__",
+        "tyreMaintenance": "__ST_MEDIA_URL__image-12-tyre-maintenance.jpg__",
+        "filtersMaintenance": "__ST_MEDIA_URL__image-13-filters-maintenance.jpg__",
+        "suspensionParts": "__ST_MEDIA_URL__image-14-suspension-parts-maintenance.jpg__",
+        "carLighting": "__ST_MEDIA_URL__image-15-car-lighting-maintenance.jpg__",
+        "autoAccessories": "__ST_MEDIA_URL__image-16-accessories.jpg__",
+        "welcomeTowing": "__ST_MEDIA_URL__welcome-towing-image.jpg__",
+        "mobileScreen": "__ST_MEDIA_URL__santa-app-mobile-screen.png__",
+        "constructionHaulage": "__ST_MEDIA_URL__construction_haulage_1790967998627.jpg__"
+      },
+      "nav": {
+        "home": "Home",
+        "towingDropdown": "Towing Services",
+        "emergencyTowing": "Emergency Towing",
+        "serviceAreas": "Service Areas Directory",
+        "haulage": "Haulage Services",
+        "carSales": "Car Sales",
+        "carRentals": "Car Rentals",
+        "garageDropdown": "Garage Services",
+        "repairs": "Auto Repairs & Diagnostics",
+        "bodyWorks": "Auto Body Works & Spraying",
+        "parts": "Genuine Auto Parts",
+        "fleet": "Corporate Fleet Services",
+        "allServices": "All Services Overview",
+        "companyDropdown": "Company",
+        "gallery": "Gallery",
+        "blog": "Blog & Advice",
+        "faqs": "FAQs",
+        "sitemap": "Website Sitemap",
+        "contact": "Contact",
+        "search": "Search",
+        "callNow": "Call Now: 0244753849"
+      },
+      "footer": {
+        "about": "Ghana's premier automotive partner for 24/7 rapid emergency towing, heavy car recovery, certified garage repairs, car sales, and rental fleet solutions.",
+        "quickLinksTitle": "Quick Links",
+        "servicesTitle": "Our Services",
+        "legalTitle": "Legal and Policies",
+        "stayConnectedTitle": "Stay Connected",
+        "newsletterText": "Subscribe for roadside safety tips, car maintenance reminders, and exclusive service discounts.",
+        "newsletterPlaceholder": "Enter your email",
+        "newsletterButton": "Subscribe Now",
+        "newsletterSuccess": "Thank you! You have successfully subscribed to Santa Towing updates.",
+        "copyright": "Santa Towing & Garage Services Ltd. All rights reserved."
+      },
+      "floatingButtons": {
+        "towTooltip": "Request Emergency Tow",
+        "whatsappTooltip": "Chat on WhatsApp"
+      }
+    },
+    "seo": {
+      "siteUrl": "https://santatowingservices.com",
+      "home": {
+        "title": "Santa Towing | 24/7 Towing, Haulage, Repairs & Rentals in Ghana",
+        "description": "Expert 24/7 emergency towing, nationwide haulage & heavy machinery transport, professional auto repairs, car sales, and premium car rentals in Ghana."
+      },
+      "services": {
+        "title": "Comprehensive Automotive Services | Santa Towing",
+        "description": "Explore our complete range of professional automotive services including 24/7 towing, mechanical repairs, body works, car sales, and rentals."
+      },
+      "towing": {
+        "title": "24/7 Emergency Towing & Car Recovery in Ghana | Santa Towing",
+        "description": "Fast, reliable 24/7 emergency towing, flatbed recovery, and roadside assistance across Accra, Tema, Kumasi, and nationwide in Ghana."
+      },
+      "haulage": {
+        "title": "Haulage & Heavy Equipment Transport Services in Ghana | Santa Towing",
+        "description": "Professional heavy haulage, flatbed freight, lowbed machinery transport, and container logistics across Ghana. Safe, insured, and reliable cargo transport."
+      },
+      "rental": {
+        "title": "Premium Car Rental Services in Ghana | Santa Towing",
+        "description": "Rent reliable, fully insured sedans, SUVs, pickups, and luxury vehicles in Ghana. Flexible daily, weekly, and corporate monthly rates."
+      },
+      "sales": {
+        "title": "Buy Certified New & Used Cars in Ghana | Santa Towing",
+        "description": "Browse our inspected inventory of brand new, foreign used, and Ghana used cars for sale with flexible financing and warranty options."
+      },
+      "repairs": {
+        "title": "Expert Auto Repairs & Computer Diagnostics | Santa Towing",
+        "description": "Professional mechanical repairs, computer diagnostics, engine overhauls, brake servicing, and routine maintenance by certified technicians."
+      },
+      "bodyWorks": {
+        "title": "Auto Body Works, Collision Repair & Spray Painting | Santa Towing",
+        "description": "Restore your vehicle to showroom condition with our professional dent repair, chassis straightening, and oven-baked spray painting services."
+      },
+      "parts": {
+        "title": "Genuine Auto Parts, Batteries & Accessories | Santa Towing",
+        "description": "Shop original OEM and certified aftermarket car parts, heavy-duty batteries, tires, lubricants, and brake pads in Ghana."
+      },
+      "fleet": {
+        "title": "Commercial Fleet Maintenance & Management | Santa Towing",
+        "description": "Dedicated B2B fleet maintenance, priority 24/7 towing, and cost-effective servicing solutions for corporate vehicles in Ghana."
+      },
+      "blog": {
+        "title": "Automotive Blog & Resources | Santa Towing",
+        "description": "Read the latest automotive guides, towing tips, safety advice, and industry updates from the experts at Santa Towing."
+      },
+      "contact": {
+        "title": "Contact Us | 24/7 Auto Support & Towing | Santa Towing",
+        "description": "Get in touch with Santa Towing for inquiries, service bookings, or emergency 24/7 towing assistance across Ghana."
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions | Santa Towing",
+        "description": "Find answers to common questions about our emergency towing, auto repair, car rental, and car sales services."
+      },
+      "gallery": {
+        "title": "Our Work Gallery | Towing & Auto Repairs | Santa Towing",
+        "description": "View our gallery showcasing successful car recoveries, auto body restorations, repair works, and our premium rental fleet."
+      },
+      "careers": {
+        "title": "Careers | Join the Santa Towing Team",
+        "description": "Explore exciting career opportunities for mechanics, tow truck operators, and administrative staff at Santa Towing."
+      },
+      "serviceAreas": {
+        "title": "Nationwide Towing Service Areas in Ghana | Santa Towing",
+        "description": "Explore our comprehensive towing and roadside assistance coverage across all 16 regions, major cities, towns, and highways in Ghana."
+      }
+    },
+    "home": {
+      "hero": {
+        "slides": [
+          {
+            "id": 1,
+            "headline": "24/7 Emergency Towing Services",
+            "subheadline": "Fast response, safe car transport, affordability, and reliability. Call us anytime, anywhere.",
+            "buttons": [
+              {
+                "label": "Call Now: 0244753849",
+                "primary": true,
+                "href": "tel:0244753849"
+              },
+              {
+                "label": "WhatsApp Us",
+                "primary": false,
+                "href": "https://wa.me/233244753849"
+              }
+            ],
+            "image": "__ST_MEDIA_URL__image-8-heavy-duty-recovery-vehicle.jpg__"
+          },
+          {
+            "id": 2,
+            "headline": "Accident Recovery & Roadside Assistance",
+            "subheadline": "Professional winch-outs, flat tire changes, jump starts, and safe off-road recovery.",
+            "buttons": [
+              {
+                "label": "Request Assistance",
+                "primary": true,
+                "href": "tel:0244753849"
+              }
+            ],
+            "image": "__ST_MEDIA_URL__image-9-car-battery-maintenance.jpg__"
+          },
+          {
+            "id": 3,
+            "headline": "Flatbed Towing & Car Transport",
+            "subheadline": "Secure and damage-free transport for luxury cars, SUVs, and specialized cars.",
+            "buttons": [
+              {
+                "label": "Call for Transport",
+                "primary": true,
+                "href": "/contact"
+              }
+            ],
+            "image": "__ST_MEDIA_URL__image-10-engine-oil-fluids-maintenance.jpg__"
+          },
+          {
+            "id": 4,
+            "headline": "Premium Car Rentals",
+            "subheadline": "Choose from our wide range of well-maintained cars for business or leisure.",
+            "buttons": [
+              {
+                "label": "Browse Cars",
+                "primary": true,
+                "href": "/rental"
+              }
+            ],
+            "image": "__ST_MEDIA_URL__image-11-brake-parts-disk-maintenance.jpg__"
+          },
+          {
+            "id": 5,
+            "headline": "Professional Auto Repairs",
+            "subheadline": "Expert diagnostics and repairs by certified mechanics you can trust.",
+            "buttons": [
+              {
+                "label": "Call for Repair",
+                "primary": true,
+                "href": "tel:0244753849"
+              },
+              {
+                "label": "WhatsApp for Repair",
+                "primary": false,
+                "href": "https://wa.me/233244753849"
+              }
+            ],
+            "image": "__ST_MEDIA_URL__image-12-tyre-maintenance.jpg__"
+          }
+        ]
+      },
+      "quickActions": {
+        "items": [
+          {
+            "id": 1,
+            "title": "Request Towing",
+            "description": "24/7 emergency response",
+            "path": "/towing"
+          },
+          {
+            "id": 2,
+            "title": "Rent a Car",
+            "description": "Flexible daily & weekly rates",
+            "path": "/rental"
+          },
+          {
+            "id": 3,
+            "title": "Buy a Car",
+            "description": "New & premium used cars",
+            "path": "/sales"
+          },
+          {
+            "id": 4,
+            "title": "Call for Repairs",
+            "description": "Certified expert mechanics",
+            "path": "/repairs"
+          },
+          {
+            "id": 6,
+            "title": "Shop Auto Parts",
+            "description": "Genuine replacement parts",
+            "path": "/parts"
+          }
+        ]
+      },
+      "stats": [
+        {
+          "label": "Years of Experience",
+          "value": 15,
+          "suffix": "+"
+        },
+        {
+          "label": "Cars Repaired",
+          "value": 25000,
+          "suffix": "+"
+        },
+        {
+          "label": "Happy Customers",
+          "value": 10000,
+          "suffix": "+"
+        },
+        {
+          "label": "Emergency Calls Completed",
+          "value": 5000,
+          "suffix": "+"
+        }
+      ],
+      "about": {
+        "badge": "Welcome to Santa Towing",
+        "heading": "Leading Towing & Premium Automotive Care",
+        "p1": "With over 15 years of industry excellence, Santa Towing & Garage Services is your premier partner for 24/7 emergency towing, heavy car recovery, certified mechanical repairs, and premium car rentals.",
+        "p2": "Whether you are stranded on the motorway, looking to purchase a reliable vehicle, rent a car for your business trip, or need expert mechanical repairs, we are committed to delivering safety, professionalism, and affordability.",
+        "discoverBtn": "Discover Our Services",
+        "callBtn": "Call Hotline",
+        "badgeTitle": "Emergency Towing",
+        "badgeSubtitle": "Rapid Dispatch Team",
+        "badgeDescription": "Nationwide roadside assistance with guaranteed fast arrival."
+      },
+      "servicesSection": {
+        "heading": "Complete Towing & Automotive Solutions",
+        "description": "From emergency towing to scheduled maintenance, our specialized team delivers reliable, high-standard automotive support across Ghana.",
+        "viewAllBtn": "View All Automotive Services"
+      },
+      "haulage": {
+        "badge": "Heavy Haulage Solutions",
+        "heading": "Nationwide Heavy Haulage & Industrial Transport",
+        "description": "Comprehensive freight solutions, heavy machinery hauling, container transport, and oversized cargo logistics across Ghana and West Africa.",
+        "ctaCall": "Call for Haulage: 0244753849",
+        "ctaWhatsApp": "WhatsApp Haulage Quote"
+      },
+      "featuredCars": {
+        "heading": "Featured Cars for Sale",
+        "description": "Explore our vetted inventory of premium brand-new and certified pre-owned cars with complete mechanical inspection reports.",
+        "viewAllBtn": "View Full Car Inventory"
+      },
+      "rentalFleet": {
+        "heading": "Premium Car Rental Fleet",
+        "description": "Clean, fully insured cars available for daily, weekly, or corporate monthly rentals with airport pickup options."
+      },
+      "autoParts": {
+        "heading": "Genuine Auto Parts & Accessories",
+        "description": "We stock thousands of high-quality OEM and verified aftermarket parts, batteries, and accessories to keep your car running at peak performance.",
+        "browseBtn": "Browse Full Catalog"
+      },
+      "whyChooseUs": {
+        "badge": "Why Santa Towing",
+        "heading": "Why Choose Santa Towing & Garage?",
+        "description": "We don't just fix cars; we build lasting relationships based on trust, swift emergency response, quality workmanship, and transparent pricing.",
+        "bannerHeading": "Need Immediate Roadside Assistance or Repairs?",
+        "bannerSubtext": "Our 24/7 emergency dispatch and expert mechanical teams are standing by right now.",
+        "requestOnlineBtn": "Request Tow Online"
+      },
+      "blogSection": {
+        "heading": "Latest News & Maintenance Insights",
+        "viewAllBtn": "View All Articles"
+      },
+      "faqSection": {
+        "heading": "Frequently Asked Questions",
+        "description": "Quick answers regarding our 24/7 towing response times, repair warranties, car rentals, and pricing."
+      },
+      "bottomSections": {
+        "appBadge": "Mobile Dispatch App",
+        "appHeading": "Instant Roadside Rescue in the Palm of Your Hand",
+        "appDescription": "Experience the next generation of roadside assistance. Request emergency towing, track your flatbed in real-time, and get back on the road safely.",
+        "ctaBannerHeading": "Stranded On The Road? We Are Ready To Move.",
+        "ctaBannerDescription": "Our dispatch centers in Accra, Tema, Kumasi, and Takoradi are operational 24/7.",
+        "callEmergency": "Call 0244753849",
+        "chatWhatsApp": "WhatsApp 24/7"
+      }
+    },
+    "towing": {
+      "badge": "24/7 Emergency Assistance",
+      "title": "24/7 Emergency Towing & Car Recovery",
+      "description": "Fast response, modern flatbed and wheel-lift towing, heavy equipment transport, and nationwide roadside assistance across Ghana.",
+      "hotline": "0244753849",
+      "averageTime": "15-30 Min Arrival Time",
+      "calculatorTitle": "Instant Towing Rate Calculator",
+      "quoteHeading": "Need Immediate Towing Assistance?",
+      "quoteSubheading": "Our dispatch team will connect you with the nearest tow truck instantly."
+    },
+    "haulage": {
+      "badge": "Heavy Cargo & Logistics",
+      "title": "Heavy Haulage & Equipment Transport",
+      "description": "Specialized heavy transport for construction machinery, industrial equipment, containers, and oversized loads nationwide in Ghana.",
+      "callCta": "Call for Haulage: 0244753849",
+      "whatsappCta": "WhatsApp for Haulage"
+    },
+    "services": {
+      "badge": "Complete Automotive Solutions",
+      "title": "Our Professional Automotive Services",
+      "description": "From 24/7 emergency roadside towing to major mechanical repairs, spray painting, car rentals, and parts supply in Ghana.",
+      "callNow": "Call Dispatch: 0244753849",
+      "whatsappNow": "WhatsApp Us"
+    },
+    "sales": {
+      "badge": "Verified Vehicles",
+      "title": "Quality Cars For Sale",
+      "description": "Explore certified new, foreign-used, and inspected Ghana-used cars with flexible financing and warranty options."
+    },
+    "rental": {
+      "badge": "Flexible Car Rentals",
+      "title": "Car Rental Services in Ghana",
+      "description": "Premium self-drive and chauffeur-driven rental cars for business, events, airport pickups, and long-term lease."
+    },
+    "repairs": {
+      "badge": "Certified Mechanics",
+      "title": "Professional Auto Repairs & Diagnostics",
+      "description": "Advanced computer diagnostics, engine rebuilds, transmission repairs, suspension overhaul, and routine maintenance."
+    },
+    "bodyWorks": {
+      "badge": "Automotive Aesthetics",
+      "title": "Body Works, Dent Repair & Spray Painting",
+      "description": "Factory-grade spray booth painting, computerized frame alignment, collision repair, and scratch restoration."
+    },
+    "parts": {
+      "badge": "Genuine Auto Parts",
+      "title": "Original Auto Parts & Batteries",
+      "description": "OEM replacement parts, premium car batteries, lubricants, brake components, and vehicle accessories with warranty."
+    },
+    "fleet": {
+      "badge": "Corporate Solutions",
+      "title": "Commercial Fleet Maintenance & Management",
+      "description": "Scheduled maintenance contracts, priority 24/7 emergency towing, and full fleet optimization for businesses in Ghana.",
+      "heroImage": "__ST_MEDIA_URL__image-7-pickup-toyota-hilux-2023.jpg__"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "title": "We're Here to Help - Anytime, Anywhere",
+      "description": "Reach out for towing, repairs, rentals, car sales, or general enquiries. Our dedicated team is ready to assist you.",
+      "phone": "0244753849",
+      "address": "123 Automotive Avenue, Spintex Road, Accra, Ghana",
+      "hours": "24 Hours / 7 Days a Week",
+      "heroImage": "__ST_MEDIA_URL__image-2-suv-kia-sportage-2024.png__"
+    },
+    "blog": {
+      "badge": "Insights & Guides",
+      "title": "Blog & Resources",
+      "description": "Expert advice, maintenance tips, safety guidelines, and company news to keep you moving safely on the road.",
+      "heroImage": "__ST_MEDIA_URL__image-15-car-lighting-maintenance.jpg__"
+    },
+    "faqs": {
+      "badge": "Help & Support",
+      "title": "Frequently Asked Questions",
+      "description": "Find quick answers about our towing, rental, repair, sales, and parts services.",
+      "stillHaveQuestionsTitle": "Still Have Questions?",
+      "stillHaveQuestionsText": "If you couldn't find the answer you were looking for, our customer support team is ready to help you out."
+    },
+    "gallery": {
+      "badge": "Our Work in Action",
+      "title": "See Our Work in Action",
+      "description": "A visual look at our towing fleet, workshop facilities, car inventory, and completed repairs. Quality you can see.",
+      "heroImage": "__ST_MEDIA_URL__image-8-heavy-duty-recovery-vehicle.jpg__",
+      "beforeImage": "__ST_MEDIA_URL__image-10-engine-oil-fluids-maintenance.jpg__",
+      "afterImage": "__ST_MEDIA_URL__image-9-car-battery-maintenance.jpg__"
+    },
+    "careers": {
+      "badge": "Careers",
+      "title": "Build Your Career With Us",
+      "description": "Join a team driven by excellence, innovation, and a passion for automotive service. We're looking for dedicated professionals to grow with us.",
+      "heroImage": "__ST_MEDIA_URL__image-13-filters-maintenance.jpg__"
+    },
+    "policies": {
+      "common": {
+        "backToHome": "Back to Home",
+        "phoneLabel": "Phone",
+        "whatsappLabel": "WhatsApp Support",
+        "whatsappCta": "Chat on WhatsApp"
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "subtitle": "How we collect, use, and protect your personal information when you use our services."
+      },
+      "terms": {
+        "title": "Terms & Conditions",
+        "subtitle": "Please read these terms carefully before using our website or booking our automotive services."
+      },
+      "towingTerms": {
+        "title": "Towing Service Terms & Conditions",
+        "subtitle": "Please read these terms carefully before requesting or using our towing and recovery services."
+      },
+      "cancellation": {
+        "title": "Cancellation & Refund Policy",
+        "subtitle": "Please review our policies regarding service cancellations and refunds."
+      },
+      "pricing": {
+        "title": "Pricing & Payment Policy",
+        "subtitle": "Please review our policies regarding service pricing and payments."
+      },
+      "damageLiability": {
+        "title": "Car Damage & Liability Policy",
+        "subtitle": "Please review our policies regarding car condition, care, and liability during towing."
+      },
+      "emergencyService": {
+        "title": "Emergency Service Policy",
+        "subtitle": "Please review our policies regarding emergency towing, roadside recovery, and urgent dispatch."
+      },
+      "serviceAreaPolicy": {
+        "title": "Service Area & Availability Policy",
+        "subtitle": "Please review our policies regarding geographic coverage, operating hours, and service availability."
+      },
+      "disclaimer": {
+        "title": "Website & Service Disclaimer",
+        "subtitle": "Important legal notices regarding the information and calculators on our website."
+      },
+      "cookie": {
+        "title": "Cookie Policy",
+        "subtitle": "Information about how our website uses cookies and similar technologies."
+      },
+      "complaints": {
+        "title": "Customer Complaints & Dispute Resolution Policy",
+        "subtitle": "How to submit feedback, report a service issue, or resolve a billing dispute."
+      },
+      "accessibility": {
+        "title": "Accessibility Statement",
+        "subtitle": "Our commitment to ensuring digital accessibility for all users."
+      }
+    },
+    "serviceAreas": {
+      "title": "Our Service Areas Across Ghana",
+      "description": "Fast, dependable 24/7 emergency towing, vehicle recovery, and roadside assistance across all 16 regions, major cities, and highway corridors in Ghana.",
+      "template": {
+        "breadcrumbParent": "Towing Services",
+        "breadcrumbIndex": "Service Areas",
+        "ctaHeading": "Need Immediate Assistance?",
+        "ctaSubtext": "Call or WhatsApp us now to book your tow.",
+        "callButton": "Call Now",
+        "whatsappButton": "WhatsApp Us",
+        "prevAreaLabel": "Previous Area",
+        "nextAreaLabel": "Next Area"
+      }
+    }
+  },
+  "menus": {
+    "primary": {
+      "name": "Santa Primary Navigation",
+      "items": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Towing Services",
+          "path": "/towing/",
+          "children": [
+            {
+              "title": "Emergency Towing",
+              "path": "/towing/"
+            },
+            {
+              "title": "Service Areas Directory",
+              "path": "/service-areas/"
+            }
+          ]
+        },
+        {
+          "title": "Haulage Services",
+          "path": "/haulage/"
+        },
+        {
+          "title": "Car Sales",
+          "path": "/sales/"
+        },
+        {
+          "title": "Car Rentals",
+          "path": "/rental/"
+        },
+        {
+          "title": "Garage Services",
+          "path": "/services/",
+          "children": [
+            {
+              "title": "Auto Repairs & Diagnostics",
+              "path": "/repairs/"
+            },
+            {
+              "title": "Auto Body Works & Spraying",
+              "path": "/body-works/"
+            },
+            {
+              "title": "Genuine Auto Parts",
+              "path": "/parts/"
+            },
+            {
+              "title": "Corporate Fleet Services",
+              "path": "/fleet/"
+            },
+            {
+              "title": "All Services Overview",
+              "path": "/services/"
+            }
+          ]
+        },
+        {
+          "title": "Company",
+          "path": "/gallery/",
+          "children": [
+            {
+              "title": "Gallery",
+              "path": "/gallery/"
+            },
+            {
+              "title": "Blog & Advice",
+              "path": "/blog/"
+            },
+            {
+              "title": "FAQs",
+              "path": "/faqs/"
+            },
+            {
+              "title": "Website Sitemap",
+              "path": "/sitemap/"
+            }
+          ]
+        },
+        {
+          "title": "Contact",
+          "path": "/contact/"
+        }
+      ]
+    },
+    "footer_quick": {
+      "name": "Footer Quick Links",
+      "items": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Haulage Services",
+          "path": "/haulage/"
+        },
+        {
+          "title": "24/7 Emergency Towing",
+          "path": "/towing/"
+        },
+        {
+          "title": "Service Areas Directory",
+          "path": "/service-areas/"
+        },
+        {
+          "title": "Auto Repair & Maintenance",
+          "path": "/repairs/"
+        },
+        {
+          "title": "Car Rentals",
+          "path": "/rental/"
+        },
+        {
+          "title": "Car Sales",
+          "path": "/sales/"
+        },
+        {
+          "title": "Auto Parts & Batteries",
+          "path": "/parts/"
+        },
+        {
+          "title": "Blog & Resources",
+          "path": "/blog/"
+        },
+        {
+          "title": "Contact & Dispatch",
+          "path": "/contact/"
+        },
+        {
+          "title": "Sitemap",
+          "path": "/sitemap/"
+        }
+      ]
+    },
+    "footer_services": {
+      "name": "Footer Services Links",
+      "items": [
+        {
+          "title": "Haulage & Heavy Transport",
+          "path": "/haulage/"
+        },
+        {
+          "title": "Tema Harbour Haulage",
+          "path": "/haulage/"
+        },
+        {
+          "title": "Heavy Machinery Transport",
+          "path": "/haulage/"
+        },
+        {
+          "title": "Emergency Roadside Towing",
+          "path": "/towing/"
+        },
+        {
+          "title": "Heavy Duty Recovery",
+          "path": "/towing/"
+        },
+        {
+          "title": "Fleet Maintenance",
+          "path": "/fleet/"
+        },
+        {
+          "title": "Engine & Gearbox Repairs",
+          "path": "/repairs/"
+        },
+        {
+          "title": "Brake & Suspension Service",
+          "path": "/repairs/"
+        },
+        {
+          "title": "Corporate Car Rentals",
+          "path": "/rental/"
+        },
+        {
+          "title": "OEM Battery Replacement",
+          "path": "/parts/"
+        }
+      ]
+    },
+    "footer_legal": {
+      "name": "Footer Legal & Policy Links",
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "path": "/privacy-policy/"
+        },
+        {
+          "title": "Terms & Conditions",
+          "path": "/terms-conditions/"
+        },
+        {
+          "title": "Towing Service Terms",
+          "path": "/towing-service-terms/"
+        },
+        {
+          "title": "Cancellation & Refund Policy",
+          "path": "/cancellation-refund-policy/"
+        },
+        {
+          "title": "Pricing & Payment Policy",
+          "path": "/pricing-payment-policy/"
+        },
+        {
+          "title": "Disclaimer",
+          "path": "/disclaimer/"
+        },
+        {
+          "title": "Cookie Policy",
+          "path": "/cookie-policy/"
+        },
+        {
+          "title": "Service Area Policy",
+          "path": "/service-area-policy/"
+        },
+        {
+          "title": "Emergency Service Policy",
+          "path": "/emergency-service-policy/"
+        },
+        {
+          "title": "Complaints Policy",
+          "path": "/complaints-policy/"
+        },
+        {
+          "title": "Car Damage & Liability Policy",
+          "path": "/car-damage-liability-policy/"
+        },
+        {
+          "title": "Accessibility Statement",
+          "path": "/accessibility-statement/"
+        }
+      ]
+    }
+  },
+  "st_car": [
+    {
+      "legacy_id": 1,
+      "slug": "2024-luxury-sedan",
+      "title": "2024 Luxury Sedan",
+      "car_type": "New",
+      "price": "GH₵ 540,000",
+      "year": "2024",
+      "fuel": "Hybrid",
+      "transmission": "Automatic",
+      "mileage": "0 km",
+      "status": "Available",
+      "featured": "yes",
+      "menu_order": 1,
+      "image": "image-3-sedan-toyota-corolla.jpg",
+      "gallery": [
+        "image-3-sedan-toyota-corolla.jpg",
+        "image-6-luxury-mercedes-benz.jpg",
+        "image-10-engine-oil-fluids-maintenance.jpg"
+      ],
+      "description": "Pristine 2024 luxury hybrid sedan offering outstanding fuel efficiency, refined executive leather comfort, and intelligent driver assist technologies tuned for Ghana roads.",
+      "specs": {
+        "engine": [
+          {
+            "label": "Engine Capacity",
+            "value": "2.0L Hybrid 4-Cylinder"
+          },
+          {
+            "label": "Horsepower",
+            "value": "208 hp @ 5,700 rpm"
+          },
+          {
+            "label": "Fuel System",
+            "value": "Direct Multi-Point Injection"
+          }
+        ],
+        "performance": [
+          {
+            "label": "Acceleration (0-100 km/h)",
+            "value": "7.2 seconds"
+          },
+          {
+            "label": "Transmission",
+            "value": "Electronic Continuously Variable (e-CVT)"
+          },
+          {
+            "label": "Drivetrain",
+            "value": "Front-Wheel Drive (FWD)"
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Seating Capacity",
+            "value": "5 Passengers"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "50 Litres"
+          }
+        ],
+        "features": [
+          "Apple CarPlay & Android Auto",
+          "Adaptive Radar Cruise Control",
+          "Wireless Phone Charging Pad",
+          "Dual-Zone Climate Control"
+        ]
+      },
+      "seo_title": "2024 Luxury Sedan for Sale | Santa Towing Ghana",
+      "seo_description": "Buy brand new 2024 Luxury Sedan in Ghana. Price: GH₵ 540,000. Verified 150-point inspection and warranty at Santa Towing."
+    },
+    {
+      "legacy_id": 2,
+      "slug": "2024-premium-suv",
+      "title": "2024 Premium SUV",
+      "car_type": "New",
+      "price": "GH₵ 780,000",
+      "year": "2024",
+      "fuel": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "25 km",
+      "status": "Available",
+      "featured": "yes",
+      "menu_order": 2,
+      "image": "image-2-suv-kia-sportage-2024.png",
+      "gallery": [
+        "image-2-suv-kia-sportage-2024.png",
+        "image-3-sedan-toyota-corolla.jpg"
+      ],
+      "description": "Versatile, high-ground-clearance compact luxury SUV featuring panoramic moonroof, AWD all-weather traction, and premium digital cockpit.",
+      "specs": {
+        "engine": [
+          {
+            "label": "Engine Capacity",
+            "value": "2.5L 4-Cylinder Turbo"
+          },
+          {
+            "label": "Horsepower",
+            "value": "187 hp @ 6,100 rpm"
+          }
+        ],
+        "performance": [
+          {
+            "label": "Drivetrain",
+            "value": "All-Wheel Drive (AWD)"
+          },
+          {
+            "label": "Transmission",
+            "value": "8-Speed Automatic"
+          }
+        ],
+        "features": [
+          "Panoramic Power Sunroof",
+          "Heated Front Seats",
+          "Surround 360-degree Parking Cameras"
+        ]
+      },
+      "seo_title": "2024 Premium SUV for Sale in Accra | Santa Towing",
+      "seo_description": "Brand new 2024 Premium SUV available now with full GRA port customs clearance and 3-month mechanical guarantee."
+    },
+    {
+      "legacy_id": 3,
+      "slug": "2024-executive-pickup",
+      "title": "2024 Executive Pickup",
+      "car_type": "New",
+      "price": "GH₵ 620,000",
+      "year": "2024",
+      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "mileage": "15 km",
+      "status": "Available",
+      "featured": "yes",
+      "menu_order": 3,
+      "image": "image-7-pickup-toyota-hilux-2023.jpg",
+      "gallery": [
+        "image-7-pickup-toyota-hilux-2023.jpg"
+      ],
+      "description": "Heavy duty, go-anywhere dual-cab 4x4 pickup engineered for tough construction sites, mining routes, and executive comfort.",
+      "specs": {
+        "engine": [
+          {
+            "label": "Engine Capacity",
+            "value": "2.8L Turbo Diesel"
+          }
+        ],
+        "performance": [
+          {
+            "label": "Drivetrain",
+            "value": "Selectable 4WD with Rear Diff Lock"
+          }
+        ],
+        "features": [
+          "Heavy Duty Tow Hook Package",
+          "Leather Seats",
+          "Touchscreen Navigation"
+        ]
+      },
+      "seo_title": "2024 Executive 4x4 Pickup for Sale | Santa Towing",
+      "seo_description": "Brand new 2024 4x4 turbo diesel pickup truck in Ghana. Heavy duty reliability guaranteed."
+    },
+    {
+      "legacy_id": 4,
+      "slug": "2024-passenger-van",
+      "title": "2024 Passenger Van",
+      "car_type": "New",
+      "price": "GH₵ 690,000",
+      "year": "2024",
+      "fuel": "Diesel",
+      "transmission": "Manual",
+      "mileage": "40 km",
+      "status": "Available",
+      "featured": "yes",
+      "menu_order": 4,
+      "image": "image-4-van-hyundai-h1-2022.jpg",
+      "gallery": [
+        "image-4-van-hyundai-h1-2022.jpg"
+      ],
+      "description": "Spacious 12-passenger transport van ideal for corporate shuttles, tour operators, and airport transit operations.",
+      "specs": {},
+      "seo_title": "2024 12-Seater Passenger Van for Sale | Santa Towing",
+      "seo_description": "Brand new 12-seater commercial passenger van with cold dual A/C and high-roof cabin."
+    },
+    {
+      "legacy_id": 5,
+      "slug": "2020-midsize-sedan",
+      "title": "2020 Midsize Sedan",
+      "car_type": "Foreign Used",
+      "price": "GH₵ 264,000",
+      "year": "2020",
+      "fuel": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "72,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 5,
+      "image": "image-3-sedan-toyota-corolla.jpg",
+      "gallery": [
+        "image-3-sedan-toyota-corolla.jpg"
+      ],
+      "description": "Freshly imported foreign-used sedan in mint condition. Low mileage, zero accident history, and ice-cold air conditioning.",
+      "specs": {},
+      "seo_title": "2020 Midsize Sedan Foreign Used | Santa Towing",
+      "seo_description": "Clean foreign used 2020 Sedan. Inspected and registered at Tema Port with genuine documentation."
+    },
+    {
+      "legacy_id": 6,
+      "slug": "2019-luxury-suv",
+      "title": "2019 Luxury SUV",
+      "car_type": "Foreign Used",
+      "price": "GH₵ 450,000",
+      "year": "2019",
+      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "mileage": "65,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 6,
+      "image": "image-2-suv-kia-sportage-2024.png",
+      "gallery": [
+        "image-2-suv-kia-sportage-2024.png"
+      ],
+      "description": "Executive family SUV with full leather interior, premium sound system, and verified service logbook.",
+      "specs": {},
+      "seo_title": "2019 Luxury SUV Foreign Used Ghana | Santa Towing",
+      "seo_description": "Foreign used luxury SUV in Accra. GH₵ 450,000 with flexible bank financing available."
+    },
+    {
+      "legacy_id": 7,
+      "slug": "2021-premium-hatchback",
+      "title": "2021 Premium Hatchback",
+      "car_type": "Foreign Used",
+      "price": "GH₵ 210,000",
+      "year": "2021",
+      "fuel": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "48,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 7,
+      "image": "image-5-economy-nissan-almera-2021.jpg",
+      "gallery": [
+        "image-5-economy-nissan-almera-2021.jpg"
+      ],
+      "description": "Economical city commuter hatchback with ultra-low fuel consumption, modern infotainment, and easy parking footprint.",
+      "specs": {},
+      "seo_title": "2021 Premium Hatchback Foreign Used | Santa Towing",
+      "seo_description": "Compact and fuel-efficient foreign used hatchback. Ideal for daily commuting in Accra and Kumasi."
+    },
+    {
+      "legacy_id": 8,
+      "slug": "2018-heavy-duty-pickup",
+      "title": "2018 Heavy Duty Pickup",
+      "car_type": "Foreign Used",
+      "price": "GH₵ 340,000",
+      "year": "2018",
+      "fuel": "Diesel",
+      "transmission": "Manual",
+      "mileage": "92,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 8,
+      "image": "image-7-pickup-toyota-hilux-2023.jpg",
+      "gallery": [
+        "image-7-pickup-toyota-hilux-2023.jpg"
+      ],
+      "description": "Rugged 4WD workhorse pickup truck with reinforced chassis and cargo bed liner. Work-ready immediately.",
+      "specs": {},
+      "seo_title": "2018 Heavy Duty Pickup Truck Foreign Used | Santa Towing",
+      "seo_description": "Reliable 4WD turbo diesel pickup truck for business and commercial haulage."
+    },
+    {
+      "legacy_id": 9,
+      "slug": "2018-compact-hatchback",
+      "title": "2018 Compact Hatchback",
+      "car_type": "Ghana Used",
+      "price": "GH₵ 144,000",
+      "year": "2018",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "mileage": "136,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 9,
+      "image": "image-5-economy-nissan-almera-2021.jpg",
+      "gallery": [
+        "image-5-economy-nissan-almera-2021.jpg"
+      ],
+      "description": "Single owner registered car in Ghana. Well maintained with regular service records at Santa Towing workshop.",
+      "specs": {},
+      "seo_title": "2018 Compact Hatchback Ghana Used | Santa Towing",
+      "seo_description": "Affordable registered used hatchback with clean title and verified roadworthiness."
+    },
+    {
+      "legacy_id": 10,
+      "slug": "2015-family-suv",
+      "title": "2015 Family SUV",
+      "car_type": "Ghana Used",
+      "price": "GH₵ 185,000",
+      "year": "2015",
+      "fuel": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "185,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 10,
+      "image": "image-2-suv-kia-sportage-2024.png",
+      "gallery": [
+        "image-2-suv-kia-sportage-2024.png"
+      ],
+      "description": "Comfortable 7-seater family SUV with working air conditioning, sound engine, and smooth transmission shifting.",
+      "specs": {},
+      "seo_title": "2015 Family SUV Ghana Used | Santa Towing",
+      "seo_description": "Spacious family SUV with clean interior and affordable maintenance parts available in Ghana."
+    },
+    {
+      "legacy_id": 11,
+      "slug": "2017-commuter-sedan",
+      "title": "2017 Commuter Sedan",
+      "car_type": "Ghana Used",
+      "price": "GH₵ 120,000",
+      "year": "2017",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "mileage": "162,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 11,
+      "image": "image-3-sedan-toyota-corolla.jpg",
+      "gallery": [
+        "image-3-sedan-toyota-corolla.jpg"
+      ],
+      "description": "High reliability commuter vehicle. Excellent mechanical condition and very economical to run daily.",
+      "specs": {},
+      "seo_title": "2017 Commuter Sedan Ghana Used | Santa Towing",
+      "seo_description": "Quality inspected Ghana used sedan priced affordably at GH₵ 120,000."
+    },
+    {
+      "legacy_id": 12,
+      "slug": "2014-utility-pickup",
+      "title": "2014 Utility Pickup",
+      "car_type": "Ghana Used",
+      "price": "GH₵ 165,000",
+      "year": "2014",
+      "fuel": "Diesel",
+      "transmission": "Manual",
+      "mileage": "210,000 km",
+      "status": "Available",
+      "featured": "no",
+      "menu_order": 12,
+      "image": "image-7-pickup-toyota-hilux-2023.jpg",
+      "gallery": [
+        "image-7-pickup-toyota-hilux-2023.jpg"
+      ],
+      "description": "Durable commercial diesel utility truck. Engine recently overhauled with warranty.",
+      "specs": {},
+      "seo_title": "2014 Utility Diesel Pickup Ghana Used | Santa Towing",
+      "seo_description": "Workhorse utility pickup truck ready for immediate commercial operations."
+    }
+  ],
+  "st_rental": [
+    {
+      "legacy_id": 1,
+      "slug": "corolla-sedan",
+      "title": "Toyota Corolla 2023",
+      "rental_type": "Sedan",
+      "category": "Sedan",
+      "daily_rate": "GH₵ 600",
+      "weekly_rate": "GH₵ 3,800",
+      "monthly_rate": "GH₵ 14,000",
+      "seats": "5",
+      "transmission": "Automatic",
+      "fuel": "Petrol",
+      "status": "Available",
+      "menu_order": 1,
+      "image": "image-3-sedan-toyota-corolla.jpg",
+      "gallery": [
+        "image-3-sedan-toyota-corolla.jpg",
+        "image-5-economy-nissan-almera-2021.jpg"
+      ],
+      "description": "Reliable, fuel-efficient modern sedan ideal for executive airport pickups, business meetings, and city commuting in Accra.",
+      "features": [
+        "Comprehensive Fleet Insurance Coverage",
+        "Unlimited Mileage in Greater Accra",
+        "Chauffeur Available on Request",
+        "Bluetooth & USB Charging"
+      ],
+      "seo_title": "Toyota Corolla 2023 Rental in Ghana | Santa Towing Car Hire",
+      "seo_description": "Rent Toyota Corolla in Accra from GH₵ 600/day. Self-drive and chauffeur options with 24/7 breakdown support."
+    },
+    {
+      "legacy_id": 2,
+      "slug": "sportage-suv",
+      "title": "Kia Sportage 2024",
+      "rental_type": "SUV",
+      "category": "SUV",
+      "daily_rate": "GH₵ 900",
+      "weekly_rate": "GH₵ 5,800",
+      "monthly_rate": "GH₵ 21,000",
+      "seats": "5",
+      "transmission": "Automatic",
+      "fuel": "Petrol",
+      "status": "Available",
+      "menu_order": 2,
+      "image": "image-2-suv-kia-sportage-2024.png",
+      "gallery": [
+        "image-2-suv-kia-sportage-2024.png"
+      ],
+      "description": "Spacious all-wheel drive SUV with premium comfort, high clearance, and ample boot space for family travel across Ghana.",
+      "features": [
+        "All-Wheel Drive Performance",
+        "Panoramic Roof & Dual Climate Control",
+        "Full Comprehensive Insurance",
+        "Complimentary Child Seat upon request"
+      ],
+      "seo_title": "Kia Sportage 2024 SUV Rental Ghana | Santa Towing",
+      "seo_description": "Premium SUV hire in Accra & Kumasi. Reliable AWD comfort for travel across Ghana."
+    },
+    {
+      "legacy_id": 3,
+      "slug": "hilux-pickup",
+      "title": "Toyota Hilux 2023 4x4",
+      "rental_type": "Pickup",
+      "category": "Pickup",
+      "daily_rate": "GH₵ 800",
+      "weekly_rate": "GH₵ 5,000",
+      "monthly_rate": "GH₵ 18,000",
+      "seats": "5",
+      "transmission": "Automatic",
+      "fuel": "Diesel",
+      "status": "Available",
+      "menu_order": 3,
+      "image": "image-7-pickup-toyota-hilux-2023.jpg",
+      "gallery": [
+        "image-7-pickup-toyota-hilux-2023.jpg"
+      ],
+      "description": "Rugged four-wheel drive double cabin pickup truck specifically suited for rugged terrains, mining sites, and cross-country expeditions.",
+      "features": [
+        "Heavy Duty 4x4 Off-Road Drive",
+        "Spacious Cargo Bed with Tie-Down Points",
+        "Corporate Long-Term Discount Rates"
+      ],
+      "seo_title": "Toyota Hilux 4x4 Rental Ghana | Santa Towing",
+      "seo_description": "Rent Toyota Hilux 4x4 pickup in Accra. High durability for construction and remote terrain travel."
+    },
+    {
+      "legacy_id": 4,
+      "slug": "mercedes-luxury",
+      "title": "Mercedes-Benz E-Class",
+      "rental_type": "Luxury",
+      "category": "Luxury",
+      "daily_rate": "GH₵ 1,500",
+      "weekly_rate": "GH₵ 9,500",
+      "monthly_rate": "GH₵ 35,000",
+      "seats": "5",
+      "transmission": "Automatic",
+      "fuel": "Premium Petrol",
+      "status": "Available",
+      "menu_order": 4,
+      "image": "image-6-luxury-mercedes-benz.jpg",
+      "gallery": [
+        "image-6-luxury-mercedes-benz.jpg"
+      ],
+      "description": "Executive VIP transportation and wedding luxury sedan with uniformed chauffeur service and VIP airport escort.",
+      "features": [
+        "Professional Uniformed Chauffeur Included",
+        "Burmester Premium Surround Sound",
+        "Executive Rear Climate Control & Sunshades"
+      ],
+      "seo_title": "Mercedes-Benz Luxury Car Rental Accra | Santa Towing",
+      "seo_description": "Executive VIP Mercedes rental for weddings, summits, and diplomatic travel in Ghana."
+    },
+    {
+      "legacy_id": 5,
+      "slug": "hyundai-van",
+      "title": "Hyundai H1 Executive Bus",
+      "rental_type": "Van",
+      "category": "Van",
+      "daily_rate": "GH₵ 1,100",
+      "weekly_rate": "GH₵ 7,000",
+      "monthly_rate": "GH₵ 25,000",
+      "seats": "12",
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "status": "Available",
+      "menu_order": 5,
+      "image": "image-4-van-hyundai-h1-2022.jpg",
+      "gallery": [
+        "image-4-van-hyundai-h1-2022.jpg"
+      ],
+      "description": "12-passenger minibus ideal for corporate delegates, tourist groups, event transport, and family trips.",
+      "features": [
+        "Comfortable 12-Passenger High-Roof Seating",
+        "Powerful Front & Rear Cabin Air Conditioning",
+        "Spacious Rear Luggage Compartment"
+      ],
+      "seo_title": "12-Seater Van Rental in Accra | Santa Towing Bus Hire",
+      "seo_description": "Spacious 12-seater passenger van rental for corporate groups and family events in Ghana."
+    },
+    {
+      "legacy_id": 6,
+      "slug": "nissan-economy",
+      "title": "Nissan Almera 2021",
+      "rental_type": "Economy",
+      "category": "Economy",
+      "daily_rate": "GH₵ 400",
+      "weekly_rate": "GH₵ 2,500",
+      "monthly_rate": "GH₵ 9,000",
+      "seats": "4",
+      "transmission": "Automatic",
+      "fuel": "Petrol",
+      "status": "Available",
+      "menu_order": 6,
+      "image": "image-5-economy-nissan-almera-2021.jpg",
+      "gallery": [
+        "image-5-economy-nissan-almera-2021.jpg"
+      ],
+      "description": "Budget-friendly economy sedan with low fuel consumption and great reliability for everyday city driving.",
+      "features": [
+        "Affordable Daily & Weekly Rates",
+        "Low Fuel Consumption",
+        "Clean Interior with Strong Air Conditioning"
+      ],
+      "seo_title": "Affordable Economy Car Rental Accra | Santa Towing",
+      "seo_description": "Rent Nissan Almera from GH₵ 400 per day. Clean, budget-friendly car hire in Accra."
+    }
+  ],
+  "st_part": [
+    {
+      "legacy_id": 1,
+      "slug": "premium-heavy-duty-battery-70ah",
+      "title": "Premium Heavy Duty Battery 70Ah",
+      "brand": "Bosch",
+      "category": "Car Batteries",
+      "price": "GH₵ 850",
+      "sku": "BSH-70AH-HD",
+      "rating": "5",
+      "reviews": "124",
+      "in_stock": "1",
+      "stock_status": "In Stock",
+      "warranty": "24-Month Nationwide Replacement Warranty.",
+      "compatible_models": "Fits most modern sedans and mid-sized SUVs. Specifically designed for cars with start-stop technology and high electrical demands.",
+      "installation": "Professional installation recommended. Memory saver tool required during replacement to prevent loss of car settings.",
+      "specs": [
+        {
+          "label": "Voltage",
+          "value": "12V"
+        },
+        {
+          "label": "Capacity",
+          "value": "70Ah"
+        },
+        {
+          "label": "CCA",
+          "value": "760A"
+        },
+        {
+          "label": "Terminal Type",
+          "value": "Standard Post"
+        },
+        {
+          "label": "Dimensions",
+          "value": "278 x 175 x 190 mm"
+        },
+        {
+          "label": "Weight",
+          "value": "18.5 kg"
+        }
+      ],
+      "menu_order": 1,
+      "image": "image-6-luxury-mercedes-benz.jpg",
+      "gallery": [
+        "image-6-luxury-mercedes-benz.jpg",
+        "image-12-tyre-maintenance.jpg",
+        "image-10-engine-oil-fluids-maintenance.jpg"
+      ],
+      "description": "High-performance maintenance-free lead-acid battery engineered with heavy-duty grids for tropical heat resistance and fast recharging.",
+      "seo_title": "Bosch 70Ah Heavy Duty Battery Ghana | Santa Towing Auto Parts",
+      "seo_description": "Buy genuine Bosch 70Ah 12V Car Battery in Accra. 24-month replacement warranty and on-site testing available."
+    },
+    {
+      "legacy_id": 2,
+      "slug": "synthetic-motor-oil-5w-30-5l",
+      "title": "Synthetic Motor Oil 5W-30 (5L)",
+      "brand": "Castrol",
+      "category": "Engine Oil & Fluids",
+      "price": "GH₵ 420",
+      "sku": "CST-5W30-5L",
+      "rating": "4.8",
+      "reviews": "98",
+      "in_stock": "1",
+      "stock_status": "In Stock",
+      "warranty": "100% Genuine OEM Sealed Bottle Guarantee.",
+      "compatible_models": "Formulated for high thermal stability in tropical climates. Suitable for modern Japanese, European, and American passenger cars.",
+      "installation": "Always replace the oil filter during an engine oil service for optimal engine longevity.",
+      "specs": [
+        {
+          "label": "Viscosity Grade",
+          "value": "SAE 5W-30"
+        },
+        {
+          "label": "Volume",
+          "value": "5 Litres"
+        },
+        {
+          "label": "Oil Type",
+          "value": "100% Full Synthetic"
+        },
+        {
+          "label": "API Standards",
+          "value": "API SP / ILSAC GF-6A"
+        },
+        {
+          "label": "Drain Interval",
+          "value": "Up to 10,000 km"
+        }
+      ],
+      "menu_order": 2,
+      "image": "image-10-engine-oil-fluids-maintenance.jpg",
+      "gallery": [
+        "image-10-engine-oil-fluids-maintenance.jpg",
+        "image-13-filters-maintenance.jpg"
+      ],
+      "description": "Advanced full synthetic engine lubricant providing extreme wear protection, cleaner pistons, and superior fuel economy.",
+      "seo_title": "Castrol 5W-30 Synthetic Motor Oil 5L Ghana | Santa Towing",
+      "seo_description": "Original Castrol Edge 5W-30 synthetic motor oil. Genuine sealed stock with prompt delivery across Ghana."
+    },
+    {
+      "legacy_id": 3,
+      "slug": "ceramic-brake-pads-front",
+      "title": "Ceramic Brake Pads (Front)",
+      "brand": "Brembo",
+      "category": "Brake Pads & Discs",
+      "price": "GH₵ 650",
+      "sku": "BRM-CER-FR",
+      "rating": "4.9",
+      "reviews": "86",
+      "in_stock": "1",
+      "stock_status": "In Stock",
+      "warranty": "12-Month or 20,000 km Performance Warranty.",
+      "compatible_models": "Engineered for smooth stopping power, zero brake squeal, and ultra-low brake dust generation.",
+      "installation": "Ensure brake rotors are resurfaced or checked for runout prior to pad installation.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Premium Low-Dust Ceramic"
+        },
+        {
+          "label": "Axle Placement",
+          "value": "Front Axle (Left & Right)"
+        },
+        {
+          "label": "Operating Temp",
+          "value": "Up to 650°C Fade Resistance"
+        },
+        {
+          "label": "Certification",
+          "value": "ECE R90 Certified"
+        }
+      ],
+      "menu_order": 3,
+      "image": "image-11-brake-parts-disk-maintenance.jpg",
+      "gallery": [
+        "image-11-brake-parts-disk-maintenance.jpg",
+        "image-14-suspension-parts-maintenance.jpg"
+      ],
+      "description": "Ultra-quiet ceramic friction formulation offering exceptional pedal feel, heat resistance, and long rotor life.",
+      "seo_title": "Brembo Ceramic Brake Pads Front Set | Santa Towing Parts",
+      "seo_description": "Genuine Brembo ceramic front brake pads. Low dust, zero squeal, and high temperature fade resistance."
+    },
+    {
+      "legacy_id": 4,
+      "slug": "all-season-tire-205-55r16",
+      "title": "All-Season Tire 205/55R16",
+      "brand": "Michelin",
+      "category": "Tires",
+      "price": "GH₵ 1,200",
+      "sku": "MCH-205-55-16",
+      "rating": "5",
+      "reviews": "142",
+      "in_stock": "1",
+      "stock_status": "In Stock",
+      "warranty": "5-Year Manufacturer Tread Life Warranty.",
+      "compatible_models": "Direct OEM fitment for Toyota Corolla, Honda Civic, Hyundai Elantra, VW Golf, and similar passenger sedans.",
+      "installation": "Computerized wheel balancing and new valve stems provided upon fitting at our garage.",
+      "specs": [
+        {
+          "label": "Size",
+          "value": "205/55R16"
+        },
+        {
+          "label": "Load Index",
+          "value": "91 (615 kg max load)"
+        },
+        {
+          "label": "Speed Rating",
+          "value": "V (240 km/h max)"
+        },
+        {
+          "label": "Season",
+          "value": "All-Season Highway Performance"
+        }
+      ],
+      "menu_order": 4,
+      "image": "image-12-tyre-maintenance.jpg",
+      "gallery": [
+        "image-12-tyre-maintenance.jpg",
+        "image-14-suspension-parts-maintenance.jpg"
+      ],
+      "description": "Premium highway touring tire engineered for wet road braking grip, long tread life, and low road noise.",
+      "seo_title": "Michelin 205/55R16 All-Season Tire Ghana | Santa Towing",
+      "seo_description": "High quality Michelin 205/55R16 tires in Accra with professional fitting and computerized wheel balancing."
+    },
+    {
+      "legacy_id": 5,
+      "slug": "engine-air-filter",
+      "title": "Engine Air Filter",
+      "brand": "K&N",
+      "category": "Filters",
+      "price": "GH₵ 350",
+      "sku": "KN-AIR-FLTR",
+      "rating": "4.7",
+      "reviews": "64",
+      "in_stock": "1",
+      "stock_status": "In Stock",
+      "warranty": "1,000,000 Mile Limited Warranty.",
+      "compatible_models": "Drops directly into OEM factory air boxes without modifications.",
+      "installation": "Simple 5-minute toolless DIY installation.",
+      "specs": [
+        {
+          "label": "Filter Media",
+          "value": "Multi-layer Cotton Gauze"
+        },
+        {
+          "label": "Filtration Efficiency",
+          "value": "99% Dust & Particulate Capture"
+        },
+        {
+          "label": "Washable / Reusable",
+          "value": "Yes (Wash & Re-oil)"
+        }
+      ],
+      "menu_order": 5,
+      "image": "image-13-filters-maintenance.jpg",
+      "gallery": [
+        "image-13-filters-maintenance.jpg",
+        "image-10-engine-oil-fluids-maintenance.jpg"
+      ],
+      "description": "Reusable high-flow performance air filter designed to increase horsepower and protect engine internals from dust.",
+      "seo_title": "K&N Performance Engine Air Filter Ghana | Santa Towing",
+      "seo_description": "Washable high flow performance air filter for optimal engine horsepower and filtration in dusty environments."
+    },
+    {
+      "legacy_id": 6,
+      "slug": "led-headlight-bulbs-h7-pair",
+      "title": "LED Headlight Bulbs H7 (Pair)",
+      "brand": "Philips",
+      "category": "Lighting",
+      "price": "GH₵ 550",
+      "sku": "PHL-LED-H7",
+      "rating": "4.6",
+      "reviews": "53",
+      "in_stock": "1",
+      "stock_status": "In Stock",
+      "warranty": "2-Year Replacement Warranty.",
+      "compatible_models": "Plug-and-play replacement for factory halogen H7 low beam or high beam sockets with CANBus error-free drivers.",
+      "installation": "Ensure beam pattern is properly leveled to avoid blinding oncoming traffic.",
+      "specs": [
+        {
+          "label": "Bulb Base",
+          "value": "H7 Standard Socket"
+        },
+        {
+          "label": "Color Temperature",
+          "value": "6000K Crisp Cool White"
+        },
+        {
+          "label": "Luminous Output",
+          "value": "8,000 Lumens / Set"
+        },
+        {
+          "label": "Lifespan",
+          "value": "30,000+ Hours"
+        }
+      ],
+      "menu_order": 6,
+      "image": "image-15-car-lighting-maintenance.jpg",
+      "gallery": [
+        "image-15-car-lighting-maintenance.jpg",
+        "image-6-luxury-mercedes-benz.jpg"
+      ],
+      "description": "High-output LED headlight conversion kit providing daylight white illumination, instant startup, and sharp cutoff.",
+      "seo_title": "Philips H7 LED Headlight Conversion Kit Ghana | Santa Towing",
+      "seo_description": "Upgrade your vehicle lighting with genuine Philips 6000K H7 LED bulbs. High beam visibility for night driving."
+    }
+  ],
+  "post": [
+    {
+      "legacy_id": 1,
+      "slug": "what-to-do-if-your-car-breaks-down-on-a-busy-highway",
+      "title": "What to Do If Your Car Breaks Down on a Busy Highway",
+      "excerpt": "Step-by-step instructions to keep yourself safe while waiting for emergency assistance or a tow truck on high-speed roads.",
+      "content": "<p class=\"lead\">Step-by-step instructions to keep yourself safe while waiting for emergency assistance or a tow truck on high-speed roads.</p>\n<h2>Understanding the Basics</h2>\n<p>Whether you're dealing with an emergency or performing routine maintenance, knowledge is your best defense against the unexpected. Taking the time to properly inspect your car can prevent costly breakdowns.</p>\n<blockquote>\"Preparation is the key to safety on the road. A few minutes of checks can save you hours of stress.\" - David Mensah</blockquote>\n<h2>Key Recommendations</h2>\n<p>In addition to standard guidelines, we strongly recommend that you:</p>\n<ul>\n<li><strong>Check Regularly:</strong> Inspect essential components before every major trip.</li>\n<li><strong>Use Quality Parts:</strong> Never compromise on tires, brakes, or fluids.</li>\n<li><strong>Consult Professionals:</strong> If you're unsure about an unusual noise, have a certified mechanic take a look.</li>\n<li><strong>Stay Safe:</strong> In an emergency, always prioritize your physical safety over the car.</li>\n</ul>\n<h2>When to Call for Help</h2>\n<p>Some situations are too dangerous to handle alone. If your car breaks down on a busy highway, loses power steering, or experiences severe overheating, pull over safely and call a professional towing service immediately.</p>\n<h2>Final Thoughts</h2>\n<p>By staying proactive about car care and understanding your roadside assistance options, you can travel with peace of mind. Remember, our 24/7 emergency dispatch team is always just a phone call away.</p>",
+      "category": "Emergency Assistance",
+      "tags": [
+        "Safety",
+        "Emergency",
+        "Highway",
+        "Towing"
+      ],
+      "image": "image-1-towing-vehicle.jpg",
+      "author": "David Mensah",
+      "author_img": "image-7-pickup-toyota-hilux-2023.jpg",
+      "date_gmt": "2023-10-15 09:00:00",
+      "read_time": "6 min read"
+    },
+    {
+      "legacy_id": 2,
+      "slug": "5-essential-summer-car-care-tips",
+      "title": "5 Essential Summer Car Care Tips",
+      "excerpt": "Keep your car running cool during the hot summer months with these simple engine, coolant, and tire checks.",
+      "content": "<p class=\"lead\">Keep your car running cool during the hot summer months with these simple engine, coolant, and tire checks.</p>\n<h2>Understanding the Basics</h2>\n<p>Whether you're dealing with an emergency or performing routine maintenance, knowledge is your best defense against the unexpected. Taking the time to properly inspect your car can prevent costly breakdowns.</p>\n<blockquote>\"Preparation is the key to safety on the road. A few minutes of checks can save you hours of stress.\" - Sarah Osei</blockquote>\n<h2>Key Recommendations</h2>\n<p>In addition to standard guidelines, we strongly recommend that you:</p>\n<ul>\n<li><strong>Check Regularly:</strong> Inspect essential components before every major trip.</li>\n<li><strong>Use Quality Parts:</strong> Never compromise on tires, brakes, or fluids.</li>\n<li><strong>Consult Professionals:</strong> If you're unsure about an unusual noise, have a certified mechanic take a look.</li>\n<li><strong>Stay Safe:</strong> In an emergency, always prioritize your physical safety over the car.</li>\n</ul>\n<h2>When to Call for Help</h2>\n<p>Some situations are too dangerous to handle alone. If your car breaks down on a busy highway, loses power steering, or experiences severe overheating, pull over safely and call a professional towing service immediately.</p>\n<h2>Final Thoughts</h2>\n<p>By staying proactive about car care and understanding your roadside assistance options, you can travel with peace of mind. Remember, our 24/7 emergency dispatch team is always just a phone call away.</p>",
+      "category": "Car Care",
+      "tags": [
+        "Maintenance",
+        "Summer",
+        "Coolant",
+        "Tires"
+      ],
+      "image": "image-10-engine-oil-fluids-maintenance.jpg",
+      "author": "Sarah Osei",
+      "author_img": "image-2-suv-kia-sportage-2024.png",
+      "date_gmt": "2023-09-28 09:00:00",
+      "read_time": "4 min read"
+    },
+    {
+      "legacy_id": 3,
+      "slug": "how-to-prevent-battery-drain-in-older-cars",
+      "title": "How to Prevent Battery Drain in Older Cars",
+      "excerpt": "Learn the common causes of parasitic battery drain and how to ensure your car starts reliably every morning.",
+      "content": "<p class=\"lead\">Learn the common causes of parasitic battery drain and how to ensure your car starts reliably every morning.</p>\n<h2>Understanding the Basics</h2>\n<p>Whether you're dealing with an emergency or performing routine maintenance, knowledge is your best defense against the unexpected. Taking the time to properly inspect your car can prevent costly breakdowns.</p>\n<blockquote>\"Preparation is the key to safety on the road. A few minutes of checks can save you hours of stress.\" - Kwame A.</blockquote>\n<h2>Key Recommendations</h2>\n<p>In addition to standard guidelines, we strongly recommend that you:</p>\n<ul>\n<li><strong>Check Regularly:</strong> Inspect essential components before every major trip.</li>\n<li><strong>Use Quality Parts:</strong> Never compromise on tires, brakes, or fluids.</li>\n<li><strong>Consult Professionals:</strong> If you're unsure about an unusual noise, have a certified mechanic take a look.</li>\n<li><strong>Stay Safe:</strong> In an emergency, always prioritize your physical safety over the car.</li>\n</ul>\n<h2>When to Call for Help</h2>\n<p>Some situations are too dangerous to handle alone. If your car breaks down on a busy highway, loses power steering, or experiences severe overheating, pull over safely and call a professional towing service immediately.</p>\n<h2>Final Thoughts</h2>\n<p>By staying proactive about car care and understanding your roadside assistance options, you can travel with peace of mind. Remember, our 24/7 emergency dispatch team is always just a phone call away.</p>",
+      "category": "Automotive Guides",
+      "tags": [
+        "Battery",
+        "Electrical",
+        "Maintenance"
+      ],
+      "image": "image-9-car-battery-maintenance.jpg",
+      "author": "Kwame A.",
+      "author_img": "image-6-luxury-mercedes-benz.jpg",
+      "date_gmt": "2023-09-15 09:00:00",
+      "read_time": "5 min read"
+    },
+    {
+      "legacy_id": 4,
+      "slug": "understanding-flatbed-vs-wheel-lift-towing",
+      "title": "Understanding Flatbed vs. Wheel-Lift Towing",
+      "excerpt": "Which towing method is right for your car? We break down the differences and explain when to request a flatbed.",
+      "content": "<p class=\"lead\">Which towing method is right for your car? We break down the differences and explain when to request a flatbed.</p>\n<h2>Understanding the Basics</h2>\n<p>Whether you're dealing with an emergency or performing routine maintenance, knowledge is your best defense against the unexpected. Taking the time to properly inspect your car can prevent costly breakdowns.</p>\n<blockquote>\"Preparation is the key to safety on the road. A few minutes of checks can save you hours of stress.\" - David Mensah</blockquote>\n<h2>Key Recommendations</h2>\n<p>In addition to standard guidelines, we strongly recommend that you:</p>\n<ul>\n<li><strong>Check Regularly:</strong> Inspect essential components before every major trip.</li>\n<li><strong>Use Quality Parts:</strong> Never compromise on tires, brakes, or fluids.</li>\n<li><strong>Consult Professionals:</strong> If you're unsure about an unusual noise, have a certified mechanic take a look.</li>\n<li><strong>Stay Safe:</strong> In an emergency, always prioritize your physical safety over the car.</li>\n</ul>\n<h2>When to Call for Help</h2>\n<p>Some situations are too dangerous to handle alone. If your car breaks down on a busy highway, loses power steering, or experiences severe overheating, pull over safely and call a professional towing service immediately.</p>\n<h2>Final Thoughts</h2>\n<p>By staying proactive about car care and understanding your roadside assistance options, you can travel with peace of mind. Remember, our 24/7 emergency dispatch team is always just a phone call away.</p>",
+      "category": "Towing Tips",
+      "tags": [
+        "Towing",
+        "Flatbed",
+        "Car Recovery"
+      ],
+      "image": "image-1-towing-vehicle.jpg",
+      "author": "David Mensah",
+      "author_img": "image-7-pickup-toyota-hilux-2023.jpg",
+      "date_gmt": "2023-08-22 09:00:00",
+      "read_time": "7 min read"
+    },
+    {
+      "legacy_id": 5,
+      "slug": "santa-towing-expands-service-fleet-in-greater-accra",
+      "title": "Santa Towing Expands Service Fleet in Greater Accra",
+      "excerpt": "We are thrilled to announce the addition of three new heavy-duty recovery trucks and support cars to serve our commercial clients better.",
+      "content": "<p class=\"lead\">We are thrilled to announce the addition of three new heavy-duty recovery trucks and support cars to serve our commercial clients better.</p>\n<h2>Understanding the Basics</h2>\n<p>Whether you're dealing with an emergency or performing routine maintenance, knowledge is your best defense against the unexpected. Taking the time to properly inspect your car can prevent costly breakdowns.</p>\n<blockquote>\"Preparation is the key to safety on the road. A few minutes of checks can save you hours of stress.\" - Management</blockquote>\n<h2>Key Recommendations</h2>\n<p>In addition to standard guidelines, we strongly recommend that you:</p>\n<ul>\n<li><strong>Check Regularly:</strong> Inspect essential components before every major trip.</li>\n<li><strong>Use Quality Parts:</strong> Never compromise on tires, brakes, or fluids.</li>\n<li><strong>Consult Professionals:</strong> If you're unsure about an unusual noise, have a certified mechanic take a look.</li>\n<li><strong>Stay Safe:</strong> In an emergency, always prioritize your physical safety over the car.</li>\n</ul>\n<h2>When to Call for Help</h2>\n<p>Some situations are too dangerous to handle alone. If your car breaks down on a busy highway, loses power steering, or experiences severe overheating, pull over safely and call a professional towing service immediately.</p>\n<h2>Final Thoughts</h2>\n<p>By staying proactive about car care and understanding your roadside assistance options, you can travel with peace of mind. Remember, our 24/7 emergency dispatch team is always just a phone call away.</p>",
+      "category": "Company News",
+      "tags": [
+        "News",
+        "Expansion",
+        "Fleet"
+      ],
+      "image": "image-4-van-hyundai-h1-2022.jpg",
+      "author": "Management",
+      "author_img": "santa-logo.png",
+      "date_gmt": "2023-08-10 09:00:00",
+      "read_time": "3 min read"
+    },
+    {
+      "legacy_id": 6,
+      "slug": "essential-items-for-your-roadside-emergency-kit",
+      "title": "Essential Items for Your Roadside Emergency Kit",
+      "excerpt": "Don't get caught unprepared. Here are the 10 must-have items every driver should keep in their trunk for emergencies.",
+      "content": "<p class=\"lead\">Don't get caught unprepared. Here are the 10 must-have items every driver should keep in their trunk for emergencies.</p>\n<h2>Understanding the Basics</h2>\n<p>Whether you're dealing with an emergency or performing routine maintenance, knowledge is your best defense against the unexpected. Taking the time to properly inspect your car can prevent costly breakdowns.</p>\n<blockquote>\"Preparation is the key to safety on the road. A few minutes of checks can save you hours of stress.\" - Sarah Osei</blockquote>\n<h2>Key Recommendations</h2>\n<p>In addition to standard guidelines, we strongly recommend that you:</p>\n<ul>\n<li><strong>Check Regularly:</strong> Inspect essential components before every major trip.</li>\n<li><strong>Use Quality Parts:</strong> Never compromise on tires, brakes, or fluids.</li>\n<li><strong>Consult Professionals:</strong> If you're unsure about an unusual noise, have a certified mechanic take a look.</li>\n<li><strong>Stay Safe:</strong> In an emergency, always prioritize your physical safety over the car.</li>\n</ul>\n<h2>When to Call for Help</h2>\n<p>Some situations are too dangerous to handle alone. If your car breaks down on a busy highway, loses power steering, or experiences severe overheating, pull over safely and call a professional towing service immediately.</p>\n<h2>Final Thoughts</h2>\n<p>By staying proactive about car care and understanding your roadside assistance options, you can travel with peace of mind. Remember, our 24/7 emergency dispatch team is always just a phone call away.</p>",
+      "category": "Roadside Safety",
+      "tags": [
+        "Safety",
+        "Emergency Kit",
+        "Preparation"
+      ],
+      "image": "image-16-accessories.jpg",
+      "author": "Sarah Osei",
+      "author_img": "image-2-suv-kia-sportage-2024.png",
+      "date_gmt": "2023-07-05 09:00:00",
+      "read_time": "5 min read"
+    }
+  ],
+  "st_faq": [
+    {
+      "legacy_id": 1,
+      "slug": "emergency-response-time",
+      "category": "Towing",
+      "question": "What is your average response time for emergency towing?",
+      "answer": "Within the Greater Accra and Ashanti regions, we guarantee a response time of 30-45 minutes. For areas outside major city limits, response times may vary depending on distance and highway traffic conditions.",
+      "sort_order": 1
+    },
+    {
+      "legacy_id": 2,
+      "slug": "service-coverage-areas",
+      "category": "Towing",
+      "question": "What areas do your towing services cover?",
+      "answer": "We offer nationwide coverage across all 16 regions of Ghana through our owned fleet and vetted partner network, with primary rapid-response zones in Accra, Tema, Kumasi, and Takoradi.",
+      "sort_order": 2
+    },
+    {
+      "legacy_id": 3,
+      "slug": "standard-towing-cost",
+      "category": "Towing",
+      "question": "How much does a standard tow cost?",
+      "answer": "Towing costs depend on the distance and the type of vehicle. Our base rate starts at GH₵ 250 within city limits. We provide upfront, transparent pricing before dispatching a truck.",
+      "sort_order": 3
+    },
+    {
+      "legacy_id": 4,
+      "slug": "insurance-direct-billing",
+      "category": "Towing",
+      "question": "Do you work with insurance companies?",
+      "answer": "Yes, we are approved by most major insurance providers in Ghana. If you have roadside assistance coverage, we can often bill your insurance directly.",
+      "sort_order": 4
+    },
+    {
+      "legacy_id": 5,
+      "slug": "lowered-modified-cars",
+      "category": "Towing",
+      "question": "Can you tow lowered or modified cars?",
+      "answer": "Absolutely. We operate hydraulic flatbed tow trucks equipped with low-angle ramps specifically designed to safely transport modified, sports, or lowered luxury cars without bumper damage.",
+      "sort_order": 5
+    },
+    {
+      "legacy_id": 6,
+      "slug": "rental-eligibility-requirements",
+      "category": "Rentals",
+      "question": "What are the eligibility requirements to rent a car?",
+      "answer": "You must be at least 21 years old (25 for luxury or SUV classes), possess a valid Ghanaian driver’s license or an International Driving Permit, and provide a valid ID and security deposit.",
+      "sort_order": 6
+    },
+    {
+      "legacy_id": 7,
+      "slug": "security-deposit-policy",
+      "category": "Rentals",
+      "question": "Is a security deposit required for rentals?",
+      "answer": "Yes, a refundable security deposit is required for all rentals. The amount varies based on the vehicle category and is refunded within 3-5 business days after return in good order.",
+      "sort_order": 7
+    },
+    {
+      "legacy_id": 8,
+      "slug": "rental-cancellation-policy",
+      "category": "Rentals",
+      "question": "What is your rental cancellation policy?",
+      "answer": "Cancellations made 48 hours prior to the pickup time are fully refunded. Cancellations within 48 hours may incur a one-day rental charge.",
+      "sort_order": 8
+    },
+    {
+      "legacy_id": 9,
+      "slug": "chauffeur-driver-service",
+      "category": "Rentals",
+      "question": "Can I rent a car with a professional chauffeur?",
+      "answer": "Yes, we offer chauffeur services for an additional daily fee. All our drivers are professionally trained, vetted, uniformed, and familiar with inter-city travel routes.",
+      "sort_order": 9
+    },
+    {
+      "legacy_id": 10,
+      "slug": "rental-mileage-limits",
+      "category": "Rentals",
+      "question": "Are there mileage limits on rentals?",
+      "answer": "Most standard rentals come with unlimited mileage within Greater Accra. Cross-country journeys or long-term commercial rentals receive generous daily mileage allowances.",
+      "sort_order": 10
+    },
+    {
+      "legacy_id": 11,
+      "slug": "standard-service-duration",
+      "category": "Repairs",
+      "question": "How long does a standard vehicle service take?",
+      "answer": "A routine maintenance service (oil change, filter replacement, fluid top-up, and multipoint inspection) typically takes 1 to 2 hours if you have a scheduled appointment.",
+      "sort_order": 11
+    },
+    {
+      "legacy_id": 12,
+      "slug": "repair-warranty-period",
+      "category": "Repairs",
+      "question": "Do you offer a warranty on mechanical repairs?",
+      "answer": "Yes, all our mechanical repairs and labor come with a minimum 6-month or 10,000 km warranty. Parts warranties depend on the manufacturer but typically range from 1 to 2 years.",
+      "sort_order": 12
+    },
+    {
+      "legacy_id": 13,
+      "slug": "oem-vs-aftermarket-parts",
+      "category": "Repairs",
+      "question": "Do you use genuine OEM parts for repairs?",
+      "answer": "We offer the choice between genuine OEM (Original Equipment Manufacturer) parts and high-quality, certified aftermarket alternatives to suit your budget.",
+      "sort_order": 13
+    },
+    {
+      "legacy_id": 14,
+      "slug": "loaner-cars-during-service",
+      "category": "Repairs",
+      "question": "Can I get a loaner car while my car is being repaired?",
+      "answer": "Loaner cars are available subject to availability and the nature of the repair. Priority is given to fleet partners and customers undergoing major engine overhauls.",
+      "sort_order": 14
+    },
+    {
+      "legacy_id": 15,
+      "slug": "computerized-diagnostic-reports",
+      "category": "Repairs",
+      "question": "Do you provide printed diagnostic reports?",
+      "answer": "Yes, every computerized diagnostic scan comes with a detailed, easy-to-understand printed or digital report outlining fault codes and recommended solutions.",
+      "sort_order": 15
+    },
+    {
+      "legacy_id": 16,
+      "slug": "car-financing-partners",
+      "category": "Sales",
+      "question": "Do you offer vehicle financing or installment options?",
+      "answer": "Yes, we partner with leading Ghanaian banks and financial institutions to offer flexible auto loan options with competitive interest rates and terms up to 48 months.",
+      "sort_order": 16
+    },
+    {
+      "legacy_id": 17,
+      "slug": "pre-purchase-inspection-process",
+      "category": "Sales",
+      "question": "Are your used cars inspected before being listed?",
+      "answer": "Absolutely. Every pre-owned vehicle undergoes a rigorous 150-point mechanical, electrical, and structural inspection before being listed for sale.",
+      "sort_order": 17
+    },
+    {
+      "legacy_id": 18,
+      "slug": "trade-in-evaluation",
+      "category": "Sales",
+      "question": "Can I trade in my current vehicle?",
+      "answer": "Yes, we accept trade-ins. Bring your car in for a complimentary appraisal, and the value can be applied directly toward your new purchase.",
+      "sort_order": 18
+    },
+    {
+      "legacy_id": 19,
+      "slug": "custom-vehicle-importation",
+      "category": "Sales",
+      "question": "Do you import custom vehicles on request?",
+      "answer": "Yes, if we don’t have what you’re looking for in stock, we can source, inspect, and import specific makes and models from North America, Europe, or Asia on your behalf.",
+      "sort_order": 19
+    },
+    {
+      "legacy_id": 20,
+      "slug": "purchased-car-warranty",
+      "category": "Sales",
+      "question": "What kind of warranty comes with purchased cars?",
+      "answer": "Brand new vehicles come with full manufacturer warranty. Certified pre-owned cars include our standard 3-month/5,000 km warranty with optional extended coverage.",
+      "sort_order": 20
+    },
+    {
+      "legacy_id": 21,
+      "slug": "vin-parts-compatibility",
+      "category": "Parts",
+      "question": "How do I know if a spare part is compatible with my car?",
+      "answer": "You can provide us with your vehicle’s Chassis Number (VIN), and our parts specialists will verify 100% exact compatibility before dispatch.",
+      "sort_order": 21
+    },
+    {
+      "legacy_id": 22,
+      "slug": "parts-return-policy",
+      "category": "Parts",
+      "question": "What is your return policy for auto parts?",
+      "answer": "Unused, uninstalled parts in their original packaging can be returned within 14 days of purchase with a valid receipt.",
+      "sort_order": 22
+    },
+    {
+      "legacy_id": 23,
+      "slug": "parts-nationwide-delivery",
+      "category": "Parts",
+      "question": "Do you deliver auto parts nationwide?",
+      "answer": "Yes, we offer same-day delivery within Accra/Tema for orders placed before 12 PM, and reliable 1-2 day courier delivery nationwide.",
+      "sort_order": 23
+    },
+    {
+      "legacy_id": 24,
+      "slug": "parts-installation-discount",
+      "category": "Parts",
+      "question": "Can I buy a part and have your workshop install it?",
+      "answer": "Certainly. When you purchase parts from our store, our certified garage can install them for you at a discounted workshop labor rate.",
+      "sort_order": 24
+    },
+    {
+      "legacy_id": 25,
+      "slug": "accepted-payment-methods",
+      "category": "Payments",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept Mobile Money (MTN MoMo, Telecel Cash, AT Money), major credit/debit cards (Visa, Mastercard), direct bank transfers, and cash at our branch counters.",
+      "sort_order": 25
+    },
+    {
+      "legacy_id": 26,
+      "slug": "vat-invoicing-compliance",
+      "category": "Payments",
+      "question": "Can you provide VAT invoices for corporate accounting?",
+      "answer": "Yes, Santa Towing is a fully incorporated Ghanaian entity and issues official GRA VAT-compliant invoices and electronic receipts.",
+      "sort_order": 26
+    },
+    {
+      "legacy_id": 27,
+      "slug": "minimum-fleet-account-size",
+      "category": "Fleet",
+      "question": "What is the minimum number of cars for a corporate fleet account?",
+      "answer": "Our corporate fleet maintenance and towing programs typically cater to 5+ vehicles, with custom packages available for smaller startup fleets.",
+      "sort_order": 27
+    },
+    {
+      "legacy_id": 28,
+      "slug": "fleet-partner-discounts",
+      "category": "Fleet",
+      "question": "Do corporate fleet accounts receive discounted rates?",
+      "answer": "Yes, corporate partners enjoy dedicated account managers, priority 24/7 dispatch, and volume discounts on routine maintenance, tires, and towing services.",
+      "sort_order": 28
+    }
+  ],
+  "st_gallery": [
+    {
+      "legacy_id": 1,
+      "slug": "diagnostic-bay",
+      "title": "State-of-the-art diagnostic bay",
+      "category": "Workshop",
+      "image": "image-3-sedan-toyota-corolla.jpg",
+      "alt": "Computerized automotive diagnostic bay in Accra",
+      "span": "col-span-1 row-span-2",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 1,
+      "description": "Advanced electronic diagnostic equipment used by certified mechanics to scan automotive engine, ABS, and transmission modules."
+    },
+    {
+      "legacy_id": 2,
+      "slug": "heavy-duty-recovery-vehicle",
+      "title": "Heavy-duty recovery vehicle",
+      "category": "Towing Fleet",
+      "image": "image-8-heavy-duty-recovery-vehicle.jpg",
+      "alt": "Heavy duty tow truck on highway recovery",
+      "span": "col-span-2 row-span-1",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 2,
+      "description": "Hydraulic heavy recovery boom unit rescuing commercial trucks and haulage trailers across inter-city highways."
+    },
+    {
+      "legacy_id": 3,
+      "slug": "expert-mechanics-team",
+      "title": "Our expert mechanics",
+      "category": "Team & Facilities",
+      "image": "image-4-van-hyundai-h1-2022.jpg",
+      "alt": "Santa Towing certified mechanical team in workshop",
+      "span": "col-span-1 row-span-1",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 3,
+      "description": "Certified automotive technicians conducting precision inspections and scheduled maintenance."
+    },
+    {
+      "legacy_id": 4,
+      "slug": "premium-pre-owned-inventory",
+      "title": "Premium pre-owned inventory",
+      "category": "Car Sales",
+      "image": "image-6-luxury-mercedes-benz.jpg",
+      "alt": "Luxury car lineup at showroom",
+      "span": "col-span-1 row-span-1",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 4,
+      "description": "Executive vehicle fleet prepared for handover after passing 150-point technical check."
+    },
+    {
+      "legacy_id": 5,
+      "slug": "luxury-suv-rentals",
+      "title": "Luxury SUV rentals",
+      "category": "Rental Fleet",
+      "image": "image-2-suv-kia-sportage-2024.png",
+      "alt": "All-wheel drive rental SUV ready for customer pickup",
+      "span": "col-span-1 row-span-2",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 5,
+      "description": "Cleaned and sanitized rental fleet ready for self-drive and chauffeur trips."
+    },
+    {
+      "legacy_id": 6,
+      "slug": "custom-paint-spray-booth",
+      "title": "Custom paint job",
+      "category": "Body Works",
+      "image": "image-5-economy-nissan-almera-2021.jpg",
+      "alt": "Dust-free oven-baked automotive spray booth finish",
+      "span": "col-span-2 row-span-2",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 6,
+      "description": "Factory-spec computerized paint mixing and oven-baked clear coat finish."
+    },
+    {
+      "legacy_id": 7,
+      "slug": "engine-overhaul",
+      "title": "Engine overhaul in progress",
+      "category": "Workshop",
+      "image": "image-6-luxury-mercedes-benz.jpg",
+      "alt": "Certified master technicians rebuilding engine",
+      "span": "col-span-1 row-span-1",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 7,
+      "description": "Complete mechanical engine refurbishment using OEM replacement components."
+    },
+    {
+      "legacy_id": 8,
+      "slug": "flatbed-towing-operation",
+      "title": "City-wide flatbed towing",
+      "category": "Towing Fleet",
+      "image": "image-1-towing-vehicle.jpg",
+      "alt": "Hydraulic tilt flatbed towing vehicle in Accra",
+      "span": "col-span-1 row-span-1",
+      "media_type": "image",
+      "location": "Ghana",
+      "menu_order": 8,
+      "description": "Rapid emergency response flatbed carrier dispatch in Accra and Tema."
+    }
+  ],
+  "st_career": [
+    {
+      "legacy_id": 1,
+      "slug": "senior-master-technician",
+      "title": "Senior Master Technician",
+      "department": "Auto Repair",
+      "location": "Accra Main Workshop",
+      "employment_type": "Full-time",
+      "description": "We are seeking an experienced Senior Master Technician to lead complex diagnostics, engine overhauls, and mentor apprentice mechanics in our modern Accra workshop.",
+      "responsibilities": [
+        "Perform advanced computerized diagnostic tests on modern vehicle electronics.",
+        "Lead and mentor junior technicians in mechanical repair best practices.",
+        "Ensure all repair work meets strict safety and factory torque standards.",
+        "Maintain accurate service records and communicate with service advisors."
+      ],
+      "requirements": [
+        "Minimum 7+ years of professional automotive repair experience.",
+        "Advanced diagnostic certifications (e.g. ASE Master certification or equivalent).",
+        "Strong leadership and verbal communication skills.",
+        "Proficiency with diagnostic scan tools and oscilloscope equipment."
+      ],
+      "benefits": [
+        "Industry-competitive base salary + productivity bonus",
+        "Comprehensive health insurance",
+        "Tool purchase allowance",
+        "Paid annual vacation and sick leave"
+      ],
+      "status": "Open",
+      "menu_order": 1,
+      "seo_title": "Senior Master Technician Job in Accra | Santa Towing Careers",
+      "seo_description": "Join Ghana’s leading automotive team as a Senior Master Technician. Competitive compensation and state-of-the-art facilities."
+    },
+    {
+      "legacy_id": 2,
+      "slug": "heavy-duty-tow-truck-operator",
+      "title": "Heavy Duty Tow Truck Operator",
+      "department": "Towing & Recovery",
+      "location": "Kumasi Branch",
+      "employment_type": "Full-time",
+      "description": "Join our rapid response roadside team as a Heavy Duty Tow Truck Operator handling commercial highway breakdowns, winch-outs, and accident recoveries.",
+      "responsibilities": [
+        "Operate heavy-duty hydraulic towing and recovery equipment safely.",
+        "Provide calm, professional customer service during stressful breakdown situations.",
+        "Perform daily pre-trip vehicle inspections and basic truck maintenance.",
+        "Document all towing jobs and comply with national road traffic regulations."
+      ],
+      "requirements": [
+        "Valid heavy-duty commercial driver's license (Class F or equivalent).",
+        "Clean driving record with minimum 3 years commercial driving experience.",
+        "Prior experience in towing or construction equipment operation.",
+        "Ability to work flexible shift rotas including nights and weekends."
+      ],
+      "benefits": [
+        "Competitive base wage + overtime allowances",
+        "Health insurance coverage",
+        "Company uniform and safety gear provided",
+        "Continuous defensive driving and winching safety training"
+      ],
+      "status": "Open",
+      "menu_order": 2,
+      "seo_title": "Heavy Duty Tow Truck Operator Vacancy | Santa Towing",
+      "seo_description": "Santa Towing is hiring Heavy Duty Tow Truck Operators in Kumasi and Accra. Competitive pay with overtime benefits."
+    },
+    {
+      "legacy_id": 3,
+      "slug": "service-advisor",
+      "title": "Service Advisor",
+      "department": "Customer Support",
+      "location": "Accra Main Workshop",
+      "employment_type": "Full-time",
+      "description": "Act as the primary customer liaison between vehicle owners and our workshop mechanics, translating technical vehicle needs into clear estimates.",
+      "responsibilities": [
+        "Warmly greet service customers and document vehicle symptoms accurately.",
+        "Prepare clear repair estimates, parts pricing, and realistic timeframes.",
+        "Keep clients proactively updated on repair progress via WhatsApp and phone.",
+        "Recommend preventative maintenance services and answer customer questions."
+      ],
+      "requirements": [
+        "Previous experience in automotive customer service or dealership front desk.",
+        "Excellent verbal and written English communication skills.",
+        "Basic mechanical familiarity with passenger cars.",
+        "Proficiency with computer invoicing software."
+      ],
+      "benefits": [
+        "Competitive base salary + commission",
+        "Health insurance",
+        "Structured career advancement pathways"
+      ],
+      "status": "Open",
+      "menu_order": 3,
+      "seo_title": "Service Advisor Job Vacancy Accra | Santa Towing Careers",
+      "seo_description": "Apply for Service Advisor position at Santa Towing. Dynamic customer service role in the automotive industry."
+    },
+    {
+      "legacy_id": 4,
+      "slug": "auto-body-painter",
+      "title": "Auto Body Painter",
+      "department": "Body Works",
+      "location": "Tema Facility",
+      "employment_type": "Full-time",
+      "description": "Bring damaged and restored vehicles back to factory showroom shine as a precision Auto Body Painter in our dust-free spray booth.",
+      "responsibilities": [
+        "Prepare surfaces, sand, mask, and mix primers and topcoats accurately.",
+        "Operate spray guns in our climate-controlled bake oven booth.",
+        "Inspect final paint finishes for flawless texture, gloss, and color match.",
+        "Maintain spray guns, booth filters, and personal protective equipment."
+      ],
+      "requirements": [
+        "3+ years of professional automotive spray painting experience.",
+        "Knowledge of modern waterborne and solvent automotive paint systems.",
+        "Attention to detail, keen color vision, and steady technique.",
+        "Strict adherence to chemical safety protocols."
+      ],
+      "benefits": [
+        "Competitive monthly salary + quality performance bonuses",
+        "Modern oven-baked spray booth working conditions",
+        "Health insurance"
+      ],
+      "status": "Open",
+      "menu_order": 4,
+      "seo_title": "Auto Body Painter Job in Tema | Santa Towing Body Works",
+      "seo_description": "Experienced Auto Body Painter wanted for our modern paint facility in Tema. Apply today."
+    }
+  ]
+}

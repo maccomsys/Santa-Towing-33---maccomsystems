@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santa Towing — Legacy Browser Data Export Helper</title>
+  <style>
+    :root { --navy:#0b1224; --teal:#0d9488; --gold:#f59e0b; --bg:#f8fafc; --border:#e2e8f0; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:#0f172a; line-height:1.55; padding:32px 18px; }
+    .wrap { max-width: 920px; margin: 0 auto; background:#fff; border:1px solid var(--border); border-radius:14px; overflow:hidden; box-shadow:0 12px 32px rgba(15,23,42,.06); }
+    .head { background:var(--navy); color:#fff; padding:26px 30px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+    .head h1 { margin:0 0 4px; font-size:21px; }
+    .head p { margin:0; color:#cbd5e1; font-size:13.5px; }
+    .badge { background:rgba(13,148,136,.2); color:#5eead4; border:1px solid rgba(94,234,212,.3); padding:5px 12px; border-radius:999px; font-size:12px; font-weight:600; }
+    .body { padding:26px 30px; }
+    .steps { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:14px; margin-bottom:24px; }
+    .step { border:1px solid var(--border); border-radius:10px; padding:14px 16px; background:#f8fafc; }
+    .step b { display:block; color:var(--teal); font-size:12px; text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px; }
+    .step p { margin:0; font-size:13px; color:#334155; }
+    .keys { background:#f1f5f9; border-radius:10px; padding:14px 18px; margin-bottom:22px; font-size:13px; }
+    .keys code { background:#fff; padding:2px 6px; border-radius:4px; border:1px solid #cbd5e1; font-size:12px; }
+    .toolbar { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:12px; }
+    .btn { border:0; border-radius:8px; padding:10px 16px; font-size:13.5px; font-weight:600; cursor:pointer; text-decoration:none; display:inline-flex; align-items:center; gap:8px; }
+    .btn-primary { background:var(--teal); color:#fff; }
+    .btn-primary:hover { background:#0f766e; }
+    .btn-gold { background:var(--gold); color:#111827; }
+    textarea { width:100%; height:280px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size:12px; padding:14px; border-radius:10px; border:1px solid #cbd5e1; background:#0f172a; color:#e2e8f0; resize:vertical; }
+    .note { margin-top:14px; font-size:12.5px; color:#475569; }
+    #status { font-size:13px; font-weight:600; color:var(--teal); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <h1>Santa Towing Legacy Browser Data Exporter</h1>
+        <p>Safely extract <code>localStorage</code> and <code>IndexedDB</code> business data from the live old React Admin tab (Read-Only).</p>
+      </div>
+      <span class="badge">Schema: santa-legacy-browser-export-v1</span>
+    </div>
+    <div class="body">
+      <div class="steps">
+        <div class="step"><b>Step 1: Open Old App</b><p>Visit your live old Santa Towing React site (the domain where you previously edited pages, invoices, or Image Studio).</p></div>
+        <div class="step"><b>Step 2: Run Snippet</b><p>Press <strong>F12</strong> &rarr; <strong>Console</strong>, paste the snippet below, press <strong>Enter</strong> (or drag the Bookmarklet to your bookmarks bar and click it on that tab).</p></div>
+        <div class="step"><b>Step 3: Download JSON</b><p>Your browser downloads <code>santa-towing-legacy-export-YYYY-MM-DD.json</code> without altering any existing browser data.</p></div>
+        <div class="step"><b>Step 4: Import to WP</b><p>Go to WordPress &rarr; <strong>Santa Manager &rarr; Backup &amp; Export &rarr; Import Legacy React Export JSON</strong> and upload the file.</p></div>
+      </div>
+
+      <div class="keys">
+        <strong>Extracted Read-Only Keys:</strong>
+        <code>santa_towing_custom_content_v1</code>,
+        <code>santa_doc_settings_v1</code>,
+        <code>santa_doc_customers_v1</code>,
+        <code>santa_doc_invoices_v1</code>,
+        <code>santa_doc_receipts_v1</code>,
+        <code>santa_doc_activity_logs_v1</code>,
+        <code>santa_image_studio_db</code> (IndexedDB <code>studio_images</code>),
+        <code>santa_studio_images_fallback_v1</code>.<br />
+        <strong>Security Exclusion:</strong> <code>sessionStorage</code> auth tokens (<code>santa_admin_*</code>, <code>santa_owner_edit_mode_active</code>) are never read or exported.
+      </div>
+
+      <div class="toolbar">
+        <button class="btn btn-primary" id="copy-btn" type="button">Copy Console Snippet</button>
+        <a class="btn btn-gold" id="bookmarklet-link" href="#">Santa Legacy Export (Drag to Bookmarks Bar)</a>
+        <span id="status"></span>
+      </div>
+
+      <textarea id="snippet-box" readonly></textarea>
+      <p class="note">Note: Open this helper directly from <code>Santa WordPress Website Conversions/migration/legacy-browser-export-tool.html</code> or copy <code>legacy-browser-export-snippet.js</code> into DevTools Console.</p>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var snippet = "(async function(){'use strict';var S='santa-legacy-browser-export-v1',K={o:'santa_towing_custom_content_v1',s:'santa_doc_settings_v1',c:'santa_doc_customers_v1',i:'santa_doc_invoices_v1',r:'santa_doc_receipts_v1',l:'santa_doc_activity_logs_v1',f:'santa_studio_images_fallback_v1'};function P(v,d){try{return v?JSON.parse(v):d}catch(e){return d}}function L(k,d){try{var v=localStorage.getItem(k);return v===null?d:P(v,d)}catch(e){return d}}function I(){return new Promise(function(res){if(!('indexedDB'in window))return res({s:'unavailable',i:[]});try{var q=indexedDB.open('santa_image_studio_db',1),ok=false;q.onupgradeneeded=function(e){try{e.target.transaction.abort()}catch(x){}if(!ok){ok=true;res({s:'none',i:[]})}};q.onerror=function(){if(!ok){ok=true;res({s:'err',i:[]})}};q.onsuccess=function(){if(ok)return;var db=q.result;if(!db.objectStoreNames.contains('studio_images')){try{db.close()}catch(x){}ok=true;return res({s:'none',i:[]})}var tx=db.transaction('studio_images','readonly').objectStore('studio_images').getAll();tx.onsuccess=function(){try{db.close()}catch(x){}ok=true;res({s:'indexeddb',i:Array.isArray(tx.result)?tx.result:[]})};tx.onerror=function(){try{db.close()}catch(x){}ok=true;res({s:'err',i:[]})}}}catch(e){res({s:'err',i:[]})}})}var raw=L(K.o,{}),sc={},inv={},imap={'inventory.cars':'cars','inventory.rentals':'rentals','inventory.parts':'parts','inventory.gallery':'gallery','inventory.faqs':'faqs','inventory.careers':'careers'};if(raw&&typeof raw==='object'&&!Array.isArray(raw)){Object.keys(raw).forEach(function(k){if(imap[k]&&Array.isArray(raw[k]))inv[imap[k]]=raw[k];else sc[k]=raw[k]})}var st=L(K.s,null),cu=L(K.c,[]),iv=L(K.i,[]),rc=L(K.r,[]),lg=L(K.l,[]),fb=L(K.f,[]),idb=await I(),imgs=idb.i.length?idb.i:(Array.isArray(fb)?fb:[]),out={schema:S,exportedAt:new Date().toISOString(),sourceOrigin:location.origin,sourcePath:location.pathname,securityNotes:{readOnly:true,excludedSessionKeys:['santa_admin_authenticated_user','santa_admin_session_expiry','santa_admin_authenticated_session','santa_owner_edit_mode_active']},counts:{siteContentOverrideKeys:Object.keys(sc).length,hasDocSettings:!!st,customers:cu.length,invoices:iv.length,receipts:rc.length,activityLogs:lg.length,studioImages:imgs.length},data:{siteContentOverrides:sc,inventoryOverrides:inv,billing:{settings:st,customers:cu,invoices:iv,receipts:rc,activityLogs:lg},studioImages:imgs}};var b=new Blob([JSON.stringify(out,null,2)],{type:'application/json;charset=utf-8'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download='santa-towing-legacy-export-'+new Date().toISOString().slice(0,10)+'.json';document.body.appendChild(a);a.click();setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(u)},1200);console.info('[Santa Legacy Export]',out.counts);})();";
+      document.getElementById('snippet-box').value = snippet;
+      document.getElementById('bookmarklet-link').href = 'javascript:' + encodeURIComponent(snippet);
+      document.getElementById('copy-btn').onclick = function () {
+        var box = document.getElementById('snippet-box');
+        box.select();
+        try {
+          navigator.clipboard.writeText(box.value);
+          document.getElementById('status').textContent = 'Copied to clipboard! Paste in old React DevTools Console.';
+        } catch (e) {
+          document.execCommand('copy');
+          document.getElementById('status').textContent = 'Selected & copied! Paste in old React DevTools Console.';
+        }
+      };
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+{
+  "title": "Santa Towing — Emergency Towing & Recovery",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "tw10001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "tw10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "tw10003",
+              "elType": "widget",
+              "widgetType": "stwc-page-hero",
+              "settings": {
+                "bg_image": { "url": "__ST_MEDIA_URL__image-8-heavy-duty-recovery-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-8-heavy-duty-recovery-vehicle.jpg__" },
+                "bg_color": "#015557",
+                "overlay_color": "rgba(1, 85, 87, 0.86)",
+                "hero_padding": { "unit": "px", "top": "88", "right": "16", "bottom": "88", "left": "16", "isLinked": false },
+                "badge_icon": "none",
+                "badge_style": "accent",
+                "badge": "24/7 Emergency Towing Dispatch",
+                "title": "24/7 Emergency Towing & <span style=\"color:#d80000;\">Car Recovery</span>",
+                "subtitle": "Stranded on the roadside? Santa Towing dispatches GPS-tracked flatbed trucks, heavy wreckers, and certified recovery technicians across Accra, Tema, Kumasi, and all 16 regions of Ghana.",
+                "layout_align": "left",
+                "breadcrumbs": [
+                  { "_id": "twbc001", "label": "Home", "link": { "url": "__ST_HOME_URL__/" } },
+                  { "_id": "twbc002", "label": "Towing & Car Recovery", "link": { "url": "" } }
+                ],
+                "ctas": [
+                  { "_id": "twcta01", "label": "Call Dispatch: 0244753849", "link": { "url": "tel:0244753849" }, "style": "accent" },
+                  { "_id": "twcta02", "label": "Request a Tow Online", "link": { "url": "#towing-request-section" }, "style": "white" },
+                  { "_id": "twcta03", "label": "All Service Areas", "link": { "url": "__ST_HOME_URL__/service-areas/" }, "style": "glass" }
+                ],
+                "show_side_card": "yes",
+                "side_image": { "url": "__ST_MEDIA_URL__image-1-towing-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-1-towing-vehicle.jpg__" },
+                "side_metric_label": "Average Urban Arrival",
+                "side_metric_value": "30 - 45 Minutes",
+                "side_cta_label": "WhatsApp Pin",
+                "side_cta_link": { "url": "https://wa.me/233244753849", "is_external": true }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw20001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "tw20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "tw20003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "service-cards",
+                "show_header": "yes",
+                "badge": "Complete Roadside Capabilities",
+                "heading": "Towing & Recovery Services We Provide",
+                "subheading": "From stalled sedans in city traffic to heavy commercial accidents along national highways, our fleet handles every vehicle class safely.",
+                "columns": "3",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "72", "right": "0", "bottom": "72", "left": "0", "isLinked": false },
+                "items": [
+                  { "_id": "twsrv01", "title": "Flatbed Car Towing", "description": "Zero-drag hydraulic roll-back flatbed transport designed for luxury sedans, AWD SUVs, low-clearance sports cars, and electric vehicles.", "footer_tag": "Damage-Free Guarantee", "icon_name": "none" },
+                  { "_id": "twsrv02", "title": "Accident & Off-Road Recovery", "description": "Specialized winch-out extraction from ditches, mud, embankments, and highway collision scenes with certified safety rigging.", "footer_tag": "Heavy Winching Fleet", "icon_name": "none" },
+                  { "_id": "twsrv03", "title": "Long-Distance Intercity Towing", "description": "Scheduled & emergency car relocation between Accra, Kumasi, Takoradi, Tamale, Ho, Koforidua, Cape Coast, and Sunyani.", "footer_tag": "All 16 Regions Covered", "icon_name": "none" },
+                  { "_id": "twsrv04", "title": "Battery Boost & Electrical Help", "description": "Safe surge-protected jump-starts and mobile battery testing or replacement right at your home, office, or breakdown point.", "footer_tag": "24/7 Rapid Response", "icon_name": "none" },
+                  { "_id": "twsrv05", "title": "Tire Change & Fuel Delivery", "description": "Quick spare tire mounting, lug extraction, and emergency petrol/diesel delivery so you can continue driving safely.", "footer_tag": "Roadside Assist", "icon_name": "none" },
+                  { "_id": "twsrv06", "title": "Heavy Truck & Commercial Recovery", "description": "High-capacity underlift and heavy wrecker mobilization for vans, buses, 4x4 pickups, and commercial fleet trucks.", "footer_tag": "Commercial Fleet Ready", "icon_name": "none" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw30001",
+      "elType": "section",
+      "settings": {
+        "_element_id": "towing-request-section",
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": { "unit": "px", "top": "72", "right": "16", "bottom": "0", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "tw30002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "tw30003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Instant GPS & WhatsApp Dispatch",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#d80000",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": 1 }
+              }
+            },
+            {
+              "id": "tw30004",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Request an Emergency Tow Truck",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#131514"
+              }
+            },
+            {
+              "id": "tw30005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:rgba(19,21,20,0.7);max-width:42rem;margin:0 auto 2.5rem;\">Select your Ghana region and town below to dispatch the closest available truck to your exact location.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw35001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "tw35002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "tw35003",
+              "elType": "widget",
+              "widgetType": "stwc-towing-request-form",
+              "settings": {
+                "show_hero_split": "no",
+                "form_title": "Request a Tow Now",
+                "form_subtitle": "Complete your location for instant dispatch alert & WhatsApp handoff.",
+                "section_bg_color": "#f8fafc",
+                "section_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "72", "left": "0", "isLinked": false }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw40001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "tw40002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "tw40003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "process-steps",
+                "step_style": "card",
+                "show_header": "yes",
+                "badge": "How It Works",
+                "heading": "Three Steps to Immediate Roadside Help",
+                "columns": "3",
+                "columns_tablet": "3",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "72", "right": "0", "bottom": "72", "left": "0", "isLinked": false },
+                "items": [
+                  { "_id": "twst01", "step_number": "01", "title": "Share Location & Issue", "description": "Call 0244753849, send your WhatsApp pin, or submit our 16-region towing request form above.", "is_featured": "no" },
+                  { "_id": "twst02", "step_number": "02", "title": "Upfront Quote & Dispatch", "description": "We confirm clear transparent pricing and assign the closest flatbed or recovery operator immediately.", "is_featured": "yes" },
+                  { "_id": "twst03", "step_number": "03", "title": "Safe Loading & Drop-Off", "description": "Your vehicle is secured with certified tie-downs and delivered safely to your mechanic, home, or our workshop.", "is_featured": "no" }
+                ],
+                "show_callout": "yes",
+                "callout_title": "261 Dedicated Towing Corridors & Local Hubs",
+                "callout_text": "Explore route-specific recovery dispatch pages across Greater Accra and nationwide highway corridors.",
+                "callout_links": [
+                  { "_id": "twcl01", "label": "Accra", "link": { "url": "__ST_HOME_URL__/service-areas/accra/" }, "is_accent": "no" },
+                  { "_id": "twcl02", "label": "Tema", "link": { "url": "__ST_HOME_URL__/service-areas/tema/" }, "is_accent": "no" },
+                  { "_id": "twcl03", "label": "East Legon", "link": { "url": "__ST_HOME_URL__/service-areas/east-legon/" }, "is_accent": "no" },
+                  { "_id": "twcl04", "label": "Kumasi Corridor", "link": { "url": "__ST_HOME_URL__/service-areas/kumasi-to-accra/" }, "is_accent": "no" },
+                  { "_id": "twcl05", "label": "View All 261 Routes →", "link": { "url": "__ST_HOME_URL__/service-areas/" }, "is_accent": "yes" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw50001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "tw50002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "tw50003",
+              "elType": "widget",
+              "widgetType": "stwc-faq-accordion",
+              "settings": {
+                "badge": "Emergency Dispatch Answers",
+                "heading": "Towing & Recovery FAQs",
+                "category_filter": "Towing",
+                "show_topic_tabs": "no",
+                "max_items": 5,
+                "section_bg_color": "#f8fafc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

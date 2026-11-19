@@ -1,0 +1,41 @@
+{
+  "title": "Santa Towing — Pilot Service Area (Accra)",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "sa10001",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#f8fafc"
+      },
+      "elements": [
+        {
+          "id": "sa10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sa10003",
+              "elType": "widget",
+              "widgetType": "stwc-service-area-route",
+              "settings": {
+                "display_mode": "single_route",
+                "area_slug": "accra",
+                "heading": "Towing & Recovery Service in Accra",
+                "description": "Looking for a dependable tow truck in Accra? Santa Towing & Garage Services has you covered with emergency towing, accident recovery, and roadside support, any time of day or night. Backed by our regional Accra dispatch team, we respond quickly to calls in and around Accra, with the option for long-distance towing when needed. Reach out now for fast, professional service.",
+                "show_route_image": "no"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

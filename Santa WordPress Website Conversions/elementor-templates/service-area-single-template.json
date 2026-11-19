@@ -1,0 +1,40 @@
+{
+  "title": "Santa Towing — Service Area Dynamic Route Template (261 Routes)",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "sr00001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "sr00002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "sr00003",
+              "elType": "widget",
+              "widgetType": "stwc-service-area-route",
+              "settings": {
+                "display_mode": "single_route",
+                "area_slug": "",
+                "badge": "24/7 Emergency Towing & Recovery",
+                "heading": "",
+                "description": "",
+                "show_route_image": "no",
+                "show_search": "yes",
+                "show_quick_links": "yes",
+                "section_bg_color": "#ffffff"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

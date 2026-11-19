@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0.0",
+  "stage": "pilot",
+  "source_of_truth": "src/App.tsx + src/pages/*",
+  "brand": {
+    "name": "Santa Towing & Garage Services Ltd.",
+    "phone": "0244753849",
+    "phone_tel": "tel:0244753849",
+    "whatsapp": "https://wa.me/233244753849",
+    "email": "info@santatowing.com",
+    "address": "123 Spintex Road, Accra, Ghana"
+  },
+  "pilot_routes": [
+    {
+      "key": "home",
+      "post_type": "page",
+      "post_status": "publish",
+      "post_title": "Home",
+      "post_name": "home",
+      "source_react_route": "/",
+      "target_wp_path": "/",
+      "wp_template": "page-templates/template-elementor-canvas.php",
+      "elementor_template": "pilot-home.json",
+      "set_as_front_page": true,
+      "seo": {
+        "title": "Santa Towing | 24/7 Towing, Haulage, Repairs & Rentals in Ghana",
+        "description": "Expert 24/7 emergency towing, nationwide haulage & heavy machinery transport, professional auto repairs, car sales, and premium car rentals in Ghana.",
+        "canonical": "/",
+        "keywords": [
+          "Santa Towing",
+          "24/7 emergency towing Ghana",
+          "car recovery Accra",
+          "heavy haulage Ghana",
+          "auto repairs Spintex",
+          "car rental Ghana"
+        ]
+      },
+      "breadcrumbs": [],
+      "media_assets": [
+        "image-8-heavy-duty-recovery-vehicle.jpg",
+        "image-9-car-battery-maintenance.jpg",
+        "image-10-engine-oil-fluids-maintenance.jpg",
+        "image-11-brake-parts-disk-maintenance.jpg",
+        "image-12-tyre-maintenance.jpg",
+        "welcome-towing-image.jpg",
+        "image-1-towing-vehicle.jpg",
+        "image-13-filters-maintenance.jpg",
+        "image-14-suspension-parts-maintenance.jpg",
+        "image-15-car-lighting-maintenance.jpg",
+        "image-6-luxury-mercedes-benz.jpg",
+        "image-16-accessories.jpg",
+        "image-4-van-hyundai-h1-2022.jpg",
+        "haulage-container-port-1920.jpg",
+        "haulage-semi-truck-800.jpg",
+        "image-3-sedan-toyota-corolla.jpg",
+        "image-2-suv-kia-sportage-2024.png",
+        "image-7-pickup-toyota-hilux-2023.jpg"
+      ],
+      "post_content_fallback": "<p>24/7 Emergency Towing, Heavy Haulage, Certified Auto Repairs, Car Sales, Rentals &amp; Genuine Parts across Ghana.</p>"
+    },
+    {
+      "key": "privacy-policy",
+      "post_type": "page",
+      "post_status": "publish",
+      "post_title": "Privacy Policy",
+      "post_name": "privacy-policy",
+      "source_react_route": "/privacy-policy",
+      "target_wp_path": "/privacy-policy/",
+      "wp_template": "page-templates/template-policy.php",
+      "elementor_template": "pilot-privacy-policy.json",
+      "use_elementor_on_import": false,
+      "meta": {
+        "_st_policy_subtitle": "How we collect, use, and protect your information at Santa Towing & Garage Services Ltd."
+      },
+      "seo": {
+        "title": "Privacy Policy | Santa Towing",
+        "description": "Read our privacy policy to understand how Santa Towing collects, uses, and protects your personal information.",
+        "canonical": "/privacy-policy",
+        "keywords": [
+          "Santa Towing privacy policy",
+          "customer data protection Ghana",
+          "towing service privacy"
+        ]
+      },
+      "breadcrumbs": [
+        { "label": "Privacy Policy", "path": null }
+      ],
+      "media_assets": [],
+      "post_content": "<p>Welcome to Santa Towing. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy outlines how our website collects, uses, stores, and protects customer information when you use our towing and automotive services in Ghana.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Information We Collect</h2>\n<p>To provide you with timely and effective emergency and automotive services, we may collect various types of information from you. This includes:</p>\n<ul class=\"list-disc pl-6 space-y-2 mb-6 text-dark/80\">\n<li>Names, phone numbers, and email addresses.</li>\n<li>Car information and current locations.</li>\n<li>Towing requests and service histories.</li>\n<li>Contact-form submissions.</li>\n<li>Information provided through WhatsApp or other communication channels.</li>\n</ul>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">How We Use Your Information</h2>\n<p>The information we collect is strictly utilized to deliver and improve our services. We may use this information to:</p>\n<ul class=\"list-disc pl-6 space-y-2 mb-6 text-dark/80\">\n<li>Respond to enquiries.</li>\n<li>Arrange towing services and related automotive assistance.</li>\n<li>Communicate with customers regarding service updates, dispatch arrivals, and quotes.</li>\n<li>Improve the website and optimize our customer support operations.</li>\n<li>Prevent misuse, fraud, and unauthorized activity on our platform.</li>\n<li>Meet legal obligations as a business operating in Ghana.</li>\n</ul>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">How We Share Information</h2>\n<p>We do not sell, rent, or trade your personal information to external marketers. We only share information when necessary to provide our services, comply with the law, or protect our rights.</p>\n\n<h3 class=\"text-xl font-bold mt-6 mb-3\">Service Providers and Towing Partners</h3>\n<p>To execute your service requests, necessary details (such as your location and car issue) may be shared with our internal dispatch teams, tow truck drivers, service providers, and affiliated towing partners directly involved in your roadside assistance or car recovery.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Data Security</h2>\n<p>We implement robust, industry-standard security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. While we strive to use commercially acceptable means to protect your data, please be aware that no method of transmission over the internet or electronic storage is completely secure.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Data Retention</h2>\n<p>We retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy, such as resolving disputes, fulfilling service contracts, providing customer support, and complying with our legal obligations.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Cookies and Tracking Technologies</h2>\n<p>Our website may use cookies and similar tracking technologies to track activity on our platform, store certain preferences, and improve the user experience. Cookies are files with a small amount of data which may include an anonymous unique identifier. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Third-Party Services</h2>\n<p>Our website may contain links to other sites or utilize third-party communication tools (such as WhatsApp) that are not operated by us. If you click on a third-party link or use a third-party service, you will be directed to that third party's platform. We strongly advise you to review the Privacy Policy of every site you visit, as we assume no responsibility for their content, privacy policies, or practices.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">User Rights</h2>\n<p>You have the right to request access to, correction of, or deletion of the personal information that we hold about you. If you wish to exercise any of these rights, or if you have questions regarding the data we possess, please contact our support team.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Children's Privacy</h2>\n<p>Our services are not intended for individuals under the age of 18. We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us immediately so that we can take necessary actions.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Changes to This Privacy Policy</h2>\n<p>We may update our Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>\n\n<h2 class=\"text-2xl font-bold mt-10 mb-4 border-b border-dark/10 pb-2\">Contact Us</h2>\n<p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>"
+    },
+    {
+      "key": "services",
+      "post_type": "page",
+      "post_status": "publish",
+      "post_title": "Our Services",
+      "post_name": "services",
+      "source_react_route": "/services",
+      "target_wp_path": "/services/",
+      "wp_template": "page-templates/template-elementor-fullwidth.php",
+      "elementor_template": "pilot-services.json",
+      "seo": {
+        "title": "Comprehensive Auto Services | Towing & Repairs | Santa Towing",
+        "description": "Explore our full range of automotive services including 24/7 emergency towing, mechanical repairs, body works, car rentals, and fleet management.",
+        "canonical": "/services",
+        "keywords": [
+          "automotive services Ghana",
+          "emergency towing services",
+          "auto repairs Accra",
+          "body works and spraying",
+          "fleet services Ghana"
+        ]
+      },
+      "breadcrumbs": [
+        { "label": "Our Services", "path": null }
+      ],
+      "media_assets": [
+        "image-8-heavy-duty-recovery-vehicle.jpg",
+        "image-16-accessories.jpg",
+        "haulage-semi-truck-800.jpg",
+        "image-1-towing-vehicle.jpg",
+        "image-2-suv-kia-sportage-2024.png",
+        "image-3-sedan-toyota-corolla.jpg",
+        "image-4-van-hyundai-h1-2022.jpg",
+        "image-6-luxury-mercedes-benz.jpg",
+        "image-7-pickup-toyota-hilux-2023.jpg",
+        "image-9-car-battery-maintenance.jpg"
+      ],
+      "post_content_fallback": "<p>Complete Automotive Solutions Under One Roof: 24/7 emergency towing, haulage, car recovery, rentals, sales, mechanical repairs, body works, OEM parts, and fleet care.</p>"
+    },
+    {
+      "key": "fleet",
+      "post_type": "page",
+      "post_status": "publish",
+      "post_title": "Our Fleet",
+      "post_name": "fleet",
+      "source_react_route": "/fleet",
+      "target_wp_path": "/fleet/",
+      "wp_template": "page-templates/template-elementor-fullwidth.php",
+      "elementor_template": "pilot-fleet.json",
+      "seo": {
+        "title": "Corporate Fleet Management & Services | Santa Towing",
+        "description": "Specialized fleet maintenance and repair programs designed to keep corporate and commercial cars running efficiently with minimal downtime.",
+        "canonical": "/fleet",
+        "keywords": [
+          "corporate fleet management Ghana",
+          "B2B vehicle maintenance Accra",
+          "priority fleet towing",
+          "commercial fleet rental"
+        ]
+      },
+      "breadcrumbs": [
+        { "label": "Our Fleet", "path": null }
+      ],
+      "media_assets": [
+        "image-6-luxury-mercedes-benz.jpg",
+        "image-1-towing-vehicle.jpg",
+        "image-4-van-hyundai-h1-2022.jpg",
+        "image-2-suv-kia-sportage-2024.png",
+        "image-3-sedan-toyota-corolla.jpg",
+        "image-5-economy-nissan-almera-2021.jpg",
+        "image-7-pickup-toyota-hilux-2023.jpg"
+      ],
+      "post_content_fallback": "<p>Reliable Fleet Solutions for Your Business: B2B maintenance, priority emergency towing, corporate rentals, OEM wholesale parts, dedicated account management, and real-time fleet health reporting.</p>"
+    },
+    {
+      "key": "service-area-accra",
+      "post_type": "st_service_area",
+      "post_status": "publish",
+      "post_title": "Towing & Recovery Service in Accra",
+      "post_name": "accra",
+      "taxonomy": {
+        "st_region": ["Greater Accra"]
+      },
+      "source_react_route": "/service-areas/accra",
+      "target_wp_path": "/service-areas/accra/",
+      "wp_template": "",
+      "elementor_template": "pilot-service-area-accra.json",
+      "use_elementor_on_import": true,
+      "meta": {
+        "_st_area_label": "Accra",
+        "_st_origin": "",
+        "_st_destination": "",
+        "_st_heading": "Towing & Recovery Service in Accra",
+        "_st_description": "Looking for a dependable tow truck in Accra? Santa Towing & Garage Services has you covered with emergency towing, accident recovery, and roadside support, any time of day or night. Backed by our regional Accra dispatch team, we respond quickly to calls in and around Accra, with the option for long-distance towing when needed. Reach out now for fast, professional service.",
+        "_st_seo_title": "Towing & Recovery Service in Accra",
+        "_st_seo_description": "Looking for a dependable tow truck in Accra? Santa Towing & Garage Services has you covered with emergency towing, accident recovery, and roadside support, any time of day or night. Backed by our regional Accra dispatch team, we respond quickly to calls in and around Accra, with the option for long-distance towing when needed. Reach out now for fast, professional service.",
+        "_st_keywords_json": "[\"towing Accra\",\"tow truck Accra\",\"roadside assistance Accra\",\"car recovery Accra\",\"emergency towing Accra\",\"breakdown service Accra\"]",
+        "_st_prev_path": "/service-areas/aburi-to-accra",
+        "_st_prev_label": "Aburi to Accra",
+        "_st_next_path": "/service-areas/accra-to-abuakwa",
+        "_st_next_label": "Accra to Abuakwa"
+      },
+      "seo": {
+        "title": "Towing & Recovery Service in Accra",
+        "description": "Looking for a dependable tow truck in Accra? Santa Towing & Garage Services has you covered with emergency towing, accident recovery, and roadside support, any time of day or night. Backed by our regional Accra dispatch team, we respond quickly to calls in and around Accra, with the option for long-distance towing when needed. Reach out now for fast, professional service.",
+        "canonical": "/service-areas/accra",
+        "keywords": [
+          "towing Accra",
+          "tow truck Accra",
+          "roadside assistance Accra",
+          "car recovery Accra",
+          "emergency towing Accra",
+          "breakdown service Accra"
+        ]
+      },
+      "breadcrumbs": [
+        { "label": "Towing Services", "path": "/towing" },
+        { "label": "Service Areas", "path": "/service-areas" },
+        { "label": "Accra", "path": null }
+      ],
+      "media_assets": [],
+      "post_content": "Looking for a dependable tow truck in Accra? Santa Towing & Garage Services has you covered with emergency towing, accident recovery, and roadside support, any time of day or night. Backed by our regional Accra dispatch team, we respond quickly to calls in and around Accra, with the option for long-distance towing when needed. Reach out now for fast, professional service."
+    }
+  ],
+  "redirects_verified_from_app_tsx": [
+    { "from": "/vehicle-damage-liability-policy", "to": "/car-damage-liability-policy/", "code": 301 },
+    { "from": "/vehicles", "to": "/sales/", "code": 301 },
+    { "from": "/cars", "to": "/sales/", "code": 301 },
+    { "from": "/car-sales", "to": "/sales/", "code": 301 },
+    { "from": "/vehicle-sales", "to": "/sales/", "code": 301 },
+    { "from": "/vehicles/:id", "to": "/sales/", "code": 301 },
+    { "from": "/cars/:id", "to": "/sales/", "code": 301 },
+    { "from": "/vehicle-details/:id", "to": "/sales/", "code": 301 },
+    { "from": "/car-details/:id", "to": "/sales/", "code": 301 },
+    { "from": "/car-rentals", "to": "/rental/", "code": 301 },
+    { "from": "/vehicle-rentals", "to": "/rental/", "code": 301 },
+    { "from": "/car-rental", "to": "/rental/", "code": 301 },
+    { "from": "/vehicle-rental", "to": "/rental/", "code": 301 },
+    { "from": "/about", "to": "/#about", "code": 301 }
+  ]
+}

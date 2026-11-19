@@ -1,0 +1,161 @@
+{
+  "title": "Santa Towing — Pilot Privacy Policy",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "pp10001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "pp10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "pp10003",
+              "elType": "widget",
+              "widgetType": "stwc-page-hero",
+              "settings": {
+                "bg_color": "#131514",
+                "overlay_color": "rgba(19, 21, 20, 0.96)",
+                "badge_icon": "shield-check",
+                "badge_icon_above": "yes",
+                "badge": "",
+                "title": "Privacy Policy",
+                "subtitle": "How we collect, use, and protect your information at Santa Towing & Garage Services Ltd.",
+                "layout_align": "center",
+                "hero_padding": { "unit": "px", "top": "64", "right": "16", "bottom": "64", "left": "16", "isLinked": false },
+                "breadcrumbs": [
+                  { "_id": "bc00001", "label": "Home", "link": { "url": "__ST_HOME_URL__/" } },
+                  { "_id": "bc00002", "label": "Privacy Policy", "link": { "url": "" } }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp20001",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": { "unit": "px", "top": "64", "right": "16", "bottom": "64", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "pp20002",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "padding": { "unit": "px", "top": "40", "right": "40", "bottom": "40", "left": "40", "isLinked": true }
+          },
+          "elements": [
+            {
+              "id": "pp20003",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Welcome to Santa Towing. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy outlines how our website collects, uses, stores, and protects customer information when you use our towing and automotive services in Ghana.</p><h2>Information We Collect</h2><p>To provide you with timely and effective emergency and automotive services, we may collect various types of information from you. This includes:</p><ul><li>Names, phone numbers, and email addresses.</li><li>Car information and current locations.</li><li>Towing requests and service histories.</li><li>Contact-form submissions.</li><li>Information provided through WhatsApp or other communication channels.</li></ul><h2>How We Use Your Information</h2><p>The information we collect is strictly utilized to deliver and improve our services. We may use this information to:</p><ul><li>Respond to enquiries.</li><li>Arrange towing services and related automotive assistance.</li><li>Communicate with customers regarding service updates, dispatch arrivals, and quotes.</li><li>Improve the website and optimize our customer support operations.</li><li>Prevent misuse, fraud, and unauthorized activity on our platform.</li><li>Meet legal obligations as a business operating in Ghana.</li></ul><h2>How We Share Information</h2><p>We do not sell, rent, or trade your personal information to external marketers. We only share information when necessary to provide our services, comply with the law, or protect our rights.</p><h3>Service Providers and Towing Partners</h3><p>To execute your service requests, necessary details (such as your location and car issue) may be shared with our internal dispatch teams, tow truck drivers, service providers, and affiliated towing partners directly involved in your roadside assistance or car recovery.</p><h2>Data Security</h2><p>We implement robust, industry-standard security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. While we strive to use commercially acceptable means to protect your data, please be aware that no method of transmission over the internet or electronic storage is completely secure.</p><h2>Data Retention</h2><p>We retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy, such as resolving disputes, fulfilling service contracts, providing customer support, and complying with our legal obligations.</p><h2>Cookies and Tracking Technologies</h2><p>Our website may use cookies and similar tracking technologies to track activity on our platform, store certain preferences, and improve the user experience. Cookies are files with a small amount of data which may include an anonymous unique identifier. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.</p><h2>Third-Party Services</h2><p>Our website may contain links to other sites or utilize third-party communication tools (such as WhatsApp) that are not operated by us. If you click on a third-party link or use a third-party service, you will be directed to that third party's platform. We strongly advise you to review the Privacy Policy of every site you visit, as we assume no responsibility for their content, privacy policies, or practices.</p><h2>User Rights</h2><p>You have the right to request access to, correction of, or deletion of the personal information that we hold about you. If you wish to exercise any of these rights, or if you have questions regarding the data we possess, please contact our support team.</p><h2>Children's Privacy</h2><p>Our services are not intended for individuals under the age of 18. We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us immediately so that we can take necessary actions.</p><h2>Changes to This Privacy Policy</h2><p>We may update our Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p><h2>Contact Us</h2><p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>"
+              }
+            },
+            {
+              "id": "pp20004",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "full_width",
+                "gap": "default",
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "border_color": "rgba(19,21,20,0.1)",
+                "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true }
+              },
+              "elements": [
+                {
+                  "id": "pp20005",
+                  "elType": "column",
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "pp20006",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "title_text": "Chat on WhatsApp",
+                        "description_text": "",
+                        "link": { "url": "https://wa.me/233244753849", "is_external": true },
+                        "primary_color": "#015557",
+                        "title_color": "#131514"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "pp20007",
+                  "elType": "column",
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "pp20008",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": { "value": "fas fa-phone-alt", "library": "fa-solid" },
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "title_text": "0244753849",
+                        "description_text": "",
+                        "link": { "url": "tel:0244753849" },
+                        "primary_color": "#015557",
+                        "title_color": "#131514"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "pp20009",
+                  "elType": "column",
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "pp20010",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" },
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "title_text": "123 Spintex Road, Accra, Ghana",
+                        "description_text": "",
+                        "primary_color": "#192e2e",
+                        "title_color": "#131514"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

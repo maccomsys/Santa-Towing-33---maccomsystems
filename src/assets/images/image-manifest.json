@@ -1,0 +1,2313 @@
+{
+  "generatedAt": "2026-11-18T00:11:30.586Z",
+  "summary": {
+    "totalUniqueAssets": 42,
+    "downloadedExternalImages": 41,
+    "preExistingLocalImages": 1,
+    "failedDownloads": 0,
+    "allVerified": true,
+    "totalCodebaseReferences": 356
+  },
+  "placeholdersPreserved": [
+    {
+      "pattern": "https://placehold.co/120x80?text=...",
+      "purpose": "Admin inventory thumbnail onError fallback",
+      "files": [
+        "src/admin/pages/inventory/CarManager.tsx:222",
+        "src/admin/pages/inventory/GalleryManager.tsx:196",
+        "src/admin/pages/inventory/ImageGalleryField.tsx:114",
+        "src/admin/pages/inventory/PartManager.tsx:226",
+        "src/admin/pages/inventory/RentalManager.tsx:226"
+      ]
+    },
+    {
+      "pattern": "https://example.com/...",
+      "purpose": "URL input placeholder hints in Admin modals",
+      "files": [
+        "src/admin/components/AdminImagePicker.tsx:157",
+        "src/admin/components/UnifiedImageModal.tsx:388",
+        "src/admin/pages/AdminLogo.tsx:374",
+        "src/components/editable/ImageEditModal.tsx:349"
+      ]
+    },
+    {
+      "pattern": "https://...",
+      "purpose": "URL input placeholder hint in gallery field",
+      "files": [
+        "src/admin/pages/inventory/ImageGalleryField.tsx:146"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "filename": "santa-logo.png",
+      "localFile": "src/assets/images/santa-logo.png",
+      "exportedSymbol": "santaLogo",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "PNG",
+      "dimensions": "1182x574",
+      "bytes": 1002585,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 19,
+      "whereUsed": [
+        {
+          "file": "src/admin/components/image-studio/ImageCanvasEditor.tsx",
+          "count": 2,
+          "lines": [
+            112,
+            113
+          ]
+        },
+        {
+          "file": "src/admin/pages/AdminDashboardHome.tsx",
+          "count": 2,
+          "lines": [
+            54,
+            605
+          ]
+        },
+        {
+          "file": "src/admin/pages/AdminLogin.tsx",
+          "count": 1,
+          "lines": [
+            35
+          ]
+        },
+        {
+          "file": "src/admin/pages/AdminLogo.tsx",
+          "count": 1,
+          "lines": [
+            26
+          ]
+        },
+        {
+          "file": "src/components/layout/Footer.tsx",
+          "count": 1,
+          "lines": [
+            12
+          ]
+        },
+        {
+          "file": "src/components/layout/NavBar.tsx",
+          "count": 1,
+          "lines": [
+            20
+          ]
+        },
+        {
+          "file": "src/context/ContentContext.tsx",
+          "count": 1,
+          "lines": [
+            160
+          ]
+        },
+        {
+          "file": "src/data/blogData.ts",
+          "count": 1,
+          "lines": [
+            80
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 2,
+          "lines": [
+            17,
+            40
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            52,
+            65
+          ]
+        },
+        {
+          "file": "src/lib/documentStorage.ts",
+          "count": 1,
+          "lines": [
+            177
+          ]
+        },
+        {
+          "file": "src/lib/imageStudioStorage.ts",
+          "count": 3,
+          "lines": [
+            91,
+            131,
+            232
+          ]
+        },
+        {
+          "file": "index.html",
+          "count": 1,
+          "lines": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "santa-app-mobile-screen.png",
+      "localFile": "src/assets/images/santa-app-mobile-screen.png",
+      "exportedSymbol": "santaAppMobileScreen",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "PNG",
+      "dimensions": "890x900",
+      "bytes": 81822,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 3,
+      "whereUsed": [
+        {
+          "file": "src/components/sections/BottomSections.tsx",
+          "count": 1,
+          "lines": [
+            17
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            58
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            158
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "welcome-towing-image.jpg",
+      "localFile": "src/assets/images/welcome-towing-image.jpg",
+      "exportedSymbol": "welcomeTowingImage",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1536x1024",
+      "bytes": 189432,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 3,
+      "whereUsed": [
+        {
+          "file": "src/components/sections/AboutAndServices.tsx",
+          "count": 1,
+          "lines": [
+            12
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            57
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-1-towing-vehicle.jpg",
+      "localFile": "src/assets/images/image-1-towing-vehicle.jpg",
+      "exportedSymbol": "image1TowingVehicle",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1577x656",
+      "bytes": 93610,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 21,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminDashboardHome.tsx",
+          "count": 1,
+          "lines": [
+            606
+          ]
+        },
+        {
+          "file": "src/admin/pages/AdminPagesText.tsx",
+          "count": 1,
+          "lines": [
+            1014
+          ]
+        },
+        {
+          "file": "src/data/blogData.ts",
+          "count": 2,
+          "lines": [
+            30,
+            66
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 2,
+          "lines": [
+            945,
+            953
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 2,
+          "lines": [
+            99,
+            100
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            41
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            173
+          ]
+        },
+        {
+          "file": "src/lib/imageStudioStorage.ts",
+          "count": 1,
+          "lines": [
+            88
+          ]
+        },
+        {
+          "file": "src/pages/Contact.tsx",
+          "count": 1,
+          "lines": [
+            35
+          ]
+        },
+        {
+          "file": "src/pages/Fleet.tsx",
+          "count": 1,
+          "lines": [
+            43
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 2,
+          "lines": [
+            40,
+            45
+          ]
+        },
+        {
+          "file": "src/pages/Sales.tsx",
+          "count": 1,
+          "lines": [
+            72
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            43
+          ]
+        },
+        {
+          "file": "src/pages/Towing.tsx",
+          "count": 4,
+          "lines": [
+            31,
+            33,
+            34,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-2-suv-kia-sportage-2024.png",
+      "localFile": "src/assets/images/image-2-suv-kia-sportage-2024.png",
+      "exportedSymbol": "image2SuvKiaSportage2024",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "PNG",
+      "dimensions": "1264x848",
+      "bytes": 2375624,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 31,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminDashboardHome.tsx",
+          "count": 1,
+          "lines": [
+            608
+          ]
+        },
+        {
+          "file": "src/data/blogData.ts",
+          "count": 2,
+          "lines": [
+            44,
+            92
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 10,
+          "lines": [
+            143,
+            145,
+            246,
+            248,
+            328,
+            330,
+            459,
+            461,
+            900,
+            908
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 4,
+          "lines": [
+            113,
+            119,
+            125,
+            133
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 2,
+          "lines": [
+            42,
+            360
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            216,
+            417
+          ]
+        },
+        {
+          "file": "src/lib/imageStudioStorage.ts",
+          "count": 1,
+          "lines": [
+            90
+          ]
+        },
+        {
+          "file": "src/pages/CarDetails.tsx",
+          "count": 1,
+          "lines": [
+            130
+          ]
+        },
+        {
+          "file": "src/pages/Contact.tsx",
+          "count": 1,
+          "lines": [
+            92
+          ]
+        },
+        {
+          "file": "src/pages/Fleet.tsx",
+          "count": 1,
+          "lines": [
+            45
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 1,
+          "lines": [
+            37
+          ]
+        },
+        {
+          "file": "src/pages/Rental.tsx",
+          "count": 1,
+          "lines": [
+            25
+          ]
+        },
+        {
+          "file": "src/pages/RentalDetails.tsx",
+          "count": 2,
+          "lines": [
+            63,
+            94
+          ]
+        },
+        {
+          "file": "src/pages/Sales.tsx",
+          "count": 1,
+          "lines": [
+            405
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-3-sedan-toyota-corolla.jpg",
+      "localFile": "src/assets/images/image-3-sedan-toyota-corolla.jpg",
+      "exportedSymbol": "image3SedanToyotaCorolla",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "2984x1999",
+      "bytes": 279994,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 31,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/inventory/CarManager.tsx",
+          "count": 2,
+          "lines": [
+            64,
+            66
+          ]
+        },
+        {
+          "file": "src/admin/pages/inventory/GalleryManager.tsx",
+          "count": 2,
+          "lines": [
+            59,
+            66
+          ]
+        },
+        {
+          "file": "src/admin/pages/inventory/RentalManager.tsx",
+          "count": 2,
+          "lines": [
+            64,
+            66
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 11,
+          "lines": [
+            99,
+            101,
+            146,
+            226,
+            228,
+            348,
+            350,
+            427,
+            429,
+            840,
+            848
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 4,
+          "lines": [
+            112,
+            118,
+            126,
+            132
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            43
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            229
+          ]
+        },
+        {
+          "file": "src/pages/CarDetails.tsx",
+          "count": 1,
+          "lines": [
+            131
+          ]
+        },
+        {
+          "file": "src/pages/Fleet.tsx",
+          "count": 1,
+          "lines": [
+            46
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 1,
+          "lines": [
+            33
+          ]
+        },
+        {
+          "file": "src/pages/Rental.tsx",
+          "count": 1,
+          "lines": [
+            24
+          ]
+        },
+        {
+          "file": "src/pages/RentalDetails.tsx",
+          "count": 2,
+          "lines": [
+            62,
+            93
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            57
+          ]
+        },
+        {
+          "file": "src/pages/Towing.tsx",
+          "count": 1,
+          "lines": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-4-van-hyundai-h1-2022.jpg",
+      "localFile": "src/assets/images/image-4-van-hyundai-h1-2022.jpg",
+      "exportedSymbol": "image4VanHyundaiH12022",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "618x414",
+      "bytes": 28182,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 21,
+      "whereUsed": [
+        {
+          "file": "src/data/blogData.ts",
+          "count": 1,
+          "lines": [
+            78
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 6,
+          "lines": [
+            204,
+            206,
+            550,
+            552,
+            870,
+            878
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 3,
+          "lines": [
+            107,
+            115,
+            136
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            44
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            242
+          ]
+        },
+        {
+          "file": "src/pages/CarDetails.tsx",
+          "count": 1,
+          "lines": [
+            133
+          ]
+        },
+        {
+          "file": "src/pages/Fleet.tsx",
+          "count": 2,
+          "lines": [
+            44,
+            47
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 2,
+          "lines": [
+            35,
+            44
+          ]
+        },
+        {
+          "file": "src/pages/Rental.tsx",
+          "count": 1,
+          "lines": [
+            28
+          ]
+        },
+        {
+          "file": "src/pages/RentalDetails.tsx",
+          "count": 1,
+          "lines": [
+            66
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            64
+          ]
+        },
+        {
+          "file": "src/pages/Towing.tsx",
+          "count": 1,
+          "lines": [
+            204
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-5-economy-nissan-almera-2021.jpg",
+      "localFile": "src/assets/images/image-5-economy-nissan-almera-2021.jpg",
+      "exportedSymbol": "image5EconomyNissanAlmera2021",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1194x800",
+      "bytes": 114008,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 19,
+      "whereUsed": [
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 9,
+          "lines": [
+            266,
+            268,
+            308,
+            310,
+            430,
+            580,
+            582,
+            915,
+            923
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 3,
+          "lines": [
+            120,
+            124,
+            131
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            45
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            255
+          ]
+        },
+        {
+          "file": "src/pages/Fleet.tsx",
+          "count": 1,
+          "lines": [
+            48
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 1,
+          "lines": [
+            38
+          ]
+        },
+        {
+          "file": "src/pages/Rental.tsx",
+          "count": 1,
+          "lines": [
+            29
+          ]
+        },
+        {
+          "file": "src/pages/RentalDetails.tsx",
+          "count": 1,
+          "lines": [
+            67
+          ]
+        },
+        {
+          "file": "src/pages/Towing.tsx",
+          "count": 1,
+          "lines": [
+            626
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-6-luxury-mercedes-benz.jpg",
+      "localFile": "src/assets/images/image-6-luxury-mercedes-benz.jpg",
+      "exportedSymbol": "image6LuxuryMercedesBenz",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1194x800",
+      "bytes": 94252,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 30,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/inventory/PartManager.tsx",
+          "count": 2,
+          "lines": [
+            74,
+            76
+          ]
+        },
+        {
+          "file": "src/data/blogData.ts",
+          "count": 1,
+          "lines": [
+            56
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 10,
+          "lines": [
+            102,
+            520,
+            522,
+            640,
+            642,
+            796,
+            885,
+            893,
+            930,
+            938
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 2,
+          "lines": [
+            105,
+            135
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            46
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            268
+          ]
+        },
+        {
+          "file": "src/pages/CarDetails.tsx",
+          "count": 2,
+          "lines": [
+            116,
+            129
+          ]
+        },
+        {
+          "file": "src/pages/Fleet.tsx",
+          "count": 1,
+          "lines": [
+            74
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 2,
+          "lines": [
+            36,
+            39
+          ]
+        },
+        {
+          "file": "src/pages/PartDetails.tsx",
+          "count": 3,
+          "lines": [
+            45,
+            176,
+            211
+          ]
+        },
+        {
+          "file": "src/pages/Parts.tsx",
+          "count": 1,
+          "lines": [
+            39
+          ]
+        },
+        {
+          "file": "src/pages/Rental.tsx",
+          "count": 1,
+          "lines": [
+            27
+          ]
+        },
+        {
+          "file": "src/pages/RentalDetails.tsx",
+          "count": 2,
+          "lines": [
+            65,
+            92
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-7-pickup-toyota-hilux-2023.jpg",
+      "localFile": "src/assets/images/image-7-pickup-toyota-hilux-2023.jpg",
+      "exportedSymbol": "image7PickupToyotaHilux2023",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x536",
+      "bytes": 41378,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 25,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminPagesText.tsx",
+          "count": 1,
+          "lines": [
+            1016
+          ]
+        },
+        {
+          "file": "src/data/blogData.ts",
+          "count": 2,
+          "lines": [
+            32,
+            68
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 8,
+          "lines": [
+            179,
+            181,
+            286,
+            288,
+            368,
+            370,
+            490,
+            492
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 4,
+          "lines": [
+            114,
+            121,
+            127,
+            134
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 2,
+          "lines": [
+            47,
+            351
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            281
+          ]
+        },
+        {
+          "file": "src/pages/CarDetails.tsx",
+          "count": 2,
+          "lines": [
+            132,
+            751
+          ]
+        },
+        {
+          "file": "src/pages/Fleet.tsx",
+          "count": 1,
+          "lines": [
+            277
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 1,
+          "lines": [
+            46
+          ]
+        },
+        {
+          "file": "src/pages/Rental.tsx",
+          "count": 1,
+          "lines": [
+            26
+          ]
+        },
+        {
+          "file": "src/pages/RentalDetails.tsx",
+          "count": 1,
+          "lines": [
+            64
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-8-heavy-duty-recovery-vehicle.jpg",
+      "localFile": "src/assets/images/image-8-heavy-duty-recovery-vehicle.jpg",
+      "exportedSymbol": "image8HeavyDutyRecoveryVehicle",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1200x804",
+      "bytes": 119394,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 16,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminDashboardHome.tsx",
+          "count": 1,
+          "lines": [
+            607
+          ]
+        },
+        {
+          "file": "src/components/sections/AboutAndServices.tsx",
+          "count": 1,
+          "lines": [
+            244
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 2,
+          "lines": [
+            855,
+            863
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            42
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 3,
+          "lines": [
+            48,
+            179,
+            379
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 3,
+          "lines": [
+            80,
+            186,
+            443
+          ]
+        },
+        {
+          "file": "src/lib/imageStudioStorage.ts",
+          "count": 1,
+          "lines": [
+            89
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 2,
+          "lines": [
+            34,
+            114
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            115
+          ]
+        },
+        {
+          "file": "src/pages/Towing.tsx",
+          "count": 1,
+          "lines": [
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-9-car-battery-maintenance.jpg",
+      "localFile": "src/assets/images/image-9-car-battery-maintenance.jpg",
+      "exportedSymbol": "image9CarBatteryMaintenance",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1264x846",
+      "bytes": 69834,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 9,
+      "whereUsed": [
+        {
+          "file": "src/data/blogData.ts",
+          "count": 1,
+          "lines": [
+            54
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            51
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 3,
+          "lines": [
+            49,
+            188,
+            381
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            93,
+            296
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 1,
+          "lines": [
+            116
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            303
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-10-engine-oil-fluids-maintenance.jpg",
+      "localFile": "src/assets/images/image-10-engine-oil-fluids-maintenance.jpg",
+      "exportedSymbol": "image10EngineOilFluidsMaintenance",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1264x847",
+      "bytes": 106322,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 21,
+      "whereUsed": [
+        {
+          "file": "src/data/blogData.ts",
+          "count": 1,
+          "lines": [
+            42
+          ]
+        },
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 5,
+          "lines": [
+            103,
+            644,
+            673,
+            675,
+            767
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 2,
+          "lines": [
+            60,
+            104
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 3,
+          "lines": [
+            50,
+            197,
+            380
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            106,
+            309
+          ]
+        },
+        {
+          "file": "src/pages/CarDetails.tsx",
+          "count": 1,
+          "lines": [
+            856
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 1,
+          "lines": [
+            115
+          ]
+        },
+        {
+          "file": "src/pages/PartDetails.tsx",
+          "count": 3,
+          "lines": [
+            47,
+            72,
+            151
+          ]
+        },
+        {
+          "file": "src/pages/Parts.tsx",
+          "count": 3,
+          "lines": [
+            28,
+            29,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-11-brake-parts-disk-maintenance.jpg",
+      "localFile": "src/assets/images/image-11-brake-parts-disk-maintenance.jpg",
+      "exportedSymbol": "image11BrakePartsDiskMaintenance",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1264x847",
+      "bytes": 60514,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 14,
+      "whereUsed": [
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 2,
+          "lines": [
+            704,
+            706
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            69
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 2,
+          "lines": [
+            51,
+            206
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            119,
+            322
+          ]
+        },
+        {
+          "file": "src/pages/BodyWorks.tsx",
+          "count": 1,
+          "lines": [
+            74
+          ]
+        },
+        {
+          "file": "src/pages/Gallery.tsx",
+          "count": 1,
+          "lines": [
+            388
+          ]
+        },
+        {
+          "file": "src/pages/PartDetails.tsx",
+          "count": 1,
+          "lines": [
+            98
+          ]
+        },
+        {
+          "file": "src/pages/Parts.tsx",
+          "count": 3,
+          "lines": [
+            30,
+            35,
+            41
+          ]
+        },
+        {
+          "file": "src/pages/Repairs.tsx",
+          "count": 1,
+          "lines": [
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-12-tyre-maintenance.jpg",
+      "localFile": "src/assets/images/image-12-tyre-maintenance.jpg",
+      "exportedSymbol": "image12TyreMaintenance",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "674x452",
+      "bytes": 41288,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 15,
+      "whereUsed": [
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 3,
+          "lines": [
+            643,
+            734,
+            736
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            79
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 2,
+          "lines": [
+            52,
+            216
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            132,
+            335
+          ]
+        },
+        {
+          "file": "src/pages/BodyWorks.tsx",
+          "count": 1,
+          "lines": [
+            75
+          ]
+        },
+        {
+          "file": "src/pages/PartDetails.tsx",
+          "count": 2,
+          "lines": [
+            46,
+            124
+          ]
+        },
+        {
+          "file": "src/pages/Parts.tsx",
+          "count": 3,
+          "lines": [
+            31,
+            42,
+            98
+          ]
+        },
+        {
+          "file": "src/pages/Repairs.tsx",
+          "count": 1,
+          "lines": [
+            234
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-13-filters-maintenance.jpg",
+      "localFile": "src/assets/images/image-13-filters-maintenance.jpg",
+      "exportedSymbol": "image13FiltersMaintenance",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1000x671",
+      "bytes": 85700,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 15,
+      "whereUsed": [
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 3,
+          "lines": [
+            676,
+            764,
+            766
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            101
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 2,
+          "lines": [
+            53,
+            387
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            350,
+            430
+          ]
+        },
+        {
+          "file": "src/pages/BodyWorks.tsx",
+          "count": 1,
+          "lines": [
+            79
+          ]
+        },
+        {
+          "file": "src/pages/Careers.tsx",
+          "count": 1,
+          "lines": [
+            159
+          ]
+        },
+        {
+          "file": "src/pages/PartDetails.tsx",
+          "count": 2,
+          "lines": [
+            73,
+            150
+          ]
+        },
+        {
+          "file": "src/pages/Parts.tsx",
+          "count": 2,
+          "lines": [
+            32,
+            43
+          ]
+        },
+        {
+          "file": "src/pages/Repairs.tsx",
+          "count": 1,
+          "lines": [
+            268
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-14-suspension-parts-maintenance.jpg",
+      "localFile": "src/assets/images/image-14-suspension-parts-maintenance.jpg",
+      "exportedSymbol": "image14SuspensionPartsMaintenance",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1264x847",
+      "bytes": 109479,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 11,
+      "whereUsed": [
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 2,
+          "lines": [
+            707,
+            737
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            102
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            54
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            363
+          ]
+        },
+        {
+          "file": "src/pages/BodyWorks.tsx",
+          "count": 1,
+          "lines": [
+            80
+          ]
+        },
+        {
+          "file": "src/pages/Careers.tsx",
+          "count": 1,
+          "lines": [
+            281
+          ]
+        },
+        {
+          "file": "src/pages/PartDetails.tsx",
+          "count": 2,
+          "lines": [
+            99,
+            125
+          ]
+        },
+        {
+          "file": "src/pages/Parts.tsx",
+          "count": 1,
+          "lines": [
+            33
+          ]
+        },
+        {
+          "file": "src/pages/Repairs.tsx",
+          "count": 1,
+          "lines": [
+            269
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-15-car-lighting-maintenance.jpg",
+      "localFile": "src/assets/images/image-15-car-lighting-maintenance.jpg",
+      "exportedSymbol": "image15CarLightingMaintenance",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1264x845",
+      "bytes": 77661,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 15,
+      "whereUsed": [
+        {
+          "file": "src/data/inventoryDefaults.ts",
+          "count": 2,
+          "lines": [
+            793,
+            795
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            103
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 2,
+          "lines": [
+            55,
+            366
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 2,
+          "lines": [
+            376,
+            404
+          ]
+        },
+        {
+          "file": "src/pages/Blog.tsx",
+          "count": 1,
+          "lines": [
+            34
+          ]
+        },
+        {
+          "file": "src/pages/BodyWorks.tsx",
+          "count": 1,
+          "lines": [
+            98
+          ]
+        },
+        {
+          "file": "src/pages/Careers.tsx",
+          "count": 1,
+          "lines": [
+            286
+          ]
+        },
+        {
+          "file": "src/pages/PartDetails.tsx",
+          "count": 1,
+          "lines": [
+            175
+          ]
+        },
+        {
+          "file": "src/pages/Parts.tsx",
+          "count": 2,
+          "lines": [
+            34,
+            44
+          ]
+        },
+        {
+          "file": "src/pages/Rental.tsx",
+          "count": 1,
+          "lines": [
+            70
+          ]
+        },
+        {
+          "file": "src/pages/Repairs.tsx",
+          "count": 1,
+          "lines": [
+            270
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "image-16-accessories.jpg",
+      "localFile": "src/assets/images/image-16-accessories.jpg",
+      "exportedSymbol": "image16Accessories",
+      "sourceHost": "i.ibb.co",
+      "originalUrl": "https://i.ibb.co/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1264x847",
+      "bytes": 74385,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 9,
+      "whereUsed": [
+        {
+          "file": "src/data/blogData.ts",
+          "count": 1,
+          "lines": [
+            90
+          ]
+        },
+        {
+          "file": "src/data/mockData.ts",
+          "count": 1,
+          "lines": [
+            106
+          ]
+        },
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            56
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 1,
+          "lines": [
+            389
+          ]
+        },
+        {
+          "file": "src/pages/BodyWorks.tsx",
+          "count": 1,
+          "lines": [
+            311
+          ]
+        },
+        {
+          "file": "src/pages/Contact.tsx",
+          "count": 1,
+          "lines": [
+            27
+          ]
+        },
+        {
+          "file": "src/pages/Repairs.tsx",
+          "count": 1,
+          "lines": [
+            271
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 2,
+          "lines": [
+            29,
+            78
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "construction_haulage_1790967998627.jpg",
+      "localFile": "src/assets/images/construction_haulage_1790967998627.jpg",
+      "exportedSymbol": "constructionHaulage",
+      "sourceHost": "local (pre-existing)",
+      "originalUrl": "local://src/assets/images/construction_haulage_1790967998627.jpg",
+      "format": "JPEG",
+      "dimensions": "1200x896",
+      "bytes": 970804,
+      "status": "pre-existing",
+      "verified": true,
+      "referenceCount": 5,
+      "whereUsed": [
+        {
+          "file": "src/data/site-content.json",
+          "count": 1,
+          "lines": [
+            59
+          ]
+        },
+        {
+          "file": "src/data/siteImagesData.ts",
+          "count": 3,
+          "lines": [
+            197,
+            198,
+            201
+          ]
+        },
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "avatar-operations-lead-256.jpg",
+      "localFile": "src/assets/images/avatar-operations-lead-256.jpg",
+      "exportedSymbol": "avatarOperationsLead256",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "256x256",
+      "bytes": 11323,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminProfile.tsx",
+          "count": 1,
+          "lines": [
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "avatar-dispatch-director-256.jpg",
+      "localFile": "src/assets/images/avatar-dispatch-director-256.jpg",
+      "exportedSymbol": "avatarDispatchDirector256",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "256x256",
+      "bytes": 13747,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminProfile.tsx",
+          "count": 1,
+          "lines": [
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "avatar-safety-specialist-256.jpg",
+      "localFile": "src/assets/images/avatar-safety-specialist-256.jpg",
+      "exportedSymbol": "avatarSafetySpecialist256",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "256x256",
+      "bytes": 16303,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminProfile.tsx",
+          "count": 1,
+          "lines": [
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "avatar-fleet-manager-256.jpg",
+      "localFile": "src/assets/images/avatar-fleet-manager-256.jpg",
+      "exportedSymbol": "avatarFleetManager256",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "256x256",
+      "bytes": 17181,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminProfile.tsx",
+          "count": 1,
+          "lines": [
+            78
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "avatar-support-officer-256.jpg",
+      "localFile": "src/assets/images/avatar-support-officer-256.jpg",
+      "exportedSymbol": "avatarSupportOfficer256",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "256x256",
+      "bytes": 13442,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/admin/pages/AdminProfile.tsx",
+          "count": 1,
+          "lines": [
+            82
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-highway-freight-800.jpg",
+      "localFile": "src/assets/images/haulage-highway-freight-800.jpg",
+      "exportedSymbol": "haulageHighwayFreight800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x530",
+      "bytes": 88419,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-highway-freight-1200.jpg",
+      "localFile": "src/assets/images/haulage-highway-freight-1200.jpg",
+      "exportedSymbol": "haulageHighwayFreight1200",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1200x795",
+      "bytes": 178804,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            979
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-highway-freight-1920.jpg",
+      "localFile": "src/assets/images/haulage-highway-freight-1920.jpg",
+      "exportedSymbol": "haulageHighwayFreight1920",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1920x1273",
+      "bytes": 399192,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/components/sections/HaulageSection.tsx",
+          "count": 1,
+          "lines": [
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-container-port-600.jpg",
+      "localFile": "src/assets/images/haulage-container-port-600.jpg",
+      "exportedSymbol": "haulageContainerPort600",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "600x400",
+      "bytes": 49599,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/components/sections/HaulageSection.tsx",
+          "count": 1,
+          "lines": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-container-port-800.jpg",
+      "localFile": "src/assets/images/haulage-container-port-800.jpg",
+      "exportedSymbol": "haulageContainerPort800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x533",
+      "bytes": 79299,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-container-port-1920.jpg",
+      "localFile": "src/assets/images/haulage-container-port-1920.jpg",
+      "exportedSymbol": "haulageContainerPort1920",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1920x1280",
+      "bytes": 342184,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            571
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-heavy-logistics-600.jpg",
+      "localFile": "src/assets/images/haulage-heavy-logistics-600.jpg",
+      "exportedSymbol": "haulageHeavyLogistics600",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "600x400",
+      "bytes": 27668,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/components/sections/HaulageSection.tsx",
+          "count": 1,
+          "lines": [
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-heavy-logistics-800.jpg",
+      "localFile": "src/assets/images/haulage-heavy-logistics-800.jpg",
+      "exportedSymbol": "haulageHeavyLogistics800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x533",
+      "bytes": 43194,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-industrial-machinery-800.jpg",
+      "localFile": "src/assets/images/haulage-industrial-machinery-800.jpg",
+      "exportedSymbol": "haulageIndustrialMachinery800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x533",
+      "bytes": 71514,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-warehouse-cargo-800.jpg",
+      "localFile": "src/assets/images/haulage-warehouse-cargo-800.jpg",
+      "exportedSymbol": "haulageWarehouseCargo800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x533",
+      "bytes": 164562,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            82
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-shipping-containers-600.jpg",
+      "localFile": "src/assets/images/haulage-shipping-containers-600.jpg",
+      "exportedSymbol": "haulageShippingContainers600",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "600x400",
+      "bytes": 73849,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/components/sections/HaulageSection.tsx",
+          "count": 1,
+          "lines": [
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-shipping-containers-800.jpg",
+      "localFile": "src/assets/images/haulage-shipping-containers-800.jpg",
+      "exportedSymbol": "haulageShippingContainers800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x533",
+      "bytes": 117304,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-bulk-freight-800.jpg",
+      "localFile": "src/assets/images/haulage-bulk-freight-800.jpg",
+      "exportedSymbol": "haulageBulkFreight800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x415",
+      "bytes": 52395,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            166
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-semi-truck-600.jpg",
+      "localFile": "src/assets/images/haulage-semi-truck-600.jpg",
+      "exportedSymbol": "haulageSemiTruck600",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "600x400",
+      "bytes": 49741,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/components/sections/HaulageSection.tsx",
+          "count": 1,
+          "lines": [
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-semi-truck-800.jpg",
+      "localFile": "src/assets/images/haulage-semi-truck-800.jpg",
+      "exportedSymbol": "haulageSemiTruck800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x533",
+      "bytes": 81296,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 2,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            54
+          ]
+        },
+        {
+          "file": "src/pages/Services.tsx",
+          "count": 1,
+          "lines": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-semi-truck-1920.jpg",
+      "localFile": "src/assets/images/haulage-semi-truck-1920.jpg",
+      "exportedSymbol": "haulageSemiTruck1920",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "1920x1280",
+      "bytes": 390198,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            327
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "haulage-commercial-fleet-800.jpg",
+      "localFile": "src/assets/images/haulage-commercial-fleet-800.jpg",
+      "exportedSymbol": "haulageCommercialFleet800",
+      "sourceHost": "images.unsplash.com",
+      "originalUrl": "https://images.unsplash.com/ [downloaded & replaced across codebase; exact per-file hash omitted after context compaction]",
+      "format": "JPEG",
+      "dimensions": "800x1199",
+      "bytes": 127196,
+      "status": "downloaded",
+      "verified": true,
+      "referenceCount": 1,
+      "whereUsed": [
+        {
+          "file": "src/pages/Haulage.tsx",
+          "count": 1,
+          "lines": [
+            180
+          ]
+        }
+      ]
+    }
+  ]
+}

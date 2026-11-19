@@ -1,0 +1,365 @@
+{
+  "title": "Santa Towing — Pilot Interactive Fleet Page",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "page-templates/template-elementor-fullwidth.php"
+  },
+  "content": [
+    {
+      "id": "fl10001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "fl10002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl10003",
+              "elType": "widget",
+              "widgetType": "stwc-page-hero",
+              "settings": {
+                "bg_image": { "url": "__ST_MEDIA_URL__image-6-luxury-mercedes-benz.jpg__", "id": "__ST_MEDIA_ID__image-6-luxury-mercedes-benz.jpg__" },
+                "bg_color": "#015557",
+                "overlay_color": "rgba(1, 85, 87, 0.88)",
+                "badge_icon": "building",
+                "badge_style": "glass",
+                "badge": "B2B Partnerships",
+                "title": "Reliable Fleet Solutions for Your Business",
+                "subtitle": "Comprehensive maintenance, towing, rental, and management services designed for businesses that depend on their cars to drive revenue.",
+                "layout_align": "left",
+                "breadcrumbs": [
+                  { "_id": "bc00001", "label": "Home", "link": { "url": "__ST_HOME_URL__/" } },
+                  { "_id": "bc00002", "label": "Our Fleet", "link": { "url": "" } }
+                ],
+                "ctas": [
+                  { "_id": "cta0001", "label": "Request a Fleet Consultation", "link": { "url": "#fleet-consultation-form" }, "style": "accent" },
+                  { "_id": "cta0002", "label": "Call Corporate Desk: 0244753849", "link": { "url": "tel:0244753849" }, "style": "glass" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl20001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "fl20002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl20003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "icon-top-light",
+                "show_header": "yes",
+                "heading": "Comprehensive Fleet Services",
+                "subheading": "Everything your business needs to keep your cars on the road and operations running smoothly.",
+                "columns": "3",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "items": [
+                  { "_id": "fs00001", "title": "Fleet Maintenance & Repairs", "description": "Scheduled servicing, preventative maintenance, and priority mechanical repairs for all fleet sizes.", "icon_name": "settings" },
+                  { "_id": "fs00002", "title": "Priority Emergency Towing", "description": "24/7 VIP roadside assistance and priority towing across our nationwide network.", "icon_name": "truck" },
+                  { "_id": "fs00003", "title": "Fleet Rental Solutions", "description": "Flexible short-term and long-term corporate rentals to keep your business moving.", "icon_name": "car" },
+                  { "_id": "fs00004", "title": "Fleet Auto Parts Supply", "description": "Wholesale pricing and priority allocation on OEM and premium aftermarket parts.", "icon_name": "settings" },
+                  { "_id": "fs00005", "title": "Dedicated Account Management", "description": "A single point of contact for all your fleet needs, ensuring seamless operations.", "icon_name": "users" },
+                  { "_id": "fs00006", "title": "Car Tracking & Reporting", "description": "Detailed maintenance logs, spend analytics, and fleet health monitoring.", "icon_name": "bar-chart" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl30001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "fl30002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl30003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "icon-dark-glass",
+                "show_header": "yes",
+                "heading": "Why Businesses Choose Us",
+                "subheading": "We provide the reliability, transparency, and priority support corporate clients demand.",
+                "columns": "3",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#015557",
+                "heading_color": "#ffffff",
+                "subheading_color": "rgba(255,255,255,0.8)",
+                "items": [
+                  { "_id": "wb00001", "title": "Priority Response Times", "icon_name": "clock" },
+                  { "_id": "wb00002", "title": "Dedicated Account Manager", "icon_name": "users" },
+                  { "_id": "wb00003", "title": "Volume Discounts", "icon_name": "bar-chart" },
+                  { "_id": "wb00004", "title": "Flexible Billing/Invoicing", "icon_name": "settings" },
+                  { "_id": "wb00005", "title": "Nationwide Coverage", "icon_name": "map-pin" },
+                  { "_id": "wb00006", "title": "Detailed Reporting & Analytics", "icon_name": "bar-chart" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl40001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "fl40002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl40003",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "photo-overlay",
+                "show_header": "yes",
+                "heading": "Industries We Serve",
+                "columns": "3",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "section_padding": { "unit": "px", "top": "64", "right": "0", "bottom": "24", "left": "0", "isLinked": false },
+                "items": [
+                  { "_id": "ind0001", "title": "Logistics & Delivery", "icon_name": "truck", "image": { "url": "__ST_MEDIA_URL__image-1-towing-vehicle.jpg__", "id": "__ST_MEDIA_ID__image-1-towing-vehicle.jpg__" } },
+                  { "_id": "ind0002", "title": "Corporate Fleets", "icon_name": "building", "image": { "url": "__ST_MEDIA_URL__image-4-van-hyundai-h1-2022.jpg__", "id": "__ST_MEDIA_ID__image-4-van-hyundai-h1-2022.jpg__" } },
+                  { "_id": "ind0003", "title": "Rental Agencies", "icon_name": "car", "image": { "url": "__ST_MEDIA_URL__image-2-suv-kia-sportage-2024.png__", "id": "__ST_MEDIA_ID__image-2-suv-kia-sportage-2024.png__" } },
+                  { "_id": "ind0004", "title": "Government & NGOs", "icon_name": "shield-check", "image": { "url": "__ST_MEDIA_URL__image-3-sedan-toyota-corolla.jpg__", "id": "__ST_MEDIA_ID__image-3-sedan-toyota-corolla.jpg__" } },
+                  { "_id": "ind0005", "title": "Construction & Haulage", "icon_name": "hard-hat", "image": { "url": "__ST_MEDIA_URL__image-4-van-hyundai-h1-2022.jpg__", "id": "__ST_MEDIA_ID__image-4-van-hyundai-h1-2022.jpg__" } },
+                  { "_id": "ind0006", "title": "Ride-Hailing Operators", "icon_name": "map-pin", "image": { "url": "__ST_MEDIA_URL__image-5-economy-nissan-almera-2021.jpg__", "id": "__ST_MEDIA_ID__image-5-economy-nissan-almera-2021.jpg__" } }
+                ]
+              }
+            },
+            {
+              "id": "fl40004",
+              "elType": "widget",
+              "widgetType": "stwc-feature-cards",
+              "settings": {
+                "variant": "process-steps",
+                "step_style": "card",
+                "show_header": "yes",
+                "heading": "How Our Partnership Works",
+                "subheading": "A streamlined process to get your fleet under our professional care.",
+                "columns": "5",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "section_bg_color": "#ffffff",
+                "heading_color": "#131514",
+                "grid_gap": { "size": 16, "unit": "px" },
+                "items": [
+                  { "_id": "pw00001", "step_number": "01", "title": "Initial Consultation", "description": "We assess your fleet size, operational requirements, and current challenges." },
+                  { "_id": "pw00002", "step_number": "02", "title": "Custom Service Plan", "description": "We design a tailored maintenance, towing, and support package for your business." },
+                  { "_id": "pw00003", "step_number": "03", "title": "Onboarding", "description": "Your drivers and managers are onboarded to our priority support systems." },
+                  { "_id": "pw00004", "step_number": "04", "title": "Ongoing Support", "description": "Access 24/7 VIP assistance, priority workshop slots, and seamless rentals." },
+                  { "_id": "pw00005", "step_number": "05", "title": "Regular Reporting & Review", "description": "Monthly or quarterly reviews of fleet spend, maintenance history, and optimization." }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl50001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "fl50002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl50003",
+              "elType": "widget",
+              "widgetType": "stwc-spotlight-split",
+              "settings": {
+                "layout_mode": "checklist-feature",
+                "theme_tone": "primary",
+                "heading": "Complete Visibility with Our Client Portal",
+                "description": "Manage your entire fleet from one centralized dashboard. Track repairs in real-time, view invoice history, and approve quotes instantly.",
+                "feature_image": { "url": "__ST_MEDIA_URL__image-7-pickup-toyota-hilux-2023.jpg__", "id": "__ST_MEDIA_ID__image-7-pickup-toyota-hilux-2023.jpg__" },
+                "feature_image_alt": "Dashboard Preview",
+                "overlay_type": "fleet-health",
+                "overlay_title": "Fleet Health",
+                "overlay_text": "98% Good",
+                "section_bg_color": "#015557",
+                "heading_color": "#ffffff",
+                "points": [
+                  { "_id": "cp00001", "title": "Real-time repair status updates" },
+                  { "_id": "cp00002", "title": "Centralized billing and invoice management" },
+                  { "_id": "cp00003", "title": "One-click quote approvals" },
+                  { "_id": "cp00004", "title": "Detailed maintenance history per car" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl60001",
+      "elType": "section",
+      "settings": {
+        "_element_id": "fleet-consultation-form",
+        "css_id": "fleet-consultation-form",
+        "layout": "full_width",
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "fl60002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl60003",
+              "elType": "widget",
+              "widgetType": "stwc-enquiry-forms",
+              "settings": {
+                "form_mode": "fleet",
+                "form_title": "Request a Corporate Fleet Consultation",
+                "side_image": { "url": "__ST_MEDIA_URL__image-7-pickup-toyota-hilux-2023.jpg__", "id": "__ST_MEDIA_ID__image-7-pickup-toyota-hilux-2023.jpg__" }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl70001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "gap": "no" },
+      "elements": [
+        {
+          "id": "fl70002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl70003",
+              "elType": "widget",
+              "widgetType": "stwc-faq-accordion",
+              "settings": {
+                "badge": "Fleet FAQs",
+                "heading": "Fleet Services FAQs",
+                "category_filter": "Fleet",
+                "show_topic_tabs": "no",
+                "max_items": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl80001",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#015557",
+        "padding": { "unit": "px", "top": "64", "right": "16", "bottom": "64", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "fl80002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "fl80003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Let's Build a Fleet Plan for Your Business",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "fl80004",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:rgba(255,255,255,0.9);max-width:42rem;margin:0 auto 1.5rem;font-size:1.125rem;\">Contact our dedicated corporate sales team today to discuss your fleet requirements and receive a customized proposal.</p>"
+              }
+            },
+            {
+              "id": "fl80005",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "layout": "boxed", "gap": "no" },
+              "elements": [
+                {
+                  "id": "fl80006",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_css_classes": "st-el-btn-row st-el-btn-center"
+                  },
+                  "elements": [
+                    {
+                      "id": "fl80007",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Request a Consultation",
+                        "link": { "url": "#fleet-consultation-form" },
+                        "background_color": "#d80000",
+                        "button_background_hover_color": "#000000",
+                        "button_text_color": "#ffffff",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false }
+                      }
+                    },
+                    {
+                      "id": "fl80008",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Contact Sales",
+                        "link": { "url": "__ST_HOME_URL__/contact/" },
+                        "background_color": "#ffffff",
+                        "button_background_hover_color": "#f1f5f9",
+                        "button_text_color": "#131514",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
